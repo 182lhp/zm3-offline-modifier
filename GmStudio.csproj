@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>启动修改器</AssemblyName>
+    <RootNamespace>GmStudio</RootNamespace>
+    <ApplicationIcon>gm.ico</ApplicationIcon>
+    <Version>2.34.0</Version>
+    <Product>造梦西游 3 修改器</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Rules/generated.json" LogicalName="GmStudio.Rules.json"/>
+    <EmbeddedResource Include="AcquisitionGuide.json" LogicalName="GmStudio.AcquisitionGuide.json"/>
+    <Resource Include="gm.ico;gm-logo.png"/>
+    <EmbeddedResource Include="Assets/Utility/*.png;Assets/Utility/*.jpg"><LogicalName>GmStudio.Utility.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="Assets/Pets/*.png"><LogicalName>GmStudio.Pets.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+  </ItemGroup>
+</Project>
+
+

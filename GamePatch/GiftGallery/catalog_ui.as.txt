@@ -1,0 +1,172 @@
+      private function loadGiftCatalog() : void
+      {
+         var loader:URLLoader=new URLLoader();
+         loader.addEventListener(Event.COMPLETE,function(e:Event):void
+         {
+            try{var data:Object=JSON.parse(String(loader.data));if(data.ok){localGiftCatalog=data;if(localActivityOverlay)renderGiftHall();}}
+            catch(error:Error){}
+         });
+         loader.addEventListener("ioError",function(e:Event):void{});loader.addEventListener("securityError",function(e:Event):void{});
+         loader.load(new URLRequest("http://127.0.0.1:43999/local-gifts/catalog"));
+      }
+
+      public function openLocalActivities() : void
+      {
+         if(this.localGiftBusy || this.localGiftUncertain)return;
+         this.closeLocalActivities();this.localActivityOverlay=new Sprite();this.localActivityOverlay.name="offlineGiftActivities";
+         this.addChild(this.localActivityOverlay);this.renderGiftHall();this.loadGiftCatalog();
+      }
+
+      private function renderGiftHall() : void
+      {
+         var panel:Sprite=this.localActivityOverlay;if(!panel)return;
+         if(!this.localGiftHallPager)
+         {
+            panel.graphics.beginFill(0,.35);panel.graphics.drawRect(0,0,940,590);panel.graphics.endFill();
+            panel.graphics.lineStyle(3,0x401908);panel.graphics.beginFill(0xD5170B);panel.graphics.drawRoundRect(89,26,762,528,17,17);panel.graphics.endFill();
+            this.giftArt(panel,"art/hall.png",90,27,760,525,this.localGiftHallArt);
+            panel.addChild(this.giftButton("×",785,32,52,this.closeLocalActivities));
+            this.localGiftHallPrevious=this.giftButton("上一页",111,505,105,this.previousGiftPage);panel.addChild(this.localGiftHallPrevious);
+            this.localGiftHallNext=this.giftButton("下一页",720,505,105,this.nextGiftPage);panel.addChild(this.localGiftHallNext);
+            this.localGiftHallPager=this.giftText("正在读取礼包…",15,0xFFEBA8,450,28);this.placeGiftText(this.localGiftHallPager,245,510,450,28);panel.addChild(this.localGiftHallPager);
+         }
+         var posters:Array=this.localGiftCatalog?this.localGiftCatalog.posters:[];
+         var pages:int=Math.max(1,Math.ceil(posters.length/6));this.localGiftHallPage=Math.min(this.localGiftHallPage,pages-1);
+         var layer:Sprite=new Sprite();var ready:int=0;var total:int=Math.min(6,posters.length-this.localGiftHallPage*6);
+         var page:int=this.localGiftHallPage;var generation:int=++this.localGiftHallGeneration;
+         var commit:Function=function():void
+         {
+            if(generation!=localGiftHallGeneration || !localActivityOverlay || ready<total)return;
+            if(localGiftHallCards && localGiftHallCards.parent)localGiftHallCards.parent.removeChild(localGiftHallCards);
+            localGiftHallCards=layer;panel.addChildAt(layer,Math.min(1,panel.numChildren));
+            localGiftHallPager.text=(page+1)+" / "+pages+"　　活动礼包";
+            localGiftHallPrevious.mouseEnabled=page>0;localGiftHallPrevious.alpha=page>0?1:.45;
+            localGiftHallNext.mouseEnabled=page+1<pages;localGiftHallNext.alpha=page+1<pages?1:.45;
+            var warm:Sprite=new Sprite();for(var n:int=(page+1)*6;n<Math.min(posters.length,(page+2)*6);n++)if(posters[n].id)giftArt(warm,"art/"+posters[n].id+".png",0,0,214,129,localGiftHallArt);
+         };
+         var loaded:Function=function():void{ready++;commit();};
+         for(var i:int=0;i<6 && i+this.localGiftHallPage*6<posters.length;i++)
+         {
+            var entry:Object=posters[i+this.localGiftHallPage*6];var card:Sprite=new Sprite();card.name="giftActivity:"+entry.id;
+            card.x=111+(i%3)*240;card.y=137+int(i/3)*179;card.buttonMode=true;card.mouseChildren=false;
+            card.graphics.lineStyle(2,0x3F1908);card.graphics.beginFill(0xFFE184);card.graphics.drawRoundRect(0,0,220,160,7,7);card.graphics.endFill();
+            layer.addChild(card);
+            if(entry.id)this.giftArt(card,"art/"+entry.id+".png",3,3,214,129,this.localGiftHallArt,loaded);
+            else{var custom:TextField=this.giftText("全部礼包",28,0xFFE287,214,90);custom.x=3;custom.y=40;card.addChild(custom);loaded();}
+            var label:TextField=this.giftText(String(entry.name),14,0xFFFFFF,214,25);label.x=3;label.y=134;card.addChild(label);
+            card.addEventListener(MouseEvent.CLICK,this.chooseGiftActivity);
+            card.addEventListener(MouseEvent.ROLL_OVER,function(e:MouseEvent):void{Sprite(e.currentTarget).filters=[new GlowFilter(0xFFE47A,1,8,8,2)];});
+            card.addEventListener(MouseEvent.ROLL_OUT,function(e:MouseEvent):void{Sprite(e.currentTarget).filters=[];});
+         }
+         if(!total)commit();
+      }
+
+      private function previousGiftPage(e:MouseEvent) : void {this.localGiftHallPage=Math.max(0,this.localGiftHallPage-1);this.renderGiftHall();}
+      private function nextGiftPage(e:MouseEvent) : void {if(!this.localGiftCatalog)return;this.localGiftHallPage=Math.max(0,Math.min(Math.ceil(this.localGiftCatalog.posters.length/6)-1,this.localGiftHallPage+1));this.renderGiftHall();}
+      private function giftActivityName(id:int) : String
+      {
+         if(this.localGiftCatalog)for each(var item:Object in this.localGiftCatalog.posters)if(item.id==id)return String(item.name);
+         return "活动礼包";
+      }
+
+      private function codesForActivity() : Array
+      {
+         var rows:Array=[];if(!this.localGiftCatalog)return rows;
+         var wanted:Array=[];for each(var poster:Object in this.localGiftCatalog.posters)if(poster.id==this.localGiftActivity)wanted=poster.codes;
+         for each(var code:Object in this.localGiftCatalog.codes)if(code.enabled && (this.localGiftActivity==0 || wanted.indexOf(code.id)>=0))rows.push(code);
+         return rows;
+      }
+
+      private function openGiftCodes(e:MouseEvent) : void
+      {
+         if(this.localGiftBusy || this.localGiftUncertain)return;
+         this.localGiftCodePage=0;this.localGiftCodePicker=new Sprite();
+         this.localGiftCodePicker.graphics.beginFill(0,.45);this.localGiftCodePicker.graphics.drawRect(100,28,740,526);this.localGiftCodePicker.graphics.endFill();
+         this.localGiftCodePicker.graphics.lineStyle(3,0x69320B);this.localGiftCodePicker.graphics.beginFill(0xFFF098);this.localGiftCodePicker.graphics.drawRoundRect(122,132,696,375,14,14);this.localGiftCodePicker.graphics.endFill();
+         var title:TextField=this.giftText("选择礼包兑换码",23,0xFFD15E,645,40);this.placeGiftText(title,146,142,645,40);this.localGiftCodePicker.addChild(title);
+         this.localGiftCodeSearch=this.giftInput(this.localGiftCodePicker,146,191,645,31,15);
+         this.localGiftCodeSearch.addEventListener(Event.CHANGE,function(e:Event):void{localGiftCodePage=0;renderGiftCodeRows();});
+         this.localGiftCodeRows=new Sprite();this.localGiftCodePicker.addChild(this.localGiftCodeRows);
+         this.localGiftCodePicker.addChild(this.giftButton("关闭",714,456,77,this.closeGiftCodes));
+         this.localGiftCodePicker.addChild(this.giftButton("上一页",146,456,100,this.previousGiftCodePage));this.localGiftCodePicker.addChild(this.giftButton("下一页",258,456,100,this.nextGiftCodePage));
+         this.localGiftPanel.addChild(this.localGiftCodePicker);this.renderGiftCodeRows();gc.stage.focus=this.localGiftCodeSearch;
+      }
+
+      private function renderGiftCodeRows() : void
+      {
+         while(this.localGiftCodeRows.numChildren)this.localGiftCodeRows.removeChildAt(0);
+         var term:String=this.localGiftCodeSearch.text.toLowerCase();var source:Array=term?this.localGiftCatalog.codes:this.codesForActivity();if(!source.length)source=this.localGiftCatalog.codes;this.localGiftCodeMatches=[];
+         for each(var data:Object in source)if(data.enabled && (!term || (data.name+" "+data.code+" "+data.description).toLowerCase().indexOf(term)>=0))this.localGiftCodeMatches.push(data);
+         var pages:int=Math.max(1,Math.ceil(this.localGiftCodeMatches.length/4));this.localGiftCodePage=Math.min(this.localGiftCodePage,pages-1);
+         for(var i:int=0;i<4 && i+this.localGiftCodePage*4<this.localGiftCodeMatches.length;i++)
+         {
+            var index:int=i+this.localGiftCodePage*4;var item:Object=this.localGiftCodeMatches[index];var button:Sprite=this.giftButton(item.code+"　"+String(item.name).substr(0,16),146,237+i*50,645,this.chooseGiftCode);button.name=String(index);this.localGiftCodeRows.addChild(button);
+            TextField(button.getChildAt(0)).width=498;
+            var examples:Array=item.examples || [];for(var n:int=0;n<Math.min(3,examples.length);n++)this.giftRewardIcon(button,examples[n],513+n*42,3,32);
+         }
+         var count:TextField=this.localText((this.localGiftCodePage+1)+" / "+pages+"　共 "+this.localGiftCodeMatches.length+" 项",13,0x703C12,false,320,27);count.x=380;count.y=467;this.localGiftCodeRows.addChild(count);
+      }
+      private function closeGiftCodes(e:MouseEvent) : void {if(this.localGiftCodePicker && this.localGiftCodePicker.parent)this.localGiftCodePicker.parent.removeChild(this.localGiftCodePicker);this.localGiftCodePicker=null;}
+      private function chooseGiftCode(e:MouseEvent) : void {this.localGiftCode.text=this.localGiftCodeMatches[int(e.currentTarget.name)].code;this.closeGiftCodes(null);this.localGiftCodeChanged(null);this.verifyLocalGift(null);}
+      private function previousGiftCodePage(e:MouseEvent) : void {this.localGiftCodePage=Math.max(0,this.localGiftCodePage-1);this.renderGiftCodeRows();}
+      private function nextGiftCodePage(e:MouseEvent) : void {this.localGiftCodePage=Math.max(0,Math.min(Math.ceil(this.localGiftCodeMatches.length/4)-1,this.localGiftCodePage+1));this.renderGiftCodeRows();}
+
+      private function simulateLegacyGift(id:String,target:String="all") : Array
+      {
+         var before:Object=this.captureLocalGiftSnapshot();var original:* = GMain.serviceHold;var after:Object;
+         try
+         {
+            GMain.serviceHold={"isLog":original.isLog,"saveData":function(title:String,data:*,extra:Boolean,index:int):void{}};
+            var native:Object=this.localGiftCatalog.nativeRewards?this.localGiftCatalog.nativeRewards[id]:null;
+            if(native && native.travel)
+            {
+               gc.dataObject.worldtransfromTimes+=int(native.travel);
+               if(gc.player1.roleid>0)gc.putQhsInBackPack(gc.player1,"sbjyd",1);
+               if(gc.player2.roleid>0)gc.putQhsInBackPack(gc.player2,"sbjyd",1);
+            }
+            else
+            {
+               var className:String=native?String(native.className):id=="GBX"?"export.huodong.gamebox.GameBoxActivity":id=="YYL"?"export.huodong.gamebox.YaoYaoLeActivity3":"export.huodong.miaomiaoBase.MiaoMiaoBaseInterface";
+               var rewardClass:Class=getDefinitionByName(className) as Class;
+               var rewardObject:Object=new rewardClass();if(native)rewardObject[String(native.method)]();else if(id=="GBX" || id=="YYL")rewardObject["getGameBoxPresent"]();else rewardObject["getPresent"](uint(id));
+            }
+            after=this.captureLocalGiftSnapshot();
+         }
+         finally
+         {
+            GMain.serviceHold=original;
+            var restored:Object=JSON.parse(JSON.stringify(before));
+            for each(var restoredKey:String in ["player1_obj","player2_obj"])
+            {
+               var saved:Object=restored[restoredKey];if(!saved)continue;
+               // Player.setSaveObj reverses these two serialized lists on read.
+               for each(var reversedField:String in ["curSaveString","petSave"])if(saved[reversedField])saved[reversedField]=String(saved[reversedField]).split("}").reverse().join("}");
+            }
+            gc.memory.getStorage(restored);if(gc.ts.parent)gc.ts.parent.removeChild(gc.ts);
+         }
+         this.localGiftLegacyBefore=before;this.localGiftLegacyAfter=after;
+         var rewards:Array=[];
+         for each(var key:String in ["player1_obj","player2_obj"])
+         {
+            if(target!="all" && key!=target+"_obj")continue;
+            if(!before[key] || !after[key] || !before[key].roleid)continue;
+            var a:Object=before[key];var b:Object=after[key];
+            for each(var bag:String in ["bagSaveString","bagdjSaveString","bagszSaveString","bagjnsSaveString","petEquipSaveString","petSave"])
+            {
+               var old:Object={};var fresh:Object={};var idKey:int=bag=="petSave" || bag=="petEquipSaveString"?0:2;
+               for each(var record:String in String(a[bag] || "").split("}"))if(record){var f:Array=record.split("&")[0].split("|");var code:String=f[idKey];old[code]=(old[code] || 0)+(bag=="bagdjSaveString"?int(f[22]):1);}
+               for each(record in String(b[bag] || "").split("}"))if(record){f=record.split("&")[0].split("|");code=f[idKey];fresh[code]=(fresh[code] || 0)+(bag=="bagdjSaveString"?int(f[22]):1);}
+               for(code in fresh)if(fresh[code]>(old[code] || 0))
+               {
+                  var label:String=code;
+                  try{label=bag=="petSave"?(this.localGiftCatalog.petNames[code] || code):(this.localGiftCatalog.itemNames[code] || code);}catch(error:Error){}
+                  rewards.push({"kind":bag=="petSave"?"pet":"item","id":code,"name":label,"count":fresh[code]-(old[code] || 0)});
+               }
+            }
+            if(int(b.lhValue)>int(a.lhValue))rewards.push({"kind":"soul","name":"灵魂","count":int(b.lhValue)-int(a.lhValue)});
+            break;
+         }
+         if(int(after.worldtransfromTimes)>int(before.worldtransfromTimes))rewards.push({"kind":"resource","name":"世界传送次数","count":int(after.worldtransfromTimes)-int(before.worldtransfromTimes)});
+         if(!rewards.length)rewards.push({"kind":"resource","name":"原版礼包奖励","count":1});
+         return rewards;
+      }

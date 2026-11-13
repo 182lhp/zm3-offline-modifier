@@ -1,0 +1,8 @@
+{
+  "inputSha256": "076a049f631eebb31ca0df89040b0b2a13fccd52013e9d7955f3929f6617771a",
+  "outputSha256": "9bbd44fdbf1e3c45abb75f85392458d038395b4a78dabc6e428e81ca4ec1169a",
+  "changedClasses": [
+    "export/SelectPLace",
+    "export/MapMenu"
+  ]
+}

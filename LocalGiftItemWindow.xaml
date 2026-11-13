@@ -1,0 +1,10 @@
+<Window x:Class="GmStudio.LocalGiftItemWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="选择礼包物品 · 修改器" Icon="gm.ico" Width="700" Height="650" MinWidth="540" MinHeight="450" WindowStartupLocation="CenterOwner" ShowInTaskbar="False"
+ Background="{StaticResource Canvas}" Foreground="{StaticResource Ink}" FontFamily="{DynamicResource InterfaceFont}" FontSize="13" UseLayoutRounding="True">
+ <Grid Margin="22"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+  <TextBlock Text="选择礼包物品" FontSize="23" FontWeight="Bold" Margin="0,0,0,16"/>
+  <TextBox x:Name="Search" Grid.Row="1" TextChanged="FilterChanged" ToolTip="输入物品名称或内部编号" Margin="0,0,0,12"/>
+  <ListBox x:Name="Items" Grid.Row="2" MouseDoubleClick="ChooseDoubleClick" ScrollViewer.HorizontalScrollBarVisibility="Disabled"><ListBox.ItemTemplate><DataTemplate><DockPanel Margin="7"><Image Source="{Binding Icon}" Width="36" Height="36" Margin="0,0,12,0"/><StackPanel><TextBlock Text="{Binding Name}" FontSize="15" FontWeight="SemiBold"/><TextBlock Text="{Binding Code}" Foreground="{StaticResource Muted}" Margin="0,4,0,0"/></StackPanel><TextBlock Text="{Binding Destination}" Foreground="{StaticResource Muted}" HorizontalAlignment="Right" VerticalAlignment="Center"/></DockPanel></DataTemplate></ListBox.ItemTemplate></ListBox>
+  <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,16,0,0"><Button Content="取消" IsCancel="True" Margin="0,0,8,0"/><Button Content="添加到礼包" Style="{StaticResource Primary}" Click="ChooseClick"/></StackPanel>
+ </Grid>
+</Window>

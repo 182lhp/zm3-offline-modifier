@@ -1,0 +1,21 @@
+{
+  "519": {
+    "source": "https://s1.img4399.com/f/score~79_big.jpg?1532500647",
+    "officialPage": "https://my.4399.com/jifen/product-id-79",
+    "size": [
+      408,
+      240
+    ],
+    "sha256": "4e688318a1c61d7b5b0d0bd6ded0e676e3222aa94753b8187d976e0149e220d8",
+    "method": "official matching mystery gift art; decoded RGB pixels preserved exactly in PNG; no resampling"
+  },
+  "524": {
+    "source": "icons/activity-gifts/77.png",
+    "size": [
+      536,
+      405
+    ],
+    "sha256": "b27e549dfe6a330f8ce9d768124056ccbe79b2696f70ec0209770059dae99884",
+    "method": "original full poster copied byte-for-byte; no resampling"
+  }
+}

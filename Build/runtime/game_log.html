@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>造梦西游 3 · 实时游戏日志</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f1e5;color:#183e37;font:15px "Microsoft YaHei",sans-serif}header{padding:24px 32px;background:#173e35;color:#fff8e7}h1{font-size:24px;margin:0 0 8px}header p{margin:0;opacity:.8}main{margin:24px 32px}nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-bottom:16px}select{padding:10px;border:1px solid #d7c6a5;border-radius:8px;background:#fffdf7;color:inherit;font:inherit}input[type=search]{width:300px;max-width:100%;padding:12px;border:1px solid #d7c6a5;border-radius:8px}button{padding:11px 20px;background:#196f5b;color:white;border:0;border-radius:8px;font:inherit;cursor:pointer}#state{margin-left:auto;color:#52746a}pre{margin:0;padding:20px;background:#fffdf7;border:1px solid #e4d8c1;border-radius:12px;overflow:auto;height:68vh;line-height:1.65;font:13px/1.65 Consolas,"Microsoft YaHei",monospace;white-space:pre-wrap;word-break:break-word}.error{color:#ac3329}.warning{color:#936315}footer{margin-top:12px;color:#65796d;font-size:13px}
+</style>
+<header><h1>实时游戏日志</h1><p>自动记录游戏异常、礼包领取、保存结果及请求耗时，每两秒刷新。</p></header>
+<main><nav><input id="query" type="search" placeholder="错误、req=请求编号、game=会话编号"><select id="component" aria-label="日志来源"><option value="">全部来源</option><option value="modifier">修改器</option><option value="game">游戏请求</option><option value="engine">游戏进程</option><option value="service">本地服务</option></select><label><input id="errors" type="checkbox"> 只看异常</label><button id="pause">暂停刷新</button><span id="state">正在连接…</span></nav><pre id="log" aria-live="polite"></pre><footer>原始文件：游戏目录 / logs / game-events.log。每份最大 2 MB，自动保留 3 份历史日志。按请求编号可同时查看修改器与后台记录，异常堆栈随整条记录保留。引擎退出信息自动关联游戏会话；原始输出另见 runtime.log、runtime.err.log。</footer></main>
+<script>
+let lines=[],paused=false;const log=document.querySelector('#log'),state=document.querySelector('#state');
+function render(){
+ const nearEnd=log.scrollTop+log.clientHeight>=log.scrollHeight-80;
+ const query=document.querySelector('#query').value.toLowerCase(),errors=document.querySelector('#errors').checked,component=document.querySelector('#component').value;
+ const groups=[];let record=[];
+ for(const line of lines){if(/^\d{4}-/.test(line)&&record.length){groups.push(record);record=[]}record.push(line)}
+ if(record.length)groups.push(record);log.replaceChildren();
+ for(const group of groups){const text=group.join('\n'),error=/ ERROR /.test(group[0]),warning=/ WARNING /.test(group[0]);
+  if((errors&&!error&&!warning)||(query&&!text.toLowerCase().includes(query))||(component&&!group[0].includes('component='+component+' ')))continue;
+  const row=document.createElement('div');row.textContent=text;row.className=error?'error':warning?'warning':'';log.append(row)
+ }
+ if(nearEnd)log.scrollTop=log.scrollHeight
+}
+async function refresh(){if(paused)return;try{const r=await fetch('/game-log/tail?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error(r.status);const d=await r.json();lines=d.lines;render();state.textContent='实时更新 · '+new Date().toLocaleTimeString()}catch(e){state.textContent='连接中断，正在重试；已有日志仍保存在本地。'}}
+document.querySelector('#pause').onclick=e=>{paused=!paused;e.target.textContent=paused?'继续刷新':'暂停刷新';state.textContent=paused?'已暂停':state.textContent;refresh()};document.querySelector('#query').oninput=render;document.querySelector('#errors').onchange=render;document.querySelector('#component').onchange=render;refresh();setInterval(refresh,2000);
+</script></html>

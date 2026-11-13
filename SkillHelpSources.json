@@ -1,0 +1,15 @@
+{
+  "pet": {
+    "file": "schema/editor_server_zmxy3.json:petSkillDesc",
+    "method": "petInfo.PetInfo.getIntroByName",
+    "verification": "work/skill-hints/PetInfo-getIntroByName.lst",
+    "note": "十一项基础技能补齐被动态数值打断的句子，不固定伤害、概率或持续时间。"
+  },
+  "hero": [
+    "https://news.4399.com/zm3ipad/jineng/179744.html",
+    "https://news.4399.com/gonglue/zmxy3/jn/133503.html",
+    "https://news.4399.com/gonglue/zmxy3/jn/133504.html",
+    "https://news.4399.com/zm3ipad/jineng/179749.html"
+  ],
+  "note": "角色效果用简短摘要，名称与编号沿用本游戏包。只提供说明，不改技能数据。"
+}

@@ -1,0 +1,8 @@
+{
+  "inputSha256": "9bbd44fdbf1e3c45abb75f85392458d038395b4a78dabc6e428e81ca4ec1169a",
+  "outputSha256": "1a5bee76a8579d9bca6634ddaee9c1a0b1ca3a1c69e65800ddeb8eb8f4acfa21",
+  "changedClasses": [
+    "export/SelectPLace"
+  ],
+  "version": "2.26.0"
+}

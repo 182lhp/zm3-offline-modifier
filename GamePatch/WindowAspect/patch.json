@@ -1,0 +1,15 @@
+{
+  "inputSha256": "ebac79de1f78f2d16fad44134bbf192e8e5aac05e5d9176f86948e3ad670acca",
+  "outputSha256": "503bb3ee161ba5f5c28992b8ca78f2c310d61c9448847f2f10609ee3e076fde4",
+  "mapMethods": [
+    "added",
+    "removed",
+    "rzClick"
+  ],
+  "otherMethodBodiesPreserved": true,
+  "launcherSha256": "8bdf2b9e8fed5414e8b498b7510248b4e860a56d376d634eaf0e491db71c2b24",
+  "nativeComponents": {
+    "window-helper.exe": "933c04fbfc8b066494609feb47d530f028ed801ea26f198ea3c3f63a53bd56f0",
+    "window-aspect.dll": "9fa7c9d4c68afb96ed9adde7c3325b8f13ac53417a46655a25eeae6828976f76"
+  }
+}

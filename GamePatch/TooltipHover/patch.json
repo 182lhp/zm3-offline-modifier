@@ -1,0 +1,10 @@
+{
+  "inputSha256": "503bb3ee161ba5f5c28992b8ca78f2c310d61c9448847f2f10609ee3e076fde4",
+  "outputSha256": "a548b6728da485dbd83516aebe095a6e93463fd905124e89c1f4e21ad79f15fc",
+  "changedClasses": [
+    "export/pack/AttributeCon",
+    "export/pet/PetEquipAttribute"
+  ],
+  "onlyConstructorsChanged": true,
+  "tags": 1308
+}

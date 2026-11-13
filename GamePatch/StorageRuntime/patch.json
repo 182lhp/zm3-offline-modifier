@@ -1,0 +1,15 @@
+{
+  "version": "2.32.0",
+  "storageProtocol": 2,
+  "diagnostics": 6,
+  "gameSha256": "e6c9a371d1b7e10f7c18359babfd6af4d57abd2b94e1050802f8fcce526127d9",
+  "backendSha256": "2a576d4213d7627d6eef69c782df0ada5d08e8860c23a9d2897cdf97a68d515f",
+  "tests": {
+    "gift": 22,
+    "storageRuntime": 21,
+    "modifierFullRegression": true,
+    "crossLanguageRecovery": true,
+    "realGameGift": true
+  },
+  "gameResourcesChanged": false
+}

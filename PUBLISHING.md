@@ -65,7 +65,7 @@ git status --short
 
 确认暂存范围后再自行提交并关联 GitHub 仓库。创建远程仓库时不要自动叠加一个与“非商业”目标冲突的 MIT、Apache 或 GPL 根许可；保留所采用许可的准确名称与范围。
 
-当前公开仓库为 [182lhp/zm3-offline-modifier](https://github.com/182lhp/zm3-offline-modifier)。首批提交范围为这 9 份文档与索引，不包含应用源码、可执行程序或游戏素材，也未创建二进制 Release。后续公开源码仍按本指南逐项整理；不添加个人联系方式。
+当前公开仓库为 [182lhp/zm3-offline-modifier](https://github.com/182lhp/zm3-offline-modifier)。首批为文档；本次继续公开维护源码，程序作为 v2.34.0 Release 附件发布。实际范围、排除项和公共构建入口见 [PUBLICATION.md](PUBLICATION.md)。本文件中的“首批建议”保留为初始整理过程说明，不表示当前仓库仍只有文档。
 
 ## 7. Release 与 CI
 

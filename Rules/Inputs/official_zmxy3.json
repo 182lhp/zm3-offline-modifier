@@ -1,0 +1,5028 @@
+{
+ "meta": {
+  "game": "造梦西游3",
+  "gameId": "100015389",
+  "refXml": {
+   "equip": 151,
+   "petequip": 48,
+   "pet": 13
+  },
+  "source": "游戏本体 AS 反编译 + Aloader2 内嵌 XML"
+ },
+ "refEquip": {
+  "ptdxzf": {
+   "ehp": "40",
+   "emp": "25",
+   "eatt": "0",
+   "edef": "16",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdxzg": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "26",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdjs": {
+   "ehp": "25",
+   "emp": "50",
+   "eatt": "0",
+   "edef": "15",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdcz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "27",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptddp": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "31",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdcs": {
+   "ehp": "50",
+   "emp": "17",
+   "eatt": "0",
+   "edef": "16",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdyyc": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "29",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptdcp": {
+   "ehp": "35",
+   "emp": "35",
+   "eatt": "0",
+   "edef": "15",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "mysz": {
+   "ehp": "100",
+   "emp": "100",
+   "eatt": "5",
+   "edef": "2",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "7",
+   "eamp": "7",
+   "magicdef": "0"
+  },
+  "kyg": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "41",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "kyz": {
+   "ehp": "0",
+   "emp": "120",
+   "eatt": "41",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "kys": {
+   "ehp": "270",
+   "emp": "140",
+   "eatt": "0",
+   "edef": "4",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "xhz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "41",
+   "edef": "13",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "xhc": {
+   "ehp": "170",
+   "emp": "0",
+   "eatt": "54",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "xhp": {
+   "ehp": "205",
+   "emp": "205",
+   "eatt": "0",
+   "edef": "2",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "whg": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "149",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "jmc": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "165",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "bsp": {
+   "ehp": "740",
+   "emp": "860",
+   "eatt": "120",
+   "edef": "37",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "dtk": {
+   "ehp": "910",
+   "emp": "699",
+   "eatt": "120",
+   "edef": "41",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "qybd": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "70",
+   "edef": "0",
+   "ecrit": "0.1",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "qyfp": {
+   "ehp": "325",
+   "emp": "650",
+   "eatt": "0",
+   "edef": "12",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "qysz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "92",
+   "edef": "22",
+   "ecrit": "0.09",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "hylk": {
+   "ehp": "940",
+   "emp": "236",
+   "eatt": "0",
+   "edef": "23",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "hylc": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "97",
+   "edef": "0",
+   "ecrit": "0.07",
+   "emiss": "0",
+   "eahp": "1",
+   "eamp": "1",
+   "magicdef": "0"
+  },
+  "hylz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "108",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "9",
+   "magicdef": "0"
+  },
+  "wtp": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "226",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "18",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "yhj": {
+   "ehp": "1280",
+   "emp": "918",
+   "eatt": "120",
+   "edef": "62",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "jmy": {
+   "ehp": "1051",
+   "emp": "1051",
+   "eatt": "120",
+   "edef": "49",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "zjksf": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "197",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "10",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "zjqj": {
+   "ehp": "1380",
+   "emp": "640",
+   "eatt": "0",
+   "edef": "54",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "zjbtg": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "147",
+   "edef": "0",
+   "ecrit": "0.19",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "jllm": {
+   "ehp": "920",
+   "emp": "920",
+   "eatt": "0",
+   "edef": "27",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "9",
+   "eamp": "2",
+   "magicdef": "0"
+  },
+  "shsjt": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "smz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "227",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "10",
+   "magicdef": "0"
+  },
+  "ydjg": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "254",
+   "edef": "36",
+   "ecrit": "0.25",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "9",
+   "magicdef": "0.06"
+  },
+  "wsjg": {
+   "ehp": "2590",
+   "emp": "1060",
+   "eatt": "120",
+   "edef": "52",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.3"
+  },
+  "hljh": {
+   "ehp": "1205",
+   "emp": "1810",
+   "eatt": "120",
+   "edef": "62",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "16",
+   "magicdef": "0.06"
+  },
+  "tflj": {
+   "ehp": "860",
+   "emp": "815",
+   "eatt": "120",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "13",
+   "magicdef": "0.06"
+  },
+  "mgzh": {
+   "ehp": "1203",
+   "emp": "1005",
+   "eatt": "225",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "tdlzj": {
+   "ehp": "1815",
+   "emp": "600",
+   "eatt": "120",
+   "edef": "74",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.3"
+  },
+  "xley": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "320",
+   "edef": "36",
+   "ecrit": "0.11",
+   "emiss": "0.06",
+   "eahp": "8",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xlcz": {
+   "ehp": "500",
+   "emp": "1380",
+   "eatt": "408",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xlry": {
+   "ehp": "3290",
+   "emp": "500",
+   "eatt": "120",
+   "edef": "78",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xlyj": {
+   "ehp": "1180",
+   "emp": "1180",
+   "eatt": "120",
+   "edef": "26",
+   "ecrit": "0.06",
+   "emiss": "0.25",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xlth": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "320",
+   "edef": "36",
+   "ecrit": "0.25",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xltc": {
+   "ehp": "600",
+   "emp": "2290",
+   "eatt": "436",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xltz": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "382",
+   "edef": "85",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "xlts": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "302",
+   "edef": "36",
+   "ecrit": "0.2",
+   "emiss": "0.11",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "lly": {
+   "ehp": "2300",
+   "emp": "2300",
+   "eatt": "325",
+   "edef": "142",
+   "ecrit": "0.08",
+   "emiss": "0.08",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "jlqrzr": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "278",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "15",
+   "magicdef": "0.06"
+  },
+  "jlqrmj": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "248",
+   "edef": "36",
+   "ecrit": "0.16",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "jlqrcs": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "240",
+   "edef": "36",
+   "ecrit": "0.16",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "jlqrhd": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "276",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "18",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "ssqrzr": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "447",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "16",
+   "magicdef": "0.06"
+  },
+  "ssqrmj": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "354",
+   "edef": "36",
+   "ecrit": "0.25",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "ssqrcs": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "367",
+   "edef": "36",
+   "ecrit": "0.25",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "ssqrhd": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "417",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "19",
+   "eamp": "6",
+   "magicdef": "0.06"
+  },
+  "qlj": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "300",
+   "edef": "280",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "qlg": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "490",
+   "edef": "140",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "plp": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "300",
+   "edef": "280",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "plz": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "490",
+   "edef": "140",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "ylk": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "300",
+   "edef": "280",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "ylh": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "490",
+   "edef": "140",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "jlj": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "300",
+   "edef": "280",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "jlg": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "490",
+   "edef": "140",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "jlc": {
+   "ehp": "2000",
+   "emp": "2000",
+   "eatt": "490",
+   "edef": "140",
+   "ecrit": "0.2",
+   "emiss": "0.2",
+   "eahp": "30",
+   "eamp": "20",
+   "magicdef": "0.0"
+  },
+  "clj": {
+   "ehp": "1700",
+   "emp": "0",
+   "eatt": "240",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.24"
+  },
+  "psdclj": {
+   "ehp": "100",
+   "emp": "0",
+   "eatt": "10",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.01"
+  },
+  "_sryxpt": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.02",
+   "emiss": "0.0",
+   "eahp": "3",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_sryxyx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.04",
+   "emiss": "0.0",
+   "eahp": "6",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_sryxjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.06",
+   "emiss": "0.0",
+   "eahp": "9",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_sryxss": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.08",
+   "emiss": "0.0",
+   "eahp": "12",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_4399ptsjwj": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "3",
+   "eamp": "2",
+   "magicdef": "0.0"
+  },
+  "_4399yxsjwj": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "6",
+   "eamp": "4",
+   "magicdef": "0.0"
+  },
+  "_4399jlsjwj": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.0"
+  },
+  "_4399sssjwj": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "12",
+   "eamp": "8",
+   "magicdef": "0.0"
+  },
+  "_lsyxpt": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.02",
+   "emiss": "0.02",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_lsyxyx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.04",
+   "emiss": "0.04",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_lsyxjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_lsyxss": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.08",
+   "emiss": "0.08",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_jsyxpt": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.03",
+   "emiss": "0.03",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_jsyxyx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.05",
+   "emiss": "0.05",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_jsyxjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.07",
+   "emiss": "0.07",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "_jsyxss": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.09",
+   "emiss": "0.09",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "kyl": {
+   "ehp": "1070",
+   "emp": "1067",
+   "eatt": "224",
+   "edef": "100",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "xhhl": {
+   "ehp": "1595",
+   "emp": "1539",
+   "eatt": "277",
+   "edef": "103",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "xhhhl": {
+   "ehp": "2980",
+   "emp": "2980",
+   "eatt": "500",
+   "edef": "285",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "6",
+   "eamp": "3",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "qyj": {
+   "ehp": "1579",
+   "emp": "2667",
+   "eatt": "299",
+   "edef": "110",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "hyzzs": {
+   "ehp": "2764",
+   "emp": "1549",
+   "eatt": "314",
+   "edef": "204",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "zjld": {
+   "ehp": "1930",
+   "emp": "1684",
+   "eatt": "556",
+   "edef": "116",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "gcxdyy": {
+   "ehp": "2490",
+   "emp": "2490",
+   "eatt": "628",
+   "edef": "187",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "yjp": {
+   "ehp": "2980",
+   "emp": "1510",
+   "eatt": "628",
+   "edef": "285",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "qljfb": {
+   "ehp": "2980",
+   "emp": "2980",
+   "eatt": "726",
+   "edef": "285",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "yyzlj": {
+   "ehp": "3185",
+   "emp": "3185",
+   "eatt": "686",
+   "edef": "294",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "12",
+   "eamp": "3",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "ywhl": {
+   "ehp": "3920",
+   "emp": "2450",
+   "eatt": "490",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "15",
+   "eamp": "0",
+   "magicdef": "0.09",
+   "eupdata": "2.5"
+  },
+  "zhyx": {
+   "ehp": "2450",
+   "emp": "3920",
+   "eatt": "490",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "10",
+   "magicdef": "0.09",
+   "eupdata": "2.5"
+  },
+  "bjs": {
+   "ehp": "2450",
+   "emp": "2450",
+   "eatt": "686",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "hsqq": {
+   "ehp": "2450",
+   "emp": "490",
+   "eatt": "98",
+   "edef": "49",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "3",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "h_sqq": {
+   "ehp": "490",
+   "emp": "490",
+   "eatt": "98",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.02",
+   "eupdata": "2.5"
+  },
+  "lsqq": {
+   "ehp": "490",
+   "emp": "2450",
+   "eatt": "98",
+   "edef": "49",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "2",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "csqq": {
+   "ehp": "2940",
+   "emp": "980",
+   "eatt": "196",
+   "edef": "294",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "6",
+   "eamp": "0",
+   "magicdef": "0.04",
+   "eupdata": "2.5"
+  },
+  "l_sqq": {
+   "ehp": "980",
+   "emp": "2940",
+   "eatt": "196",
+   "edef": "294",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "4",
+   "magicdef": "0.04",
+   "eupdata": "2.5"
+  },
+  "zsqq": {
+   "ehp": "2940",
+   "emp": "2940",
+   "eatt": "196",
+   "edef": "98",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "6",
+   "eamp": "2",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "fsqq": {
+   "ehp": "4900",
+   "emp": "4900",
+   "eatt": "980",
+   "edef": "490",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "sxyg": {
+   "ehp": "2450",
+   "emp": "2450",
+   "eatt": "735",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "dkhl": {
+   "ehp": "4900",
+   "emp": "980",
+   "eatt": "490",
+   "edef": "196",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "15",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "yyb": {
+   "ehp": "2450",
+   "emp": "2450",
+   "eatt": "588",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "hehua": {
+   "ehp": "2450",
+   "emp": "3920",
+   "eatt": "490",
+   "edef": "245",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "10",
+   "magicdef": "0.09",
+   "eupdata": "2.5"
+  },
+  "wpfbyyin": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "wpfbyyan": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "wpfbtc": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "tjbg": {
+   "ehp": "9600",
+   "emp": "9600",
+   "eatt": "960",
+   "edef": "320",
+   "ecrit": "0.08",
+   "emiss": "0.08",
+   "eahp": "28",
+   "eamp": "8",
+   "magicdef": "0.08",
+   "eupdata": "3.0"
+  },
+  "lxfb": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "1080",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "sxfb": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "1080",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "yxfb": {
+   "ehp": "6900",
+   "emp": "6900",
+   "eatt": "1480",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "bxzq": {
+   "ehp": "2940",
+   "emp": "2940",
+   "eatt": "490",
+   "edef": "245",
+   "ecrit": "0.05",
+   "emiss": "0.05",
+   "eahp": "30",
+   "eamp": "10",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "nmwdnh": {
+   "ehp": "3430",
+   "emp": "1960",
+   "eatt": "588",
+   "edef": "285",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "15",
+   "eamp": "0",
+   "magicdef": "0.0",
+   "eupdata": "2.5"
+  },
+  "zlwdah": {
+   "ehp": "2450",
+   "emp": "3430",
+   "eatt": "588",
+   "edef": "196",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.1",
+   "eupdata": "2.5"
+  },
+  "ptnmwsz": {
+   "ehp": "90",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "2",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "yxnmwsz": {
+   "ehp": "450",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "3",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "jlnmwsz": {
+   "ehp": "900",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "4",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ssnmwsz": {
+   "ehp": "1800",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "5",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptzlwsz": {
+   "ehp": "0",
+   "emp": "90",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "2",
+   "magicdef": "0"
+  },
+  "yxzlwsz": {
+   "ehp": "0",
+   "emp": "450",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "3",
+   "magicdef": "0"
+  },
+  "jlzlwsz": {
+   "ehp": "0",
+   "emp": "900",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "4",
+   "magicdef": "0"
+  },
+  "sszlwsz": {
+   "ehp": "0",
+   "emp": "1800",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "5",
+   "magicdef": "0"
+  },
+  "ptsmsrsz": {
+   "ehp": "10",
+   "emp": "10",
+   "eatt": "9",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "yxsmsrsz": {
+   "ehp": "50",
+   "emp": "50",
+   "eatt": "32",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "jlsmsrsz": {
+   "ehp": "100",
+   "emp": "100",
+   "eatt": "64",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "sssmsrsz": {
+   "ehp": "200",
+   "emp": "200",
+   "eatt": "128",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0"
+  },
+  "ptttzssz": {
+   "ehp": "20",
+   "emp": "0",
+   "eatt": "9",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.03"
+  },
+  "yxttzssz": {
+   "ehp": "100",
+   "emp": "0",
+   "eatt": "32",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.06"
+  },
+  "jlttzssz": {
+   "ehp": "200",
+   "emp": "0",
+   "eatt": "64",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.09"
+  },
+  "ssttzssz": {
+   "ehp": "400",
+   "emp": "0",
+   "eatt": "128",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.12"
+  },
+  "ptzqsz": {
+   "ehp": "20",
+   "emp": "0",
+   "eatt": "9",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.03"
+  },
+  "yxzqsz": {
+   "ehp": "100",
+   "emp": "0",
+   "eatt": "32",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.06"
+  },
+  "jlzqsz": {
+   "ehp": "200",
+   "emp": "0",
+   "eatt": "64",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.09"
+  },
+  "sszqsz": {
+   "ehp": "400",
+   "emp": "0",
+   "eatt": "128",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.12"
+  },
+  "_4399zswj": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "magicdef": "0.0"
+  },
+  "cs_wq_qs": {
+   "ehp": "900",
+   "emp": "900",
+   "eatt": "1455",
+   "edef": "54",
+   "ecrit": "0.4",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.09"
+  },
+  "cs_wq_rc": {
+   "ehp": "900",
+   "emp": "900",
+   "eatt": "1455",
+   "edef": "54",
+   "ecrit": "0.09",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "39",
+   "magicdef": "0.09"
+  },
+  "cs_wq_yt": {
+   "ehp": "900",
+   "emp": "900",
+   "eatt": "1455",
+   "edef": "54",
+   "ecrit": "0.09",
+   "emiss": "0.09",
+   "eahp": "58",
+   "eamp": "9",
+   "magicdef": "0.09"
+  },
+  "cs_wq_ll": {
+   "ehp": "900",
+   "emp": "900",
+   "eatt": "1455",
+   "edef": "54",
+   "ecrit": "0.4",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.09"
+  },
+  "cs_fj_dz": {
+   "ehp": "7275",
+   "emp": "2400",
+   "eatt": "180",
+   "edef": "615",
+   "ecrit": "0.19",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.24"
+  },
+  "cs_fj_zt": {
+   "ehp": "2400",
+   "emp": "6000",
+   "eatt": "480",
+   "edef": "564",
+   "ecrit": "0.09",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.24"
+  },
+  "cs_fj_jt": {
+   "ehp": "6150",
+   "emp": "900",
+   "eatt": "480",
+   "edef": "819",
+   "ecrit": "0.09",
+   "emiss": "0.09",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.45"
+  },
+  "cs_fj_js": {
+   "ehp": "3150",
+   "emp": "3150",
+   "eatt": "180",
+   "edef": "564",
+   "ecrit": "0.09",
+   "emiss": "0.4",
+   "eahp": "13",
+   "eamp": "9",
+   "magicdef": "0.24"
+  },
+  "cs_sp_hy": {
+   "ehp": "7800",
+   "emp": "7800",
+   "eatt": "1080",
+   "edef": "522",
+   "ecrit": "0.13",
+   "emiss": "0.13",
+   "eahp": "40",
+   "eamp": "57",
+   "magicdef": "0.31"
+  },
+  "zhhz": {
+   "ehp": "4000",
+   "emp": "600",
+   "eatt": "120",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.3"
+  },
+  "phhl": {
+   "ehp": "600",
+   "emp": "4000",
+   "eatt": "120",
+   "edef": "36",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "26",
+   "magicdef": "0.06"
+  },
+  "bxhy": {
+   "ehp": "600",
+   "emp": "600",
+   "eatt": "480",
+   "edef": "276",
+   "ecrit": "0.06",
+   "emiss": "0.06",
+   "eahp": "9",
+   "eamp": "6",
+   "magicdef": "0.06"
+  }
+ },
+ "refPetEquip": {
+  "p_cyst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "55",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcyst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "75",
+   "edef": "0",
+   "ecrit": "0.03",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscyst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "115",
+   "edef": "0",
+   "ecrit": "0.06",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cyyf": {
+   "ehp": "390",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcyyf": {
+   "ehp": "590",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.05",
+   "speed": "0.0"
+  },
+  "p_sscyyf": {
+   "ehp": "990",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.1",
+   "speed": "0.0"
+  },
+  "p_cymz": {
+   "ehp": "0",
+   "emp": "390",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcymz": {
+   "ehp": "0",
+   "emp": "490",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "3",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscymz": {
+   "ehp": "0",
+   "emp": "690",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "6",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cyxz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "10",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcyxz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "20",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "1.0"
+  },
+  "p_sscyxz": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "50",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "2.0"
+  },
+  "p_cysx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.03",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcysx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.06",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscysx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.09",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cykx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.05",
+   "speed": "0.0"
+  },
+  "p_jlcykx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.1",
+   "speed": "0.0"
+  },
+  "p_sscykx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.15",
+   "speed": "0.0"
+  },
+  "p_cyhh": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "2",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcyhh": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "4",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscyhh": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "6",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_czst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "60",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlczst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "80",
+   "edef": "0",
+   "ecrit": "0.03",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_ssczst": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "120",
+   "edef": "0",
+   "ecrit": "0.06",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_czkj": {
+   "ehp": "450",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlczkj": {
+   "ehp": "650",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.05",
+   "speed": "0.0"
+  },
+  "p_ssczkj": {
+   "ehp": "1050",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.1",
+   "speed": "0.0"
+  },
+  "p_cztk": {
+   "ehp": "0",
+   "emp": "450",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0",
+   "emiss": "0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcztk": {
+   "ehp": "0",
+   "emp": "550",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "3",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscztk": {
+   "ehp": "0",
+   "emp": "750",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "6",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_czzx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "10",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlczzx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "20",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "1.0"
+  },
+  "p_ssczzx": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "50",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "2.0"
+  },
+  "p_cygsjl": {
+   "ehp": "500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcygsjl": {
+   "ehp": "1000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscygsjl": {
+   "ehp": "1500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cylhjl": {
+   "ehp": "500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcylhjl": {
+   "ehp": "1000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscylhjl": {
+   "ehp": "1500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cybxjl": {
+   "ehp": "500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcybxjl": {
+   "ehp": "1000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscybxjl": {
+   "ehp": "1500",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cynsjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.03",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcynsjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.06",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscynsjl": {
+   "ehp": "0",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.09",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_cyymjl": {
+   "ehp": "1000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_jlcyymjl": {
+   "ehp": "2000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  },
+  "p_sscyymjl": {
+   "ehp": "3000",
+   "emp": "0",
+   "eatt": "0",
+   "edef": "0",
+   "ecrit": "0.0",
+   "emiss": "0.0",
+   "eahp": "0",
+   "eamp": "0",
+   "eatblood": "0.0",
+   "magicdef": "0.0",
+   "speed": "0.0"
+  }
+ },
+ "refPet": {
+  "monkey": {
+   "hpquality": "1140",
+   "mpquality": "1140",
+   "atkquality": "1140",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "horse": {
+   "hpquality": "1049",
+   "mpquality": "1322",
+   "atkquality": "1205",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "ufo": {
+   "hpquality": "1270",
+   "mpquality": "1140",
+   "atkquality": "1270",
+   "defquality": "451",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "tigress": {
+   "hpquality": "1400",
+   "mpquality": "1140",
+   "atkquality": "1400",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "turtle": {
+   "hpquality": "1660",
+   "mpquality": "1010",
+   "atkquality": "1270",
+   "defquality": "711",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "phoenix": {
+   "hpquality": "1270",
+   "mpquality": "1370",
+   "atkquality": "1400",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "dragon": {
+   "hpquality": "1430",
+   "mpquality": "780",
+   "atkquality": "1430",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "rabbit": {
+   "hpquality": "1430",
+   "mpquality": "1170",
+   "atkquality": "1560",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "nian": {
+   "hpquality": "1950",
+   "mpquality": "260",
+   "atkquality": "1560",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "mouse": {
+   "hpquality": "1690",
+   "mpquality": "260",
+   "atkquality": "1690",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "neat": {
+   "hpquality": "1820",
+   "mpquality": "260",
+   "atkquality": "1820",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "roomhorse": {
+   "hpquality": "1560",
+   "mpquality": "1287",
+   "atkquality": "1690",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "terribletiger": {
+   "hpquality": "1690",
+   "mpquality": "260",
+   "atkquality": "1820",
+   "defquality": "390",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  }
+ },
+ "petNames": {
+  "monkey1": "火丸",
+  "monkey2": "灵猴",
+  "monkey3": "火猿",
+  "monkey4": "烈焰金刚",
+  "horse1": "雪球",
+  "horse2": "雪马",
+  "horse3": "寒野",
+  "horse4": "极寒天马",
+  "ufo1": "小飞",
+  "ufo2": "裂云",
+  "ufo3": "冲霄",
+  "tigress1": "虎丸",
+  "tigress2": "白灵虎",
+  "tigress3": "白虎将军",
+  "tigress4": "白虎战神",
+  "turtle1": "龟布",
+  "turtle2": "墨玄龟",
+  "turtle3": "玄武将军",
+  "turtle4": "玄武大帝",
+  "phoenix1": "雀蛋",
+  "phoenix2": "炎皇雀",
+  "phoenix3": "朱雀将军",
+  "phoenix4": "朱雀女皇",
+  "dragon1": "龙仔",
+  "dragon2": "绿英龙",
+  "dragon3": "青龙将军",
+  "dragon4": "青龙妖圣",
+  "rabbit1": "月兔",
+  "rabbit2": "疾风兔",
+  "rabbit3": "寒冰玉兔",
+  "rabbit4": "冰霜月神",
+  "nian1": "小年兽",
+  "nian2": "小年兽",
+  "nian3": "小年兽",
+  "nian4": "年兽",
+  "nian5": "大年兽",
+  "mouse1": "子鼠元帅",
+  "mouse2": "子鼠元帅",
+  "mouse3": "子鼠元帅",
+  "mouse4": "子鼠大元帅",
+  "neat1": "丑牛元帅",
+  "neat2": "丑牛元帅",
+  "neat3": "丑牛元帅",
+  "neat4": "丑牛大元帅",
+  "roomhorse1": "炎马",
+  "roomhorse2": "炎马",
+  "roomhorse3": "炎马",
+  "roomhorse4": "烈迦",
+  "terribletiger1": "寅虎元帅",
+  "terribletiger2": "寅虎元帅",
+  "terribletiger3": "寅虎元帅",
+  "terribletiger4": "寅虎大元帅"
+ },
+ "petSkillNames": {
+  "tsml": "天生蛮力",
+  "zrsh": "自然守护",
+  "smzf": "生命祝福",
+  "mfby": "魔法庇佑",
+  "qlfj": "强力反击",
+  "sxkb": "嗜血狂暴",
+  "fsnl": "法术能量",
+  "smjc": "生命加成",
+  "mfjc": "魔法加成",
+  "gjjc": "攻击加成",
+  "fyjc": "防御加成",
+  "xj": "献祭",
+  "lj": "连击",
+  "lyq": "烈焰拳",
+  "jgaoyi": "金刚奥义",
+  "sp": "水泡",
+  "bd": "冰冻",
+  "bz": "冰锥",
+  "tmaoyi": "天马奥义",
+  "pms": "魔破击",
+  "ss": "瞬闪",
+  "kmsk": "狂魔闪空",
+  "hy": "虎牙",
+  "sxhz": "嗜血虎爪",
+  "hsqj": "横扫千军",
+  "bhaoyi": "白虎奥义",
+  "sld": "水疗盾",
+  "txlj": "同心链接",
+  "sybh": "水湮八荒",
+  "xwaoyi": "玄武奥义",
+  "np": "涅磐",
+  "bshn": "不死火鸟",
+  "dhly": "地火燎原",
+  "zqaoyi": "朱雀奥义",
+  "fs": "分身",
+  "sdcc": "闪电冲刺",
+  "ltwj": "雷霆万钧",
+  "qlaoyi": "青龙奥义",
+  "yg": "月光",
+  "jf": "疾风",
+  "bs": "冰陨",
+  "ysaoyi": "月神奥义",
+  "qxyl": "七星陨落",
+  "bhjm": "八荒俱灭",
+  "jhgy": "九魂归元",
+  "sc": "鼠窜",
+  "hxfb": "回旋飞镖",
+  "zsaoyi": "子鼠奥义",
+  "mncz": "蛮牛冲撞",
+  "mljt": "蛮力践踏",
+  "cnaoyi": "丑牛奥义",
+  "hybt": "火焰奔腾",
+  "hhjt": "火花践踏",
+  "hx": "虎啸",
+  "mhxs": "猛虎下山",
+  "yhaoyi": "寅虎奥义"
+ },
+ "petTalent": {
+  "monkey1": {
+   "add": "xj",
+   "remove": ""
+  },
+  "monkey2": {
+   "add": "lj",
+   "remove": "xj"
+  },
+  "monkey3": {
+   "add": "lyq",
+   "remove": "lj"
+  },
+  "horse1": {
+   "add": "sp",
+   "remove": ""
+  },
+  "horse2": {
+   "add": "bd",
+   "remove": "sp"
+  },
+  "horse3": {
+   "add": "bz",
+   "remove": "bd"
+  },
+  "ufo1": {
+   "add": "pms",
+   "remove": ""
+  },
+  "ufo2": {
+   "add": "ss",
+   "remove": "pms"
+  },
+  "ufo3": {
+   "add": "kmsk",
+   "remove": "ss"
+  },
+  "tigress1": {
+   "add": "hy",
+   "remove": ""
+  },
+  "tigress2": {
+   "add": "sxhz",
+   "remove": "hy"
+  },
+  "tigress3": {
+   "add": "hsqj",
+   "remove": "sxhz"
+  },
+  "turtle1": {
+   "add": "sld",
+   "remove": ""
+  },
+  "turtle2": {
+   "add": "txlj",
+   "remove": "sld"
+  },
+  "turtle3": {
+   "add": "sybh",
+   "remove": "txlj"
+  },
+  "phoenix1": {
+   "add": "np",
+   "remove": ""
+  },
+  "phoenix2": {
+   "add": "bshn",
+   "remove": "np"
+  },
+  "phoenix3": {
+   "add": "dhly",
+   "remove": "bshn"
+  },
+  "dragon1": {
+   "add": "fs",
+   "remove": ""
+  },
+  "dragon2": {
+   "add": "sdcc",
+   "remove": "fs"
+  },
+  "dragon3": {
+   "add": "ltwj",
+   "remove": "sdcc"
+  },
+  "rabbit1": {
+   "add": "yg",
+   "remove": ""
+  },
+  "rabbit2": {
+   "add": "jf",
+   "remove": "yg"
+  },
+  "rabbit3": {
+   "add": "bs",
+   "remove": "jf"
+  },
+  "nian1": {
+   "add": "qxyl",
+   "remove": ""
+  },
+  "nian2": {
+   "add": "qxyl",
+   "remove": ""
+  },
+  "nian3": {
+   "add": "qxyl",
+   "remove": ""
+  },
+  "nian4": {
+   "add": "bhjm",
+   "remove": "qxyl"
+  },
+  "nian5": {
+   "add": "jhgy",
+   "remove": "bhjm"
+  },
+  "mouse1": {
+   "add": "sc",
+   "remove": ""
+  },
+  "mouse2": {
+   "add": "sc",
+   "remove": ""
+  },
+  "mouse3": {
+   "add": "sc",
+   "remove": ""
+  },
+  "mouse4": {
+   "add": "hxfb",
+   "remove": "sc"
+  },
+  "neat1": {
+   "add": "mncz",
+   "remove": ""
+  },
+  "neat2": {
+   "add": "mncz",
+   "remove": ""
+  },
+  "neat3": {
+   "add": "mncz",
+   "remove": ""
+  },
+  "neat4": {
+   "add": "mljt",
+   "remove": "mncz"
+  },
+  "roomhorse1": {
+   "add": "hybt",
+   "remove": ""
+  },
+  "roomhorse2": {
+   "add": "hybt",
+   "remove": ""
+  },
+  "roomhorse3": {
+   "add": "hybt",
+   "remove": ""
+  },
+  "roomhorse4": {
+   "add": "hhjt",
+   "remove": "hybt"
+  },
+  "terribletiger1": {
+   "add": "hx",
+   "remove": ""
+  },
+  "terribletiger2": {
+   "add": "hx",
+   "remove": ""
+  },
+  "terribletiger3": {
+   "add": "hx",
+   "remove": ""
+  },
+  "terribletiger4": {
+   "add": "mhxs",
+   "remove": "hx"
+  }
+ },
+ "heroSkills": [
+  {
+   "group": 0,
+   "roleid": 1,
+   "role": "孙悟空",
+   "xf": "斩系心法",
+   "xfIndex": 0,
+   "codes": [
+    "slz",
+    "zz",
+    "sx",
+    "qsez",
+    "hmz"
+   ],
+   "names": [
+    "升龙斩",
+    "重斩",
+    "嗜血",
+    "七十二斩",
+    "火魔斩"
+   ],
+   "needMmp": [
+    10,
+    20,
+    0,
+    40,
+    50
+   ]
+  },
+  {
+   "group": 1,
+   "roleid": 1,
+   "role": "孙悟空",
+   "xf": "火系心法",
+   "xfIndex": 1,
+   "codes": [
+    "lys",
+    "hytj",
+    "lyfb",
+    "jdy",
+    "hyjj"
+   ],
+   "names": [
+    "烈焰闪",
+    "烈焰突击",
+    "烈焰风暴",
+    "筋斗云",
+    "火眼金睛"
+   ],
+   "needMmp": [
+    20,
+    20,
+    40,
+    40,
+    50
+   ]
+  },
+  {
+   "group": 2,
+   "roleid": 2,
+   "role": "唐僧",
+   "xf": "愈系心法",
+   "xfIndex": 0,
+   "codes": [
+    "sgq",
+    "myhc",
+    "jgz",
+    "tjgl",
+    "jhsj"
+   ],
+   "names": [
+    "圣光球",
+    "沐浴回春",
+    "紧箍咒",
+    "天降甘露",
+    "九环圣经"
+   ],
+   "needMmp": [
+    20,
+    50,
+    50,
+    80,
+    100
+   ]
+  },
+  {
+   "group": 3,
+   "roleid": 2,
+   "role": "唐僧",
+   "xf": "水系心法",
+   "xfIndex": 1,
+   "codes": [
+    "blb",
+    "xbz",
+    "shy",
+    "sjt",
+    "smb"
+   ],
+   "names": [
+    "冰龙波",
+    "玄冰阵",
+    "水幻影",
+    "水精通",
+    "水魔爆"
+   ],
+   "needMmp": [
+    20,
+    40,
+    40,
+    0,
+    100
+   ]
+  },
+  {
+   "group": 4,
+   "roleid": 3,
+   "role": "猪八戒",
+   "xf": "御系心法",
+   "xfIndex": 0,
+   "codes": [
+    "dj",
+    "sd",
+    "rj",
+    "zznh",
+    "syzq"
+   ],
+   "names": [
+    "盾击",
+    "圣盾",
+    "刃甲",
+    "战争怒吼",
+    "圣域之墙"
+   ],
+   "needMmp": [
+    10,
+    20,
+    0,
+    20,
+    50
+   ]
+  },
+  {
+   "group": 5,
+   "roleid": 3,
+   "role": "猪八戒",
+   "xf": "土系心法",
+   "xfIndex": 1,
+   "codes": [
+    "ssp",
+    "jsp",
+    "dgq",
+    "xgq",
+    "tmc"
+   ],
+   "names": [
+    "圣十字",
+    "巨石破",
+    "地滚球",
+    "旋滚球",
+    "土魔刺"
+   ],
+   "needMmp": [
+    15,
+    25,
+    35,
+    45,
+    30
+   ]
+  },
+  {
+   "group": 6,
+   "roleid": 4,
+   "role": "沙僧",
+   "xf": "毒系心法",
+   "xfIndex": 0,
+   "codes": [
+    "zq",
+    "mbyj",
+    "wdww",
+    "jdz",
+    "mds"
+   ],
+   "names": [
+    "瘴气",
+    "麻痹药剂",
+    "巫毒娃娃",
+    "剧毒阵",
+    "猛毒素"
+   ],
+   "needMmp": [
+    20,
+    30,
+    40,
+    50,
+    60
+   ]
+  },
+  {
+   "group": 7,
+   "roleid": 4,
+   "role": "沙僧",
+   "xf": "木系心法",
+   "xfIndex": 1,
+   "codes": [
+    "qlj",
+    "tkj",
+    "dzj",
+    "lybj",
+    "mmw"
+   ],
+   "names": [
+    "强力击",
+    "腾空击",
+    "多重击",
+    "绿叶标记",
+    "木魔舞"
+   ],
+   "needMmp": [
+    20,
+    35,
+    50,
+    30,
+    60
+   ]
+  }
+ ],
+ "roleNames": {
+  "1": "孙悟空",
+  "2": "唐僧",
+  "3": "猪八戒",
+  "4": "沙僧"
+ },
+ "xinfaNames": {
+  "1": [
+   "斩系心法",
+   "火系心法"
+  ],
+  "2": [
+   "愈系心法",
+   "水系心法"
+  ],
+  "3": [
+   "御系心法",
+   "土系心法"
+  ],
+  "4": [
+   "毒系心法",
+   "木系心法"
+  ]
+ },
+ "heroSkillCn": {
+  "slz": "升龙斩",
+  "zz": "重斩",
+  "sx": "嗜血",
+  "qsez": "七十二斩",
+  "hmz": "火魔斩",
+  "lys": "烈焰闪",
+  "hytj": "烈焰突击",
+  "lyfb": "烈焰风暴",
+  "jdy": "筋斗云",
+  "hyjj": "火眼金睛",
+  "sgq": "圣光球",
+  "myhc": "沐浴回春",
+  "jgz": "紧箍咒",
+  "tjgl": "天降甘露",
+  "jhsj": "九环圣经",
+  "blb": "冰龙波",
+  "xbz": "玄冰阵",
+  "shy": "水幻影",
+  "sjt": "水精通",
+  "smb": "水魔爆",
+  "dj": "盾击",
+  "sd": "圣盾",
+  "rj": "刃甲",
+  "zznh": "战争怒吼",
+  "syzq": "圣域之墙",
+  "ssp": "圣十字",
+  "jsp": "巨石破",
+  "dgq": "地滚球",
+  "xgq": "旋滚球",
+  "tmc": "土魔刺",
+  "zq": "瘴气",
+  "mbyj": "麻痹药剂",
+  "wdww": "巫毒娃娃",
+  "jdz": "剧毒阵",
+  "mds": "猛毒素",
+  "qlj": "强力击",
+  "tkj": "腾空击",
+  "dzj": "多重击",
+  "lybj": "绿叶标记",
+  "mmw": "木魔舞"
+ },
+ "petEquipItems": [
+  {
+   "var": "petEquip1",
+   "ename": "赤烟手套",
+   "fillName": "p_cyst",
+   "type": "zbst",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "55",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip2",
+   "ename": "赤烟铠甲",
+   "fillName": "p_cyyf",
+   "type": "zbyf",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "390",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip3",
+   "ename": "赤烟头盔",
+   "fillName": "p_cymz",
+   "type": "zbmz",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "390",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0",
+    "emiss": "0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip4",
+   "ename": "赤烟手套",
+   "fillName": "p_jlcyst",
+   "type": "zbst",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "75",
+    "edef": "0",
+    "ecrit": "0.03",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip5",
+   "ename": "赤烟铠甲",
+   "fillName": "p_jlcyyf",
+   "type": "zbyf",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "590",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0",
+    "emiss": "0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.05",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip6",
+   "ename": "赤烟头盔",
+   "fillName": "p_jlcymz",
+   "type": "zbmz",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "490",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "3",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip7",
+   "ename": "赤烟手套",
+   "fillName": "p_sscyst",
+   "type": "zbst",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "115",
+    "edef": "0",
+    "ecrit": "0.06",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip8",
+   "ename": "赤烟铠甲",
+   "fillName": "p_sscyyf",
+   "type": "zbyf",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "990",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.1",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip9",
+   "ename": "赤烟头盔",
+   "fillName": "p_sscymz",
+   "type": "zbmz",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "690",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "6",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip10",
+   "ename": "赤烟战靴",
+   "fillName": "p_cyxz",
+   "type": "zbxz",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "10",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip11",
+   "ename": "赤烟战靴",
+   "fillName": "p_jlcyxz",
+   "type": "zbxz",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "20",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "1.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip12",
+   "ename": "赤烟战靴",
+   "fillName": "p_sscyxz",
+   "type": "zbxz",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "50",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "2.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip13",
+   "ename": "嗜血",
+   "fillName": "p_cysx",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.03",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip14",
+   "ename": "嗜血",
+   "fillName": "p_jlcysx",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.06",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip15",
+   "ename": "嗜血",
+   "fillName": "p_sscysx",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.09",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip16",
+   "ename": "抗性",
+   "fillName": "p_cykx",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.05",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip17",
+   "ename": "抗性",
+   "fillName": "p_jlcykx",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.1",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip18",
+   "ename": "抗性",
+   "fillName": "p_sscykx",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.15",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip19",
+   "ename": "辉煌",
+   "fillName": "p_cyhh",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "2",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip20",
+   "ename": "辉煌",
+   "fillName": "p_jlcyhh",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "4",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip21",
+   "ename": "辉煌",
+   "fillName": "p_sscyhh",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "6",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip22",
+   "ename": "叱咤头盔",
+   "fillName": "p_cztk",
+   "type": "zbmz",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "450",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0",
+    "emiss": "0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip23",
+   "ename": "叱咤头盔",
+   "fillName": "p_jlcztk",
+   "type": "zbmz",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "550",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "3",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip24",
+   "ename": "叱咤头盔",
+   "fillName": "p_sscztk",
+   "type": "zbmz",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "750",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "6",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip25",
+   "ename": "叱咤手套",
+   "fillName": "p_czst",
+   "type": "zbst",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "60",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip26",
+   "ename": "叱咤手套",
+   "fillName": "p_jlczst",
+   "type": "zbst",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "80",
+    "edef": "0",
+    "ecrit": "0.03",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip27",
+   "ename": "叱咤手套",
+   "fillName": "p_ssczst",
+   "type": "zbst",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "120",
+    "edef": "0",
+    "ecrit": "0.06",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip28",
+   "ename": "叱咤铠甲",
+   "fillName": "p_czkj",
+   "type": "zbyf",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "450",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip29",
+   "ename": "叱咤铠甲",
+   "fillName": "p_jlczkj",
+   "type": "zbyf",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "650",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0",
+    "emiss": "0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.05",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip30",
+   "ename": "叱咤铠甲",
+   "fillName": "p_ssczkj",
+   "type": "zbyf",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "1050",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.1",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip31",
+   "ename": "叱咤战鞋",
+   "fillName": "p_czzx",
+   "type": "zbxz",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "10",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip32",
+   "ename": "叱咤战鞋",
+   "fillName": "p_jlczzx",
+   "type": "zbxz",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "20",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "1.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip33",
+   "ename": "叱咤战鞋",
+   "fillName": "p_ssczzx",
+   "type": "zbxz",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "50",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "2.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip34",
+   "ename": "烈火精灵",
+   "fillName": "p_cylhjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip35",
+   "ename": "烈火精灵",
+   "fillName": "p_jlcylhjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "1000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip36",
+   "ename": "烈火精灵",
+   "fillName": "p_sscylhjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "1500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip37",
+   "ename": "冰雪精灵",
+   "fillName": "p_cybxjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip38",
+   "ename": "冰雪精灵",
+   "fillName": "p_jlcybxjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "1000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip39",
+   "ename": "冰雪精灵",
+   "fillName": "p_sscybxjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "1500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip40",
+   "ename": "年兽精灵",
+   "fillName": "p_cynsjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.03",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip41",
+   "ename": "年兽精灵",
+   "fillName": "p_jlcynsjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.06",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip42",
+   "ename": "年兽精灵",
+   "fillName": "p_sscynsjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "0",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.09",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip43",
+   "ename": "钢石精灵",
+   "fillName": "p_cygsjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip44",
+   "ename": "钢石精灵",
+   "fillName": "p_jlcygsjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "1000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip45",
+   "ename": "钢石精灵",
+   "fillName": "p_sscygsjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "1500",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip46",
+   "ename": "狂雷精灵",
+   "fillName": "p_cykljl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip47",
+   "ename": "狂雷精灵",
+   "fillName": "p_jlcykljl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip48",
+   "ename": "狂雷精灵",
+   "fillName": "p_sscykljl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip49",
+   "ename": "子鼠精灵",
+   "fillName": "p_cyzsjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip50",
+   "ename": "子鼠精灵",
+   "fillName": "p_jlcyzsjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip51",
+   "ename": "子鼠精灵",
+   "fillName": "p_sscyzsjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip52",
+   "ename": "丑牛精灵",
+   "fillName": "p_cycnjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip53",
+   "ename": "丑牛精灵",
+   "fillName": "p_jlcycnjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip54",
+   "ename": "丑牛精灵",
+   "fillName": "p_sscycnjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip55",
+   "ename": "炎马精灵",
+   "fillName": "p_cyymjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": {
+    "ehp": "1000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip56",
+   "ename": "炎马精灵",
+   "fillName": "p_jlcyymjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": {
+    "ehp": "2000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip57",
+   "ename": "炎马精灵",
+   "fillName": "p_sscyymjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": {
+    "ehp": "3000",
+    "emp": "0",
+    "eatt": "0",
+    "edef": "0",
+    "ecrit": "0.0",
+    "emiss": "0.0",
+    "eahp": "0",
+    "eamp": "0",
+    "eatblood": "0.0",
+    "magicdef": "0.0",
+    "speed": "0.0"
+   },
+   "inRef": true
+  },
+  {
+   "var": "petEquip58",
+   "ename": "寅虎精灵",
+   "fillName": "p_cyyhjl",
+   "type": "zbjn",
+   "quality": "优 秀",
+   "color": "0x00FF00",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip59",
+   "ename": "寅虎精灵",
+   "fillName": "p_jlcyyhjl",
+   "type": "zbjn",
+   "quality": "精 良",
+   "color": "0x0000FF",
+   "ref": null,
+   "inRef": false
+  },
+  {
+   "var": "petEquip60",
+   "ename": "寅虎精灵",
+   "fillName": "p_sscyyhjl",
+   "type": "zbjn",
+   "quality": "史 诗",
+   "color": "0x660099",
+   "ref": null,
+   "inRef": false
+  }
+ ],
+ "petSuits": {
+  "petSuit": {
+   "sets": [
+    [
+     "p_cyst",
+     "p_cyyf",
+     "p_cymz",
+     "p_cyxz"
+    ],
+    [
+     "p_jlcyst",
+     "p_jlcyyf",
+     "p_jlcymz",
+     "p_jlcyxz"
+    ],
+    [
+     "p_sscyst",
+     "p_sscyyf",
+     "p_sscymz",
+     "p_sscyxz"
+    ],
+    [
+     "p_cztk",
+     "p_czst",
+     "p_czkj",
+     "p_czzx"
+    ],
+    [
+     "p_jlcztk",
+     "p_jlczst",
+     "p_jlczkj",
+     "p_jlczzx"
+    ],
+    [
+     "p_sscztk",
+     "p_ssczst",
+     "p_ssczkj",
+     "p_ssczzx"
+    ]
+   ],
+   "cn": [
+    [
+     "赤烟手套",
+     "赤烟铠甲",
+     "赤烟头盔",
+     "赤烟战靴"
+    ],
+    [
+     "赤烟手套",
+     "赤烟铠甲",
+     "赤烟头盔",
+     "赤烟战靴"
+    ],
+    [
+     "赤烟手套",
+     "赤烟铠甲",
+     "赤烟头盔",
+     "赤烟战靴"
+    ],
+    [
+     "叱咤头盔",
+     "叱咤手套",
+     "叱咤铠甲",
+     "叱咤战鞋"
+    ],
+    [
+     "叱咤头盔",
+     "叱咤手套",
+     "叱咤铠甲",
+     "叱咤战鞋"
+    ],
+    [
+     "叱咤头盔",
+     "叱咤手套",
+     "叱咤铠甲",
+     "叱咤战鞋"
+    ]
+   ],
+   "names": [
+    "赤烟套装",
+    "赤烟套装",
+    "赤烟套装",
+    "叱咤套装",
+    "叱咤套装",
+    "叱咤套装"
+   ],
+   "effect": [
+    [
+     {
+      "name": "魔抗",
+      "type": "SUIT_ADD_MDEF",
+      "value": 0.1
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "魔抗",
+      "type": "SUIT_ADD_MDEF",
+      "value": 0.2
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2000
+     }
+    ],
+    [
+     {
+      "name": "魔抗",
+      "type": "SUIT_ADD_MDEF",
+      "value": 0.3
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 4000
+     }
+    ],
+    [
+     {
+      "name": "吸血",
+      "type": "SUIT_ADD_EATBLOOD",
+      "value": 0.02
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "吸血",
+      "type": "SUIT_ADD_EATBLOOD",
+      "value": 0.04
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2000
+     }
+    ],
+    [
+     {
+      "name": "吸血",
+      "type": "SUIT_ADD_EATBLOOD",
+      "value": 0.06
+     },
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 4000
+     }
+    ]
+   ]
+  },
+  "jnSuit": {
+   "sets": [
+    [
+     "p_cylhjl"
+    ],
+    [
+     "p_jlcylhjl"
+    ],
+    [
+     "p_sscylhjl"
+    ],
+    [
+     "p_cybxjl"
+    ],
+    [
+     "p_jlcybxjl"
+    ],
+    [
+     "p_sscybxjl"
+    ],
+    [
+     "p_cynsjl"
+    ],
+    [
+     "p_jlcynsjl"
+    ],
+    [
+     "p_sscynsjl"
+    ],
+    [
+     "p_cygsjl"
+    ],
+    [
+     "p_jlcygsjl"
+    ],
+    [
+     "p_sscygsjl"
+    ],
+    [
+     "p_cykljl"
+    ],
+    [
+     "p_jlcykljl"
+    ],
+    [
+     "p_sscykljl"
+    ],
+    [
+     "p_cyzsjl"
+    ],
+    [
+     "p_jlcyzsjl"
+    ],
+    [
+     "p_sscyzsjl"
+    ],
+    [
+     "p_cycnjl"
+    ],
+    [
+     "p_jlcycnjl"
+    ],
+    [
+     "p_sscycnjl"
+    ],
+    [
+     "p_cyymjl"
+    ],
+    [
+     "p_jlcyymjl"
+    ],
+    [
+     "p_sscyymjl"
+    ],
+    [
+     "p_cyyhjl"
+    ],
+    [
+     "p_jlcyyhjl"
+    ],
+    [
+     "p_sscyyhjl"
+    ]
+   ],
+   "cn": [
+    [
+     "烈火精灵"
+    ],
+    [
+     "烈火精灵"
+    ],
+    [
+     "烈火精灵"
+    ],
+    [
+     "冰雪精灵"
+    ],
+    [
+     "冰雪精灵"
+    ],
+    [
+     "冰雪精灵"
+    ],
+    [
+     "年兽精灵"
+    ],
+    [
+     "年兽精灵"
+    ],
+    [
+     "年兽精灵"
+    ],
+    [
+     "钢石精灵"
+    ],
+    [
+     "钢石精灵"
+    ],
+    [
+     "钢石精灵"
+    ],
+    [
+     "狂雷精灵"
+    ],
+    [
+     "狂雷精灵"
+    ],
+    [
+     "狂雷精灵"
+    ],
+    [
+     "子鼠精灵\n子鼠奥义"
+    ],
+    [
+     "子鼠精灵\n子鼠奥义"
+    ],
+    [
+     "子鼠精灵\n子鼠奥义"
+    ],
+    [
+     "丑牛精灵\n丑牛奥义"
+    ],
+    [
+     "丑牛精灵\n丑牛奥义"
+    ],
+    [
+     "丑牛精灵\n丑牛奥义"
+    ],
+    [
+     "炎马精灵"
+    ],
+    [
+     "炎马精灵"
+    ],
+    [
+     "炎马精灵"
+    ],
+    [
+     "寅虎精灵\n寅虎奥义"
+    ],
+    [
+     "寅虎精灵\n寅虎奥义"
+    ],
+    [
+     "寅虎精灵\n寅虎奥义"
+    ]
+   ],
+   "names": [
+    "朱雀专属",
+    "朱雀专属",
+    "朱雀专属",
+    "白虎专属",
+    "白虎专属",
+    "白虎专属",
+    "年兽专属",
+    "年兽专属",
+    "年兽专属",
+    "玄武专属",
+    "玄武专属",
+    "玄武专属",
+    "青龙专属",
+    "青龙专属",
+    "青龙专属",
+    "子鼠专属",
+    "子鼠专属",
+    "子鼠专属",
+    "丑牛专属",
+    "丑牛专属",
+    "丑牛专属",
+    "炎马专属",
+    "炎马专属",
+    "炎马专属",
+    "寅虎专属",
+    "寅虎专属",
+    "寅虎专属"
+   ],
+   "effect": [
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 3000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 500
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 1000
+     }
+    ],
+    [
+     {
+      "name": "生命",
+      "type": "SUIT_ADD_HP",
+      "value": 2500
+     }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+     {
+      "name": "攻击",
+      "type": "SUIT_ADD_ATK",
+      "value": 100
+     }
+    ],
+    [
+     {
+      "name": "攻击",
+      "type": "SUIT_ADD_ATK",
+      "value": 200
+     }
+    ],
+    [
+     {
+      "name": "攻击",
+      "type": "SUIT_ADD_ATK",
+      "value": 300
+     }
+    ],
+    [],
+    [],
+    []
+   ]
+  }
+ },
+ "jnToPet": [
+  {
+   "fills": [
+    "p_cylhjl",
+    "p_jlcylhjl",
+    "p_sscylhjl"
+   ],
+   "petFamily": "phoenix"
+  },
+  {
+   "fills": [
+    "p_cybxjl",
+    "p_jlcybxjl",
+    "p_sscybxjl"
+   ],
+   "petFamily": "tigress"
+  },
+  {
+   "fills": [
+    "p_cynsjl",
+    "p_jlcynsjl",
+    "p_sscynsjl"
+   ],
+   "petFamily": "nian"
+  },
+  {
+   "fills": [
+    "p_cygsjl",
+    "p_jlcygsjl",
+    "p_sscygsjl"
+   ],
+   "petFamily": "turtle"
+  },
+  {
+   "fills": [
+    "p_cykljl",
+    "p_jlcykljl",
+    "p_sscykljl"
+   ],
+   "petFamily": "dragon"
+  },
+  {
+   "fills": [
+    "p_cyzsjl",
+    "p_jlcyzsjl",
+    "p_sscyzsjl"
+   ],
+   "petFamily": "mouse"
+  },
+  {
+   "fills": [
+    "p_cycnjl",
+    "p_jlcycnjl",
+    "p_sscycnjl"
+   ],
+   "petFamily": "neat"
+  },
+  {
+   "fills": [
+    "p_cyymjl",
+    "p_jlcyymjl",
+    "p_sscyymjl"
+   ],
+   "petFamily": "roomhorse"
+  },
+  {
+   "fills": [
+    "p_cyyhjl",
+    "p_jlcyyhjl",
+    "p_sscyyhjl"
+   ],
+   "petFamily": "terribletiger"
+  }
+ ],
+ "evolution": {
+  "rule": "等级>=16 且 stage==1 -> 2阶；等级>30 且 stage==2 -> 3阶；四象丹(theFourShape, 需32级) -> 4阶；五形丹(theFiveShape, 需50级, 仅年兽) -> 5阶",
+  "item_4": "nianjhd 年兽进化丹",
+  "item_5": "nianjhdd 年兽进化大丹"
+ },
+ "limits": {
+  "zizi_max": "ref + 10（checkDataAbnormal 超限则重置为 ref）",
+  "zizi_wall": "hpQuality/mpQuality > 2000 时 hp/mp 直接返回 1（PetInfo.getHp/getMp）",
+  "wuXing": {
+   "base_max": 5,
+   "all_max": 8
+  },
+  "genGu": {
+   "base_max": 4,
+   "all_max": 8
+  },
+  "zhanLi": {
+   "base_max": 4,
+   "all_max": 8
+  },
+  "skill_cnt_max": "getperception() = 悟性base + 悟性add（<=8）",
+  "pet_level_max": "topLevel(80) + levelUpLimit(<=10)",
+  "xinfa_level_max": 5,
+  "aoyi": "第4形态(4阶)可 studyEsoteric() 领悟奥义；条件 skill.length < 悟性 且 < 8"
+ },
+ "petFamilyRef": {
+  "monkey": {
+   "hpquality": "1140",
+   "mpquality": "1140",
+   "atkquality": "1140",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "horse": {
+   "hpquality": "1049",
+   "mpquality": "1322",
+   "atkquality": "1205",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "ufo": {
+   "hpquality": "1270",
+   "mpquality": "1140",
+   "atkquality": "1270",
+   "defquality": "451",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "tigress": {
+   "hpquality": "1400",
+   "mpquality": "1140",
+   "atkquality": "1400",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "turtle": {
+   "hpquality": "1660",
+   "mpquality": "1010",
+   "atkquality": "1270",
+   "defquality": "711",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "phoenix": {
+   "hpquality": "1270",
+   "mpquality": "1370",
+   "atkquality": "1400",
+   "defquality": "620",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "dragon": {
+   "hpquality": "1430",
+   "mpquality": "780",
+   "atkquality": "1430",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "rabbit": {
+   "hpquality": "1430",
+   "mpquality": "1170",
+   "atkquality": "1560",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "nian": {
+   "hpquality": "1950",
+   "mpquality": "260",
+   "atkquality": "1560",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "mouse": {
+   "hpquality": "1690",
+   "mpquality": "260",
+   "atkquality": "1690",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "neat": {
+   "hpquality": "1820",
+   "mpquality": "260",
+   "atkquality": "1820",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "roomhorse": {
+   "hpquality": "1560",
+   "mpquality": "1287",
+   "atkquality": "1690",
+   "defquality": "520",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  },
+  "terribletiger": {
+   "hpquality": "1690",
+   "mpquality": "260",
+   "atkquality": "1820",
+   "defquality": "390",
+   "perception": "5",
+   "technique": "4",
+   "warpower": "4",
+   "perceptionall": "8",
+   "warpowerall": "8",
+   "techniqueall": "8"
+  }
+ },
+ "petEsoteric": {
+  "monkey": "jgaoyi",
+  "horse": "tmaoyi",
+  "tigress": "bhaoyi",
+  "turtle": "xwaoyi",
+  "phoenix": "zqaoyi",
+  "dragon": "qlaoyi",
+  "rabbit": "ysaoyi"
+ },
+ "petEsotericCn": {
+  "monkey": "金刚奥义",
+  "horse": "天马奥义",
+  "tigress": "白虎奥义",
+  "turtle": "玄武奥义",
+  "phoenix": "朱雀奥义",
+  "dragon": "青龙奥义",
+  "rabbit": "月神奥义"
+ }
+}

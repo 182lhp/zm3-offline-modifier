@@ -1,0 +1,114 @@
+﻿<Window x:Class="GmStudio.PetCreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="新增宠物 · 修改器" Icon="gm.ico" Width="780" Height="750" MinWidth="650" MinHeight="535"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Background="{StaticResource Canvas}"
+        Foreground="{StaticResource Ink}" FontFamily="{DynamicResource InterfaceFont}" FontSize="13"
+        UseLayoutRounding="True" TextOptions.TextFormattingMode="Display">
+    <Window.Resources>
+        <DataTemplate x:Key="FamilyOption">
+            <DockPanel HorizontalAlignment="Center" Margin="2,4">
+                <ContentPresenter Content="{Binding Entry}" ContentTemplate="{StaticResource GuideThumb}" Margin="0,0,9,0"/>
+                <TextBlock Text="{Binding Label}" VerticalAlignment="Center" FontWeight="SemiBold"/>
+            </DockPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="FormOption">
+            <DockPanel HorizontalAlignment="Center" Margin="2,4">
+                <ContentPresenter Content="{Binding Entry}" ContentTemplate="{StaticResource GuideThumb}" Margin="0,0,9,0"/>
+                <TextBlock Text="{Binding Label}" VerticalAlignment="Center" FontWeight="SemiBold"/>
+            </DockPanel>
+        </DataTemplate>
+        <Style x:Key="CreationMode" TargetType="RadioButton">
+            <Setter Property="GroupName" Value="PetCreation"/><Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/><Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="RadioButton">
+                <Border x:Name="ModeSurface" BorderBrush="{StaticResource Line}" BorderThickness="1" Background="{StaticResource Surface}" CornerRadius="9" Padding="12">
+                    <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="21"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                        <Ellipse x:Name="Dot" Width="13" Height="13" Stroke="{StaticResource Muted}" StrokeThickness="1" VerticalAlignment="Top" Margin="0,3,7,0"/>
+                        <ContentPresenter Grid.Column="1"/>
+                    </Grid>
+                </Border>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsChecked" Value="True"><Setter TargetName="ModeSurface" Property="Background" Value="{StaticResource JadeWash}"/><Setter TargetName="ModeSurface" Property="BorderBrush" Value="{StaticResource Green}"/><Setter TargetName="Dot" Property="Fill" Value="{StaticResource Green}"/></Trigger>
+                    <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="ModeSurface" Property="BorderBrush" Value="{StaticResource GoldInk}"/></Trigger>
+                    <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="ModeSurface" Property="Opacity" Value=".85"/></Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <DataTemplate x:Key="CreationMetric">
+            <Border Background="{StaticResource Canvas}" CornerRadius="7" Padding="9,7" Margin="3">
+                <StackPanel><TextBlock Text="{Binding Name}" FontSize="12" Foreground="{StaticResource Muted}" TextAlignment="Center"/>
+                    <TextBlock Text="{Binding Text}" FontSize="17" FontWeight="SemiBold" TextAlignment="Center" Margin="0,3,0,0"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <Border Padding="20,16" Background="{StaticResource Canvas}">
+    <Grid>
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <StackPanel Margin="0,0,0,13">
+            <TextBlock Text="新增宠物" Style="{StaticResource Title}"/>
+            <TextBlock Text="选择品种与生成方式，查看各形态图片和技能。" Foreground="{StaticResource Muted}" Margin="0,5,0,0" TextWrapping="Wrap"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <Grid Margin="0,0,0,13">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="180"/><ColumnDefinition Width="14"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                    <Border Style="{StaticResource Card}" Background="{StaticResource GoldWash}" Padding="9">
+                        <StackPanel>
+                            <Grid Height="130">
+                                <TextBlock x:Name="PortraitInitial" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Image x:Name="PetPortrait" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality"/>
+                            </Grid>
+                            <TextBlock x:Name="PetName" FontSize="19" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" Margin="0,6,0,3"/>
+                            <TextBlock x:Name="PetForm" Foreground="{StaticResource GoldInk}" FontSize="12" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                    <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                        <TextBlock Text="宠物品种" Style="{StaticResource Label}"/>
+                        <ComboBox x:Name="FamilyBox" ItemTemplate="{StaticResource FamilyOption}" SelectionChanged="FamilyChanged" AutomationProperties.Name="新增宠物品种" MaxDropDownHeight="310" Margin="0,0,0,15"/>
+                        <TextBlock Text="形态预览与介绍" Style="{StaticResource Label}"/>
+                        <ComboBox x:Name="FormBox" ItemTemplate="{StaticResource FormOption}" SelectionChanged="FormChanged" AutomationProperties.Name="新增宠物形态" MaxDropDownHeight="300"/>
+                        <ItemsControl x:Name="FormSkillsPreview" ItemTemplate="{StaticResource SkillEntryRow}" Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Grid>
+                <TextBlock Text="生成方式" Style="{StaticResource Label}"/>
+                <Grid Margin="0,0,0,12">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="10"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                    <RadioButton x:Name="BabyMode" Style="{StaticResource CreationMode}" Checked="ModeChanged" AutomationProperties.Name="1级满成长">
+                        <StackPanel><TextBlock Text="1 级满成长" FontSize="16" FontWeight="SemiBold"/>
+                            <TextBlock Text="第一形态 · 满成长 · 不学习技能" Foreground="{StaticResource Muted}" TextWrapping="Wrap" FontSize="12" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="ExtremeMode" Grid.Column="2" Style="{StaticResource CreationMode}" Checked="ModeChanged" AutomationProperties.Name="极品">
+                        <StackPanel><TextBlock Text="极品" FontSize="16" FontWeight="SemiBold"/>
+                            <TextBlock Text="最终形态 · 90级 · 史诗套装与精灵" Foreground="{StaticResource Muted}" TextWrapping="Wrap" FontSize="12" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </RadioButton>
+                </Grid>
+                <Border Style="{StaticResource Card}" Padding="11,9">
+                    <StackPanel>
+                        <DockPanel Margin="3,0,3,8">
+                            <TextBlock x:Name="PreviewLevel" DockPanel.Dock="Right" Foreground="{StaticResource Green}" VerticalAlignment="Center"/>
+                            <Image x:Name="CreationTargetImage" DockPanel.Dock="Left" Width="34" Height="34" Margin="0,0,8,0"/>
+                            <StackPanel><TextBlock Text="将新增" Foreground="{StaticResource Muted}" FontSize="11"/>
+                                <TextBlock x:Name="CreationTarget" Foreground="{StaticResource Green}" FontSize="16" FontWeight="Bold"/>
+                            </StackPanel>
+                        </DockPanel>
+                        <ItemsControl x:Name="QualityPreview" ItemTemplate="{StaticResource CreationMetric}"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="4"/></ItemsPanelTemplate></ItemsControl.ItemsPanel></ItemsControl>
+                        <ItemsControl x:Name="GrowthPreview" ItemTemplate="{StaticResource CreationMetric}"><ItemsControl.ItemsPanel><ItemsPanelTemplate><UniformGrid Columns="3"/></ItemsPanelTemplate></ItemsControl.ItemsPanel></ItemsControl>
+                    </StackPanel>
+                </Border>
+                <TextBlock x:Name="CreationError" Foreground="#A24B2B" TextWrapping="Wrap" Margin="0,8,0,0" Visibility="Collapsed"/>
+            </StackPanel>
+        </ScrollViewer>
+        <DockPanel Grid.Row="2" Margin="0,13,0,0">
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                <Button Content="取消" IsCancel="True" Click="CancelClick" Margin="0,0,8,0"/>
+                <Button x:Name="ApplyButton" Content="添加到存档" IsDefault="True" Style="{StaticResource Primary}" Click="ApplyClick"/>
+            </StackPanel>
+            <TextBlock Text="保存后生效。" Foreground="{StaticResource Muted}" FontSize="12" VerticalAlignment="Center"/>
+        </DockPanel>
+    </Grid>
+    </Border>
+</Window>

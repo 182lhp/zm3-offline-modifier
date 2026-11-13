@@ -1,0 +1,247 @@
+      private function giftButton(label:String,xpos:Number,ypos:Number,width:Number,handler:Function,primary:Boolean = false) : Sprite
+      {
+         var button:Sprite = new Sprite();button.x=xpos;button.y=ypos;
+         if(label=="×")
+         {
+            return this.giftCloseButton(xpos,ypos,handler);
+         }
+         var matrix:Matrix=new Matrix();matrix.createGradientBox(width,39,Math.PI/2);
+         button.graphics.lineStyle(2,0x442007);button.graphics.beginGradientFill("linear",[0xFFF4AD,0xFFC127,0xEF8B08],[1,1,1],[0,155,255],matrix);
+         button.graphics.drawRoundRect(0,0,width,39,12,12);button.graphics.endFill();
+         button.buttonMode=true;button.mouseChildren=false;
+         var text:TextField=this.giftText(label,18,0xFFFFFF,width,39);text.wordWrap=false;this.placeGiftText(text,0,0,width,39);button.addChild(text);
+         button.addEventListener(MouseEvent.CLICK,handler);
+         button.addEventListener(MouseEvent.ROLL_OVER,function(e:MouseEvent):void{Sprite(e.currentTarget).alpha=.84;});
+         button.addEventListener(MouseEvent.ROLL_OUT,function(e:MouseEvent):void{Sprite(e.currentTarget).alpha=1;});
+         return button;
+      }
+
+      private function giftCloseButton(xpos:Number,ypos:Number,handler:Function) : Sprite
+      {
+         var button:Sprite=new Sprite();button.name="giftCloseButton";button.x=xpos+26;button.y=ypos+26;
+         button.buttonMode=true;button.useHandCursor=true;button.mouseChildren=false;
+         var hit:Sprite=new Sprite();hit.graphics.beginFill(0,0);hit.graphics.drawRect(-32,-32,64,64);hit.graphics.endFill();
+         hit.visible=false;hit.mouseEnabled=false;button.addChild(hit);button.hitArea=hit;
+         var face:Sprite=new Sprite();face.mouseEnabled=false;button.addChild(face);
+         var matrix:Matrix=new Matrix();matrix.createGradientBox(52,52,Math.PI/2,-26,-26);
+         face.graphics.lineStyle(2,0x602A08);face.graphics.beginGradientFill("linear",[0xFFF7B5,0xFFD64A,0xF3A019],[1,1,1],[0,150,255],matrix);
+         face.graphics.drawRoundRect(-26,-26,52,52,15,15);face.graphics.endFill();
+         face.graphics.lineStyle(1,0xFFF5B0);face.graphics.drawRoundRect(-23,-23,46,46,11,11);
+         face.graphics.lineStyle(9,0x652008,1,false,"normal","round","round");
+         face.graphics.moveTo(-10,-10);face.graphics.lineTo(10,10);face.graphics.moveTo(10,-10);face.graphics.lineTo(-10,10);
+         face.graphics.lineStyle(5,0xF32D19,1,false,"normal","round","round");
+         face.graphics.moveTo(-10,-10);face.graphics.lineTo(10,10);face.graphics.moveTo(10,-10);face.graphics.lineTo(-10,10);
+         var change:Function=function(scale:Number,highlight:Boolean):void
+         {
+            face.scaleX=face.scaleY=scale;
+            face.filters=highlight?[new GlowFilter(0xFFF18A,.95,10,10,2)]:[];
+         };
+         button.addEventListener(MouseEvent.ROLL_OVER,function(e:MouseEvent):void{change(1.14,true);});
+         button.addEventListener(MouseEvent.ROLL_OUT,function(e:MouseEvent):void{change(1,false);});
+         button.addEventListener(MouseEvent.MOUSE_DOWN,function(e:MouseEvent):void{change(.96,true);});
+         button.addEventListener(MouseEvent.MOUSE_UP,function(e:MouseEvent):void{change(1.14,true);});
+         button.addEventListener(MouseEvent.CLICK,handler);return button;
+      }
+
+      private function giftText(label:String,size:int,color:uint,width:Number,height:Number) : TextField
+      {
+         var field:TextField=this.localText(label,size,color,true,width,height);
+         var format:TextFormat=field.defaultTextFormat;format.align="center";field.defaultTextFormat=format;field.setTextFormat(format);
+         field.filters=[new GlowFilter(0x301400,1,3,3,5),new GlowFilter(0xFFFFFF,1,2,2,2)];return field;
+      }
+
+      private function placeGiftText(field:TextField,xpos:Number,ypos:Number,width:Number,height:Number) : void
+      {
+         field.width=width;field.height=Math.ceil(field.textHeight)+4;
+         field.x=xpos;field.y=ypos+(height-field.height)/2;
+      }
+
+      private function giftInput(parent:Sprite,xpos:Number,ypos:Number,width:Number,height:Number,size:int) : TextField
+      {
+         var frame:Sprite=new Sprite();frame.graphics.lineStyle(1,0xA76110);frame.graphics.beginFill(0xFFF7BB);
+         frame.graphics.drawRoundRect(xpos,ypos,width,height,7,7);frame.graphics.endFill();parent.addChild(frame);
+         var field:TextField=new TextField();field.type="input";field.multiline=false;field.wordWrap=false;field.maxChars=64;
+         field.defaultTextFormat=new TextFormat("Microsoft YaHei",size,0x442306,false,null,null,null,null,"center");
+         field.text="国M";var lineHeight:Number=Math.ceil(field.textHeight)+4;field.text="";
+         field.x=xpos+8;field.y=ypos+(height-lineHeight)/2;field.width=width-16;field.height=lineHeight;
+         parent.addChild(field);frame.addEventListener(MouseEvent.CLICK,function(e:MouseEvent):void{if(field.stage)field.stage.focus=field;});return field;
+      }
+
+      private function giftResourceIcon(parent:Sprite,kind:String,xpos:Number,ypos:Number,size:Number) : void
+      {
+         var icon:Sprite=new Sprite();icon.x=xpos;icon.y=ypos;icon.scaleX=icon.scaleY=size/48;icon.mouseEnabled=false;parent.addChild(icon);
+         var g:* = icon.graphics;g.lineStyle(2,0x4C290E);
+         if(kind=="points")
+         {
+            g.beginFill(0xF9C62E);g.drawCircle(24,24,20);g.endFill();g.lineStyle(2,0xFFF3A4);g.drawCircle(24,24,15);
+            g.lineStyle(2,0xA6530D);g.beginFill(0xFFEB7C);g.moveTo(24,11);g.lineTo(35,24);g.lineTo(24,37);g.lineTo(13,24);g.lineTo(24,11);g.endFill();
+         }
+         else if(kind=="soul")
+         {
+            g.beginFill(0x2BA9ED);g.moveTo(26,3);g.curveTo(42,17,40,31);g.curveTo(34,49,17,43);g.curveTo(3,37,9,23);g.curveTo(18,25,18,11);g.curveTo(23,18,26,3);g.endFill();
+            g.lineStyle(1,0xA8EEFF);g.beginFill(0xBCF7FF);g.moveTo(25,20);g.curveTo(35,31,29,38);g.curveTo(15,43,18,29);g.curveTo(24,33,25,20);g.endFill();
+         }
+         else if(kind=="resource")
+         {
+            g.beginFill(0xFFF1A3);g.drawRoundRect(6,8,36,32,8,8);g.endFill();g.lineStyle(4,0xC17E18);g.moveTo(8,8);g.lineTo(40,8);g.moveTo(8,40);g.lineTo(40,40);
+            g.lineStyle(4,0x199FA3);g.moveTo(13,24);g.lineTo(34,24);g.moveTo(27,17);g.lineTo(34,24);g.lineTo(27,31);
+         }
+         else
+         {
+            g.beginFill(0xEC4D27);g.drawRoundRect(5,18,38,25,4,4);g.endFill();g.beginFill(0xFFB526);g.drawRoundRect(3,13,42,10,4,4);g.drawRect(20,15,8,28);g.endFill();
+            g.lineStyle(3,0xFFDA57);g.moveTo(24,14);g.curveTo(4,13,10,5);g.curveTo(18,0,24,14);g.curveTo(30,0,38,5);g.curveTo(44,13,24,14);
+         }
+      }
+
+      private function giftArt(parent:Sprite,path:String,xpos:Number,ypos:Number,width:Number,height:Number,owners:Array,complete:Function=null) : void
+      {
+         var frame:Sprite=new Sprite();frame.x=xpos;frame.y=ypos;frame.mouseEnabled=false;frame.mouseChildren=false;parent.addChild(frame);
+         var key:String=path+":"+width+":"+height;
+         var paint:Function=function(data:BitmapData):void
+         {
+            if(frame.parent){while(frame.numChildren)frame.removeChildAt(0);if(data)frame.addChild(new Bitmap(data,"auto",true));else if(path.indexOf("icon/")==0)giftResourceIcon(frame,"gift",0,0,Math.min(width,height));}
+            if(complete!=null)complete();
+         };
+         if(this.localGiftImageCache[key]){paint(this.localGiftImageCache[key]);return;}
+         if(path.indexOf("icon/")==0)this.giftResourceIcon(frame,"gift",0,0,Math.min(width,height));
+         if(this.localGiftImageWaiting[key]){this.localGiftImageWaiting[key].push(paint);return;}
+         this.localGiftImageWaiting[key]=[paint];
+         var loader:Loader=new Loader();
+         var finished:Boolean=false;
+         var finish:Function=function(data:BitmapData):void
+         {
+            if(finished)return;finished=true;
+            if(data){localGiftImageCache[key]=data;localGiftImageOrder.push(key);while(localGiftImageOrder.length>64)delete localGiftImageCache[localGiftImageOrder.shift()];}
+            var waiting:Array=localGiftImageWaiting[key];delete localGiftImageWaiting[key];
+            for each(var done:Function in waiting)done(data);
+            try{loader.unloadAndStop(false);}catch(ignored:Error){}
+         };
+         loader.contentLoaderInfo.addEventListener(Event.COMPLETE,function(e:Event):void
+         {
+            try{var image:DisplayObject=loader.content;var scale:Number=Math.min(width/image.width,height/image.height);var matrix:Matrix=new Matrix();matrix.scale(scale,scale);matrix.translate((width-image.width*scale)/2,(height-image.height*scale)/2);var data:BitmapData=new BitmapData(Math.ceil(width),Math.ceil(height),true,0);data.draw(image,matrix,null,null,null,true);finish(data);}catch(error:Error){finish(null);}
+         });
+         loader.contentLoaderInfo.addEventListener("ioError",function(e:Event):void{finish(null);});
+         loader.contentLoaderInfo.addEventListener("securityError",function(e:Event):void{finish(null);});
+         loader.load(new URLRequest("http://127.0.0.1:43999/local-gifts/"+path));
+      }
+
+      private function clearGiftArt(owners:Array) : void
+      {
+         owners.length=0;
+      }
+
+      public function openLocalActivities() : void
+      {
+         if(this.localGiftBusy || this.localGiftUncertain)return;
+         this.closeLocalActivities();
+         this.localActivityOverlay=new Sprite();this.localActivityOverlay.name="offlineGiftActivities";
+         this.localActivityOverlay.graphics.beginFill(0,.35);this.localActivityOverlay.graphics.drawRect(0,0,940,590);this.localActivityOverlay.graphics.endFill();
+         this.localActivityOverlay.graphics.lineStyle(3,0x401908);this.localActivityOverlay.graphics.beginFill(0xD5170B);
+         this.localActivityOverlay.graphics.drawRoundRect(89,26,762,528,17,17);this.localActivityOverlay.graphics.endFill();
+         this.giftArt(this.localActivityOverlay,"art/hall.png",90,27,760,525,this.localGiftHallArt);
+         var ids:Array=[1,5,2,3,4,0];
+         for(var i:int=0;i<ids.length;i++)
+         {
+            var id:int=ids[i];var card:Sprite=new Sprite();card.name="giftActivity:"+id;
+            card.x=111+(i%3)*240;card.y=139+int(i/3)*179;card.buttonMode=true;card.mouseChildren=false;
+            card.graphics.lineStyle(2,0x3F1908);card.graphics.beginFill(0xFFE184);card.graphics.drawRoundRect(0,0,220,160,7,7);card.graphics.endFill();
+            if(id)this.giftArt(card,"art/"+id+".png",3,3,214,129,this.localGiftHallArt);
+            else{var symbol:TextField=this.giftText("自定义礼包",27,0xFFE27E,214,90);symbol.x=3;symbol.y=42;card.addChild(symbol);}
+            var label:TextField=this.giftText(this.giftActivityName(id),15,0xFFFFFF,214,25);label.x=3;label.y=134;card.addChild(label);
+            card.addEventListener(MouseEvent.CLICK,this.chooseGiftActivity);
+            card.addEventListener(MouseEvent.ROLL_OVER,function(e:MouseEvent):void{Sprite(e.currentTarget).filters=[new GlowFilter(0xFFE47A,1,8,8,2)];});
+            card.addEventListener(MouseEvent.ROLL_OUT,function(e:MouseEvent):void{Sprite(e.currentTarget).filters=[];});
+            this.localActivityOverlay.addChild(card);
+         }
+         this.localActivityOverlay.addChild(this.giftButton("×",785,32,52,this.closeLocalActivities));
+         var note:TextField=this.localText("选择礼包进入领取页面 · 使用自己设置的本地兑换码",13,0xFFEBA8,false,650,25);note.x=145;note.y=514;this.localActivityOverlay.addChild(note);
+         this.addChild(this.localActivityOverlay);
+      }
+
+      private function closeLocalActivities(e:MouseEvent=null) : void
+      {
+         if(e)e.stopPropagation();
+         if(this.localActivityOverlay && this.contains(this.localActivityOverlay))this.removeChild(this.localActivityOverlay);
+         this.localActivityOverlay=null;this.localGiftHallCards=null;this.localGiftHallPager=null;this.localGiftHallGeneration++;this.clearGiftArt(this.localGiftHallArt);
+      }
+
+      private function giftActivityName(id:int) : String
+      {
+         return ["自定义礼包","积分神秘礼包","手机客户端礼包","年兽礼包","中秋礼包","每月签到礼包"][id];
+      }
+
+      private function chooseGiftActivity(e:MouseEvent) : void
+      {
+         this.localGiftActivity=int(String(e.currentTarget.name).split(":")[1]);this.openLocalGiftExchange(null);
+      }
+
+      private function openLocalGiftExchange(e:MouseEvent) : void
+      {
+         this.closeLocalActivities();this.localGiftToken="";this.localGiftUncertain=false;this.localGiftBusy=false;
+         this.localGiftSlot=int(gc.luanqibazaojiami.saveId);this.localGiftRewardPage=0;this.localGiftRewardList=[];
+         this.localGiftPanel=new Sprite();this.localGiftPanel.name="offlineGiftExchange";
+         this.localGiftPanel.graphics.beginFill(0,.35);this.localGiftPanel.graphics.drawRect(0,0,940,590);this.localGiftPanel.graphics.endFill();
+         this.localGiftPanel.graphics.lineStyle(3,0x3A1605);this.localGiftPanel.graphics.beginFill(0xEE2719);
+         this.localGiftPanel.graphics.drawRoundRect(99,28,742,526,18,18);this.localGiftPanel.graphics.endFill();
+         this.localGiftPanel.graphics.lineStyle(2,0x6B3508);this.localGiftPanel.graphics.beginFill(0xFFF07D);
+         this.localGiftPanel.graphics.drawRect(111,108,718,432);this.localGiftPanel.graphics.endFill();
+         this.localGiftPanel.graphics.lineStyle(0,0,0);this.localGiftPanel.graphics.beginFill(0xFFD74B);
+         this.localGiftPanel.graphics.moveTo(748,30);this.localGiftPanel.graphics.lineTo(836,30);this.localGiftPanel.graphics.lineTo(836,118);this.localGiftPanel.graphics.endFill();
+         this.localGiftTitle=this.giftText(this.giftActivityName(this.localGiftActivity),30,0xFFD345,620,55);this.localGiftTitle.x=151;this.localGiftTitle.y=51;this.localGiftPanel.addChild(this.localGiftTitle);
+         this.localGiftPanel.addChild(this.giftButton("×",777,36,52,this.closeLocalGiftExchange));
+         var heading:TextField=this.giftText(this.localGiftActivity?"礼包兑换码":"请输入兑换码",22,0x6B3508,409,35);this.placeGiftText(heading,129,146,409,35);this.localGiftPanel.addChild(heading);
+         if(this.localGiftActivity)this.giftArt(this.localGiftPanel,"art/"+this.localGiftActivity+".png",566,144,240,178,this.localGiftDetailArt);
+         else{var symbol:TextField=this.giftText("礼",90,0xFFD238,240,160);symbol.x=566;symbol.y=155;this.localGiftPanel.addChild(symbol);}
+         this.localGiftCode=this.giftInput(this.localGiftPanel,129,193,409,48,22);this.localGiftCode.name="localGiftCode";
+         this.localGiftCode.addEventListener(Event.CHANGE,this.localGiftCodeChanged);
+         this.localGiftVerify=this.giftButton("查看奖励",130,259,156,this.verifyLocalGift);this.localGiftPanel.addChild(this.localGiftVerify);
+         this.localGiftClaim=this.giftButton("领取礼包",301,259,237,this.claimLocalGift,true);this.localGiftClaim.alpha=.45;this.localGiftClaim.mouseEnabled=false;this.localGiftPanel.addChild(this.localGiftClaim);
+         var contentTitle:TextField=this.giftText("礼包内容",20,0x6B3508,200,33);this.placeGiftText(contentTitle,128,319,200,33);this.localGiftPanel.addChild(contentTitle);
+         this.localGiftPanel.graphics.lineStyle(1,0x8D5112);this.localGiftPanel.graphics.beginFill(0x775016);this.localGiftPanel.graphics.drawRoundRect(128,357,678,119,7,7);this.localGiftPanel.graphics.endFill();
+         this.localGiftRewardIcons=new Sprite();this.localGiftPanel.addChild(this.localGiftRewardIcons);
+         this.localGiftRewards=this.localText("选择礼包码即可查看奖励图标，验证后领取。",14,0xFFF1AF,false,640,28);this.localGiftRewards.x=148;this.localGiftRewards.y=380;this.localGiftPanel.addChild(this.localGiftRewards);
+         this.localGiftStatus=this.localText("在修改器「设置 → 本地兑换码」中配置礼包与兑换码。",12,0x703C12,false,440,44);this.localGiftStatus.x=129;this.localGiftStatus.y=487;this.localGiftPanel.addChild(this.localGiftStatus);
+         this.localGiftPanel.addChild(this.giftButton("返回",721,490,84,this.returnLocalActivities));
+         this.addChild(this.localGiftPanel);gc.stage.focus=this.localGiftCode;
+      }
+
+      private function drawGiftRewards() : void
+      {
+         this.clearGiftArt(this.localGiftRewardArt);
+         while(this.localGiftRewardIcons.numChildren)this.localGiftRewardIcons.removeChildAt(0);
+         var start:int=this.localGiftRewardPage*6;
+         for(var i:int=0;i<6 && start+i<this.localGiftRewardList.length;i++)
+         {
+            var reward:Object=this.localGiftRewardList[start+i];var x:int=139+i*110;
+            this.giftRewardIcon(this.localGiftRewardIcons,reward,x+27,366,48);
+            var label:TextField=this.localText(String(reward.name),12,0xFFF4BC,true,103,35);label.x=x;label.y=418;
+            var format:TextFormat=label.defaultTextFormat;format.align="center";label.defaultTextFormat=format;label.setTextFormat(format);this.localGiftRewardIcons.addChild(label);
+            var count:TextField=this.giftText("× "+reward.count,13,0xFFFFFF,103,24);count.x=x;count.y=451;this.localGiftRewardIcons.addChild(count);
+         }
+         if(this.localGiftRewardList.length>6)
+         {
+            var pager:Sprite=this.giftButton("更多奖励  ›",580,490,130,this.nextGiftRewards);this.localGiftRewardIcons.addChild(pager);
+         }
+      }
+
+      private function giftRewardIcon(parent:Sprite,reward:Object,xpos:Number,ypos:Number,size:Number) : void
+      {
+         if(reward.kind=="item" || reward.kind=="pet")this.giftArt(parent,"icon/"+(reward.kind=="pet"?"pets":"items")+"/"+reward.id+".png",xpos,ypos,size,size,this.localGiftRewardArt);
+         else this.giftResourceIcon(parent,String(reward.kind),xpos,ypos,size);
+      }
+
+      private function showGiftExamples() : void
+      {
+         var code:String=this.localGiftCode.text.replace(/^\s+|\s+$/g,"").toUpperCase();var chosen:Object=null;
+         if(this.localGiftCatalog)for each(var row:Object in this.localGiftCatalog.codes)if(String(row.code).toUpperCase()==code){chosen=row;break;}
+         if(!chosen){var choices:Array=this.codesForActivity();if(choices.length)chosen=choices[0];}
+         this.localGiftRewardList=chosen && chosen.examples?chosen.examples:[];this.localGiftRewardPage=0;
+         this.drawGiftRewards();this.localGiftRewards.visible=!this.localGiftRewardList.length;
+         if(!this.localGiftRewardList.length){this.giftResourceIcon(this.localGiftRewardIcons,"gift",439,366,48);this.localGiftRewards.text="选择礼包码，查看具体奖励";this.localGiftRewards.width=640;var format:TextFormat=this.localGiftRewards.defaultTextFormat;format.align="center";this.localGiftRewards.defaultTextFormat=format;this.localGiftRewards.setTextFormat(format);this.localGiftRewards.y=427;}
+         this.localGiftStatus.text=this.localGiftRewardList.length?"奖励示例 · 点击「查看奖励」验证当前兑换码后领取。":"点击「礼包码」选择奖励，或输入自己设置的兑换码。";
+      }
+
+      private function nextGiftRewards(e:MouseEvent) : void
+      {
+         this.localGiftRewardPage=(this.localGiftRewardPage+1)%Math.ceil(this.localGiftRewardList.length/6);this.drawGiftRewards();
+      }

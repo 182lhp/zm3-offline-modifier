@@ -1,0 +1,363 @@
+{
+ "ptdxzf": {
+  "def": "2"
+ },
+ "ptdxzg": {
+  "att": "3"
+ },
+ "ptdjs": {
+  "def": "2"
+ },
+ "ptdcz": {
+  "att": "3"
+ },
+ "ptddp": {
+  "att": "3"
+ },
+ "ptdcs": {
+  "def": "2"
+ },
+ "ptdyyc": {
+  "att": "3"
+ },
+ "ptdcp": {
+  "def": "2"
+ },
+ "mysz": {
+  "ehp": "1",
+  "emp": "1"
+ },
+ "kyg": {
+  "att": "3"
+ },
+ "kyz": {
+  "att": "3"
+ },
+ "kys": {
+  "hp": "20",
+  "mp": "10"
+ },
+ "xhz": {
+  "att": "3",
+  "def": "1"
+ },
+ "xhc": {
+  "att": "4"
+ },
+ "xhp": {
+  "hp": "15",
+  "mp": "15"
+ },
+ "whg": {
+  "att": "2"
+ },
+ "jmc": {
+  "att": "3"
+ },
+ "bsp": {
+  "hp": "10",
+  "mp": "20"
+ },
+ "dtk": {
+  "hp": "20",
+  "mp": "7"
+ },
+ "qybd": {
+  "att": "5",
+  "crit": "0.01"
+ },
+ "qyfp": {
+  "hp": "25",
+  "mp": "50",
+  "def": "1"
+ },
+ "qysz": {
+  "att": "7",
+  "def": "2",
+  "crit": "0.01"
+ },
+ "hylk": {
+  "hp": "70",
+  "mp": "18",
+  "def": "2"
+ },
+ "hylc": {
+  "att": "7",
+  "crit": "0.01"
+ },
+ "hylz": {
+  "att": "8",
+  "emp": "1"
+ },
+ "wtp": {
+  "att": "8",
+  "ehp": "1"
+ },
+ "yhj": {
+  "hp": "50",
+  "mp": "24",
+  "def": "2"
+ },
+ "jmy": {
+  "hp": "33",
+  "mp": "33",
+  "def": "1"
+ },
+ "zjksf": {
+  "att": "15",
+  "ehp": "1"
+ },
+ "zjqj": {
+  "hp": "100",
+  "mp": "50",
+  "def": "4"
+ },
+ "zjbtg": {
+  "att": "11",
+  "crit": "0.02"
+ },
+ "jllm": {
+  "hp": "70",
+  "mp": "70",
+  "def": "2",
+  "ehp": "1"
+ },
+ "smz": {
+  "att": "17",
+  "emp": "1"
+ },
+ "ydjg": {
+  "att": "10",
+  "crit": "0.02"
+ },
+ "wsjg": {
+  "hp": "150",
+  "mp": "35",
+  "mdef": "0.02"
+ },
+ "hljh": {
+  "hp": "45",
+  "mp": "90",
+  "def": "2",
+  "emp": "1"
+ },
+ "tflj": {
+  "hp": "20",
+  "mp": "15",
+  "emp": "1"
+ },
+ "mgzh": {
+  "hp": "45",
+  "mp": "30",
+  "att": "15"
+ },
+ "tdlzj": {
+  "hp": "90",
+  "def": "3",
+  "mdef": "0.02"
+ },
+ "xley": {
+  "att": "15",
+  "ehp": "-1"
+ },
+ "xlcz": {
+  "att": "20"
+ },
+ "xlry": {
+  "hp": "200"
+ },
+ "xlyj": {
+  "miss": "0.02",
+  "def": "-5"
+ },
+ "xlth": {
+  "att": "15",
+  "crit": "0.02"
+ },
+ "xltc": {
+  "att": "24",
+  "mp": "130"
+ },
+ "xltz": {
+  "att": "20",
+  "def": "4"
+ },
+ "xlts": {
+  "att": "14",
+  "crit": "0.02"
+ },
+ "lly": {
+  "hp": "100",
+  "mp": "100",
+  "att": "15",
+  "def": "8"
+ },
+ "jlqrzr": {
+  "att": "8",
+  "emp": "1"
+ },
+ "jlqrmj": {
+  "att": "6",
+  "crit": "0.01"
+ },
+ "jlqrcs": {
+  "att": "5",
+  "crit": "0.01"
+ },
+ "jlqrhd": {
+  "att": "8",
+  "ehp": "1"
+ },
+ "ssqrzr": {
+  "att": "17",
+  "emp": "1"
+ },
+ "ssqrmj": {
+  "att": "10",
+  "crit": "0.02"
+ },
+ "ssqrcs": {
+  "att": "11",
+  "crit": "0.02"
+ },
+ "ssqrhd": {
+  "att": "15",
+  "ehp": "1"
+ },
+ "qlj": {
+  "def": "10"
+ },
+ "qlg": {
+  "att": "20"
+ },
+ "plp": {
+  "def": "10"
+ },
+ "plz": {
+  "att": "20"
+ },
+ "ylk": {
+  "def": "10"
+ },
+ "ylh": {
+  "att": "20"
+ },
+ "jlj": {
+  "def": "10"
+ },
+ "jlg": {
+  "att": "20"
+ },
+ "clj": {
+  "hp": "100",
+  "att": "20",
+  "mdef": "0.02"
+ },
+ "cs_wq_qs": {
+  "att": "50",
+  "crit": "0.02"
+ },
+ "cs_wq_rc": {
+  "att": "50",
+  "emp": "2"
+ },
+ "cs_wq_yt": {
+  "att": "50",
+  "ehp": "3"
+ },
+ "cs_wq_ll": {
+  "att": "50",
+  "crit": "0.02"
+ },
+ "cs_fj_dz": {
+  "def": "22",
+  "hp": "250"
+ },
+ "cs_fj_zt": {
+  "def": "20",
+  "mp": "200"
+ },
+ "cs_fj_jt": {
+  "def": "30",
+  "mdef": "0.02"
+ },
+ "cs_fj_js": {
+  "def": "20",
+  "miss": "0.02"
+ },
+ "zhhz": {
+  "hp": "200",
+  "mdef": "0.02"
+ },
+ "phhl": {
+  "mp": "200",
+  "emp": "2"
+ },
+ "bxhy": {
+  "att": "30",
+  "def": "20"
+ },
+ "_anti.jlc": {
+  "att": "20"
+ },
+ "ptnmwsz": {
+  "hp": "10"
+ },
+ "yxnmwsz": {
+  "hp": "50"
+ },
+ "jlnmwsz": {
+  "hp": "100"
+ },
+ "ssnmwsz": {
+  "hp": "200"
+ },
+ "ptzlwsz": {
+  "mp": "10"
+ },
+ "yxzlwsz": {
+  "mp": "50"
+ },
+ "jlzlwsz": {
+  "mp": "100"
+ },
+ "sszlwsz": {
+  "mp": "200"
+ },
+ "ptsmsrsz": {
+  "att": "1"
+ },
+ "yxsmsrsz": {
+  "att": "4"
+ },
+ "jlsmsrsz": {
+  "att": "8"
+ },
+ "sssmsrsz": {
+  "att": "16"
+ },
+ "ptttzssz": {
+  "att": "1"
+ },
+ "yxttzssz": {
+  "att": "4"
+ },
+ "jlttzssz": {
+  "att": "8"
+ },
+ "ssttzssz": {
+  "att": "16"
+ },
+ "ptzqsz": {
+  "att": "1"
+ },
+ "yxzqsz": {
+  "att": "4"
+ },
+ "jlzqsz": {
+  "att": "8"
+ },
+ "sszqsz": {
+  "att": "16"
+ }
+}

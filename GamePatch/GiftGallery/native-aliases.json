@@ -1,0 +1,210 @@
+[
+  {
+    "className": "MidAutumnActivityInterface",
+    "method": "getPresent"
+  },
+  {
+    "className": "NewYearPresent2015",
+    "method": "getPresent"
+  },
+  {
+    "className": "DuanWuPhoneActivity",
+    "method": "getPresent"
+  },
+  {
+    "className": "PrinceActivity",
+    "method": "getPresent"
+  },
+  {
+    "className": "SolePresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "YaoYaoLeActivity",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "Dayday",
+    "method": "getPresent"
+  },
+  {
+    "className": "SummerHoliday4",
+    "method": "getPresent"
+  },
+  {
+    "className": "MiaoMiaoBaseInterface",
+    "method": "getPresent2"
+  },
+  {
+    "className": "WeiXinInterface",
+    "method": "getPresent"
+  },
+  {
+    "className": "WeiXinInterface3",
+    "method": "getPresent"
+  },
+  {
+    "className": "WeiXinBaoXiaoActivity",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "GinsengFruitInterface",
+    "method": "getPresent"
+  },
+  {
+    "className": "NewEveryDayPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "EveryDayPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "YaYaLeTenYearPresent",
+    "method": "getPresent2"
+  },
+  {
+    "className": "YaYaLeTenYearPresent",
+    "method": "getPresent1"
+  },
+  {
+    "className": "pkPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "YaoYaoLeActivity3",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "NewYearPresent2020",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "BaoXiaoPresent",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "XiaoYouXiPresent2019",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "DuanWuJiePresent2019",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "NuanDongPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "HanjiaPresent",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "GuoQingPresent2018",
+    "method": "getPresent"
+  },
+  {
+    "className": "KaiXuePresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "WuyiBaoXiaoPresent",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "DujiaPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "WeiXinInterface9",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "SummerPresent2017",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "FifteenYearActivity",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "WeiXinDuanWuBaoXiaoPresent",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "WeiXinInterface6",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "KaPaiPresent",
+    "method": "getNormalPresent"
+  },
+  {
+    "className": "KaPaiPresent",
+    "method": "getHaoHuaPresent"
+  },
+  {
+    "className": "WeiXinInterface5",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "ZhuZhangTenYearActivity",
+    "method": "getPresent"
+  },
+  {
+    "className": "ChengZhengPersonPresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "WeiXinInterface4",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "YaYaLeSaveHorsePresent",
+    "method": "getPresent"
+  },
+  {
+    "className": "ChristmasInterface",
+    "method": "getPresent"
+  },
+  {
+    "className": "GameBoxActivity",
+    "method": "getGameBoxPresent"
+  },
+  {
+    "className": "MiaoMiaoBaseInterface",
+    "method": "getDuanWuPresent"
+  },
+  {
+    "className": "MiaoMiaoBaseInterface",
+    "method": "getSummerHoliday2014"
+  },
+  {
+    "className": "MiaoMiaoBaseInterface",
+    "method": "getSheQuFiveYear"
+  },
+  {
+    "className": "YiKaTongThreeYear",
+    "method": "cjSmallPresent"
+  },
+  {
+    "className": "YiKaTongThreeYear",
+    "method": "cjBigPresent"
+  },
+  {
+    "className": "YiKaTongThreeYear",
+    "method": "dhSmallPresent"
+  },
+  {
+    "className": "YiKaTongThreeYear",
+    "method": "dhBigPresent"
+  },
+  {
+    "className": "DuanWuPhoneActivity",
+    "method": "get4Present"
+  },
+  {
+    "className": "DuanWuPhoneActivity",
+    "method": "get16Present"
+  }
+]

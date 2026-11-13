@@ -1,0 +1,805 @@
+{
+  "format": 1,
+  "revision": "38.7-r1",
+  "gameSha256": "e6c9a371d1b7e10f7c18359babfd6af4d57abd2b94e1050802f8fcce526127d9",
+  "inputs": {
+    "editor_field_names.json": "8667b47a64ad0f0e3007346621c77187c7ae4887bdf092ca7f726dfc839a8fe4",
+    "editor_server_zmxy3.json": "960ee117e161fa1f554b1d4a34191741128e8336a36dc7aa065a764c7a5969d3",
+    "equip_strength.json": "f595377815cd2d5695e6f971bb2ca3cab02f829b37d3878408efe9b89ffa74ac",
+    "library_final.json": "463076d3a5248f79f3a9895e8c9287425ab077b89dd480020bdb236fe275432d",
+    "official_zmxy3.json": "3439c0d9850ecf250c22e0ca3fa497fd386eeea5d0b6f2dbfa82f21649c8d070",
+    "peteq_strength.json": "6b7d017c4483a0e1aa089f62d71fc9a00ec9a16b30e29cbcb28f311aacb1a0f1",
+    "ref_all.json": "e77b63eb0fbf149d896b3b2fc980416dabb8bcf8f9a4a70f4cab9f1d27443505",
+    "special_pets.json": "6097d108ae4fbba41da9defd644a0e1c98d3d41d7f71b8612e3947714b0355db",
+    "zmxy3_icons.json": "f2da6647ea57d33ae65524285f2edea825aa688eea82ccb09d785975e446c22b"
+  },
+  "provenance": {
+    "references": "Installed 38.7 extracted schema, pinned per input SHA256; existing ref_all entries take priority. Explicit PetEquipObj spirit constructors fill missing entries only.",
+    "constraints": "Baseline 2.33.0 validated behavior in PetRules/VipData/GardenData/AdvancedData and local_gifts.py; transcribed without changing values.",
+    "skillHelp": "Existing SkillHelp.cs summaries; attribution preserved in SkillHelpSources.json.",
+    "giftProfiles": "Existing original-turtle and original-nian legacy reward implementations; ranges preserved."
+  },
+  "rules": {
+    "inventory": {
+      "bag": 50,
+      "expandedBag": 75,
+      "expandLevel": 50,
+      "petGear": 15,
+      "pets": 5,
+      "expandedPets": 10,
+      "petsVipLevel": 3,
+      "stack": 9999,
+      "petGearBatch": 50
+    },
+    "pet": {
+      "maxLevel": 90,
+      "baseLevelCap": 80,
+      "levelBonusMax": 10,
+      "potentialMax": 100,
+      "qualityMargin": 10,
+      "qualityMax": 2000,
+      "qualityDefault": 1990,
+      "qualityExperienceBudget": 250,
+      "totalAbilityMax": 8,
+      "progressThresholds": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160,
+        320
+      ],
+      "basicSkills": [
+        "tsml",
+        "zrsh",
+        "smzf",
+        "mfby",
+        "qlfj",
+        "sxkb",
+        "fsnl",
+        "smjc",
+        "mfjc",
+        "gjjc",
+        "fyjc"
+      ],
+      "abilities": [
+        {
+          "base": 15,
+          "bonus": 25,
+          "progress": 28,
+          "key": "perception",
+          "maxBase": 5
+        },
+        {
+          "base": 16,
+          "bonus": 27,
+          "progress": 30,
+          "key": "technique",
+          "maxBase": 4
+        },
+        {
+          "base": 17,
+          "bonus": 26,
+          "progress": 29,
+          "key": "warpower",
+          "maxBase": 4
+        }
+      ],
+      "spiritUltimates": {
+        "mouse": {
+          "skill": "zsaoyi",
+          "name": "子鼠精灵"
+        },
+        "neat": {
+          "skill": "cnaoyi",
+          "name": "丑牛精灵"
+        },
+        "terribletiger": {
+          "skill": "yhaoyi",
+          "name": "寅虎精灵"
+        }
+      },
+      "aliases": {
+        "sxhz": "嗜血爪牙",
+        "sybh": "水湮八方 水淹八荒 水淹八方",
+        "np": "涅槃",
+        "txlj": "同心连接"
+      },
+      "defaultSpirits": [
+        "p_cysx",
+        "p_jlcysx",
+        "p_sscysx"
+      ],
+      "statCurves": [
+        {
+          "multiplier": "0.08",
+          "initial": 1000
+        },
+        {
+          "multiplier": "0.08",
+          "initial": 800
+        },
+        {
+          "multiplier": "0.015",
+          "initial": 60
+        },
+        {
+          "multiplier": "0.01",
+          "initial": 10
+        }
+      ],
+      "permanentPassives": {
+        "tsml": 8,
+        "zrsh": 4,
+        "smzf": 50,
+        "mfby": 50
+      },
+      "strengthDivisors": {
+        "优秀": 10,
+        "精良": 20,
+        "史诗": 40
+      },
+      "lifeMax": 100,
+      "initialPotential": 100
+    },
+    "equipment": {
+      "petStrengthMax": 360,
+      "heroStrengthMax": 7,
+      "margin": 10,
+      "magicLevels": {
+        "tjbg": 9,
+        "default": 15
+      },
+      "heroFields": [
+        {
+          "index": 7,
+          "key": "ehp",
+          "label": "生命",
+          "coefficient": "hp",
+          "margin": true
+        },
+        {
+          "index": 8,
+          "key": "emp",
+          "label": "魔法",
+          "coefficient": "mp",
+          "margin": true
+        },
+        {
+          "index": 9,
+          "key": "eatt",
+          "label": "攻击",
+          "coefficient": "att",
+          "margin": true
+        },
+        {
+          "index": 10,
+          "key": "edef",
+          "label": "防御",
+          "coefficient": "def",
+          "margin": true
+        },
+        {
+          "index": 11,
+          "key": "emiss",
+          "label": "闪避",
+          "coefficient": "miss",
+          "margin": false
+        },
+        {
+          "index": 12,
+          "key": "ecrit",
+          "label": "暴击",
+          "coefficient": "crit",
+          "margin": false
+        },
+        {
+          "index": 13,
+          "key": "eahp",
+          "label": "回血",
+          "coefficient": "ehp",
+          "margin": false
+        },
+        {
+          "index": 14,
+          "key": "eamp",
+          "label": "回魔",
+          "coefficient": "emp",
+          "margin": false
+        },
+        {
+          "index": 21,
+          "key": "eupdata",
+          "label": "成长值",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 24,
+          "key": "magicdef",
+          "label": "魔抗",
+          "coefficient": "mdef",
+          "margin": false
+        },
+        {
+          "index": 25,
+          "key": "eatblood",
+          "label": "吸血",
+          "coefficient": "ebol",
+          "margin": false
+        },
+        {
+          "index": 26,
+          "key": "deephit",
+          "label": "穿透",
+          "coefficient": "dhit",
+          "margin": false
+        }
+      ],
+      "petFields": [
+        {
+          "index": 1,
+          "key": "ehp",
+          "label": "生命",
+          "coefficient": null,
+          "margin": true
+        },
+        {
+          "index": 2,
+          "key": "emp",
+          "label": "魔法",
+          "coefficient": null,
+          "margin": true
+        },
+        {
+          "index": 3,
+          "key": "eatt",
+          "label": "攻击",
+          "coefficient": null,
+          "margin": true
+        },
+        {
+          "index": 4,
+          "key": "edef",
+          "label": "防御",
+          "coefficient": null,
+          "margin": true
+        },
+        {
+          "index": 5,
+          "key": "emiss",
+          "label": "闪避",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 6,
+          "key": "ecrit",
+          "label": "暴击",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 7,
+          "key": "eahp",
+          "label": "回血",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 8,
+          "key": "eamp",
+          "label": "回魔",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 9,
+          "key": "magicdef",
+          "label": "魔抗",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 10,
+          "key": "speed",
+          "label": "速度",
+          "coefficient": null,
+          "margin": false
+        },
+        {
+          "index": 12,
+          "key": "eatblood",
+          "label": "吸血",
+          "coefficient": null,
+          "margin": false
+        }
+      ],
+      "unknownHeroFallback": 99999
+    },
+    "skillHelp": {
+      "basic": {
+        "tsml": "常驻增加宠物攻击力。",
+        "zrsh": "常驻增加宠物防御力。",
+        "smzf": "常驻增加宠物生命上限。",
+        "mfby": "常驻增加宠物魔法上限。",
+        "qlfj": "宠物受到攻击时，有一定概率发动反击。",
+        "sxkb": "提高宠物的物理暴击率，效果持续一段时间。",
+        "fsnl": "提高宠物的技能伤害，效果持续一段时间。",
+        "smjc": "为主人增加生命上限，效果持续一段时间。",
+        "mfjc": "为主人增加魔法上限，效果持续一段时间。",
+        "gjjc": "为主人增加攻击力，效果持续一段时间。",
+        "fyjc": "为主人增加防御力，效果持续一段时间。"
+      },
+      "hero": {
+        "slz": "近身上挑，将目标击至空中。",
+        "zz": "蓄力后重击前方目标。",
+        "sx": "被动提供吸血与暴击效果。",
+        "qsez": "向前突进并连续攻击，有机会留下协同攻击的残影。",
+        "hmz": "跃入空中进行连续斩击，随后以落地一击收尾。",
+        "lys": "快速闪向前方并伤害沿途目标，闪避过程具有无敌效果。",
+        "hytj": "向前突击，多次打击并击退目标。",
+        "lyfb": "旋转攻击周围目标，造成连续伤害与击退。",
+        "jdy": "召唤筋斗云，帮助角色向上移动。",
+        "hyjj": "以火眼攻击附近目标，连续造成伤害。",
+        "sgq": "蓄力生成光球，接触光球的目标会受到伤害。",
+        "myhc": "在范围内持续治疗自身与队友，治疗受生命上限影响。",
+        "jgz": "将前方范围内目标聚集，使其承受更多伤害。",
+        "tjgl": "治疗范围内自身与队友，治疗受生命上限影响。",
+        "jhsj": "以佛经光芒攻击周围目标。",
+        "blb": "蓄力放出冰龙，攻击直线路径上的目标。",
+        "xbz": "以玄冰攻击周围目标，并降低其移动速度。",
+        "shy": "放出向前移动的幻影，可再次施放传送至幻影位置；幻影能配合部分技能。",
+        "sjt": "被动改善部分技能的蓄力速度与伤害。",
+        "smb": "释放魔法阵与光柱，对选定位置造成伤害。",
+        "dj": "用盾击飞前方目标。",
+        "sd": "暂时提高生命恢复能力，并抵抗击退。",
+        "rj": "被动提高防御，并提供概率生命恢复效果。",
+        "zznh": "以怒吼吸引目标，将周围怪物拉向自身。",
+        "syzq": "生成向前推进的屏障，伤害接触屏障的目标。",
+        "ssp": "连续打击前方目标。",
+        "jsp": "重击周围目标，造成范围伤害。",
+        "dgq": "化作向前滚动的土球，撞击沿途目标。",
+        "xgq": "化作浮空旋转的土球，对附近目标造成伤害。",
+        "tmc": "先反弹受到的伤害，再释放飞刺；技能伤害与生命上限有关。",
+        "zq": "向前方释放毒气攻击。",
+        "mbyj": "投出会在目标间弹射的药剂，每次命中造成短暂眩晕。",
+        "wdww": "生成与目标相连的娃娃，将娃娃承受的伤害传递给目标。",
+        "jdz": "布置毒阵，目标进入时释放毒烟。",
+        "mds": "让技能攻击积累毒素，通过引爆毒素造成额外伤害。",
+        "qlj": "以强力攻击击飞前方目标。",
+        "tkj": "跃起攻击，对空中目标造成连续伤害。",
+        "dzj": "对前方目标发动连续攻击。",
+        "lybj": "在地面或空中留下标记，可返回标记位置。",
+        "mmw": "发动木系连续攻击，具体攻击形态随当前武器变化。"
+      }
+    },
+    "vip": {
+      "thresholds": [
+        0,
+        1000,
+        5000,
+        10000,
+        20000,
+        50000
+      ],
+      "gifts": [
+        {
+          "id": "daily-stone",
+          "name": "每日登录礼包",
+          "detail": "1 级强化石 ×1 / 角色",
+          "level": 1,
+          "code": "wpqhs1",
+          "flag": -1,
+          "dailyFlag": 0
+        },
+        {
+          "id": "daily-exp",
+          "name": "每日双倍经验",
+          "detail": "双倍经验 · 1 小时",
+          "level": 2,
+          "code": null,
+          "flag": -1,
+          "dailyFlag": 2
+        },
+        {
+          "id": "level-1",
+          "name": "新年头衔",
+          "detail": "2014 新年快乐 · 每个角色一份",
+          "level": 1,
+          "code": "_zmxyptxnkl2014",
+          "flag": 0,
+          "dailyFlag": -1
+        },
+        {
+          "id": "level-2",
+          "name": "宣花红葫芦",
+          "detail": "法宝 ×1 / 角色",
+          "level": 2,
+          "code": "xhhhl",
+          "flag": 1,
+          "dailyFlag": -1
+        },
+        {
+          "id": "level-3",
+          "name": "年兽潜力丹",
+          "detail": "潜力丹 ×1 / 角色",
+          "level": 3,
+          "code": "nianqld",
+          "flag": 2,
+          "dailyFlag": -1
+        },
+        {
+          "id": "level-4",
+          "name": "年兽精灵",
+          "detail": "宠物精灵 ×1 / 角色",
+          "level": 4,
+          "code": "p_cynsjl",
+          "flag": 3,
+          "dailyFlag": -1
+        },
+        {
+          "id": "level-5",
+          "name": "年兽进化丹",
+          "detail": "进化丹 ×1 / 角色",
+          "level": 5,
+          "code": "nianjhd",
+          "flag": 4,
+          "dailyFlag": -1
+        }
+      ],
+      "expGift": {
+        "type": 1,
+        "value": 2,
+        "frames": 86400
+      },
+      "titlePermanent": "_zmxyptxnkl2014",
+      "randomMagic": {
+        "code": "xhhhl",
+        "hpRecovery": 6,
+        "mpRecovery": 3,
+        "growthTenths": [
+          20,
+          24
+        ]
+      },
+      "spiritGift": {
+        "code": "p_cynsjl",
+        "crit": "0.03"
+      }
+    },
+    "garden": {
+      "thresholds": [
+        0,
+        100,
+        300,
+        600,
+        1100,
+        1800,
+        2700,
+        3900,
+        5400
+      ],
+      "templeThresholds": [
+        0,
+        60,
+        120,
+        180,
+        240
+      ],
+      "maxGrade": 5,
+      "plants": [
+        {
+          "type": 2,
+          "name": "经验草",
+          "artwork": "garden-exp.png",
+          "description": "收获后可给宠物增加经验，收益与品级及角色等级有关。"
+        },
+        {
+          "type": 5,
+          "name": "潜力草",
+          "artwork": "garden-potential.png",
+          "description": "收获后可给宠物增加潜力点，品级越高收益越多。"
+        },
+        {
+          "type": 3,
+          "name": "许愿草",
+          "artwork": "garden-wish.png",
+          "description": "低品可收获玫瑰花，高品还可用于补签；以游戏内可用条件为准。"
+        },
+        {
+          "type": 1,
+          "name": "空地",
+          "artwork": "garden-soil.png",
+          "description": "可以种植经验草、潜力草和许愿草。"
+        },
+        {
+          "type": 4,
+          "name": "待翻新",
+          "artwork": "garden-used.png",
+          "description": "当天已经收获过的土地，可使用翻新操作恢复为空地。"
+        }
+      ]
+    },
+    "buff": {
+      "framesPerSecond": 24,
+      "maxFrames": 86400,
+      "kinds": [
+        {
+          "id": 0,
+          "name": "掉落率加成（%）",
+          "default": 100,
+          "limit": null
+        },
+        {
+          "id": 1,
+          "name": "经验倍数",
+          "default": 3,
+          "limit": 3
+        },
+        {
+          "id": 3,
+          "name": "攻击加成",
+          "default": 300,
+          "limit": 300
+        },
+        {
+          "id": 4,
+          "name": "回血加成",
+          "default": 500,
+          "limit": null
+        },
+        {
+          "id": 5,
+          "name": "生命上限加成",
+          "default": 500,
+          "limit": null
+        },
+        {
+          "id": 6,
+          "name": "防御加成",
+          "default": 500,
+          "limit": null
+        },
+        {
+          "id": 8,
+          "name": "额外攻击加成",
+          "default": 500,
+          "limit": 500
+        }
+      ],
+      "durationPresets": [
+        {
+          "label": "15 分钟",
+          "frames": 21600
+        },
+        {
+          "label": "30 分钟",
+          "frames": 43200
+        },
+        {
+          "label": "1 小时",
+          "frames": 86400
+        }
+      ]
+    },
+    "giftProfiles": {
+      "original-turtle": {
+        "qualities": [
+          [
+            1300,
+            1560
+          ],
+          [
+            650,
+            910
+          ],
+          [
+            1040,
+            1170
+          ],
+          [
+            390,
+            611
+          ]
+        ],
+        "stats": [
+          [
+            300,
+            600
+          ],
+          [
+            100,
+            150
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            5,
+            10
+          ]
+        ]
+      },
+      "original-nian": {
+        "qualities": [
+          [
+            1300,
+            1950
+          ],
+          [
+            130,
+            260
+          ],
+          [
+            1040,
+            1560
+          ],
+          [
+            130,
+            520
+          ]
+        ],
+        "stats": [
+          [
+            500,
+            1000
+          ],
+          [
+            200,
+            400
+          ],
+          [
+            30,
+            60
+          ],
+          [
+            5,
+            10
+          ]
+        ]
+      },
+      "abilities": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    "skill": {
+      "passiveNames": [
+        "热血",
+        "魔泉",
+        "狂暴",
+        "光之永恒",
+        "月之辉煌"
+      ],
+      "passiveMax": 5,
+      "schoolMax": 5,
+      "activeMax": 3,
+      "defaultSlots": 5
+    },
+    "role": {
+      "pillHealth": [
+        150,
+        200,
+        250,
+        300,
+        350
+      ],
+      "pillHealthMax": 5500,
+      "curves": {
+        "1": [
+          [
+            80,
+            50
+          ],
+          [
+            50,
+            20
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "2": [
+          [
+            50,
+            20
+          ],
+          [
+            100,
+            40
+          ],
+          [
+            12,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "3": [
+          [
+            100,
+            70
+          ],
+          [
+            35,
+            15
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "4": [
+          [
+            70,
+            30
+          ],
+          [
+            70,
+            30
+          ],
+          [
+            16,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "experience": [
+        {
+          "below": 7,
+          "base": 135,
+          "step": 10,
+          "start": 1
+        },
+        {
+          "below": 13,
+          "base": 625,
+          "step": 50,
+          "start": 7
+        },
+        {
+          "below": 19,
+          "base": 1950,
+          "step": 100,
+          "start": 13
+        },
+        {
+          "below": 2147483647,
+          "base": 0,
+          "step": 5000,
+          "start": 18
+        }
+      ],
+      "maxLevel": 90
+    }
+  }
+}

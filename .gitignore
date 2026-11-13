@@ -1,7 +1,4 @@
-# Conservative template for the proposed public source root.
-# Review rights and build requirements before selectively allowing resources.
-
-# Build / IDE / local tooling
+# Build and editor output
 **/[Bb]in/
 **/[Oo]bj/
 .vs/
@@ -18,27 +15,29 @@ venv/
 .env.*
 !.env.example
 
-# Installed game, original runtime and personal data
-/game/
-/runtime/
-/icons/
-/saves/
-/rundata/
-/logs/
-/backup/
-/tools/
-/修改器/
-/设置.ini
+# Game installation and ALL personal state, including copied test installations
+**/saves/
+**/rundata/
+**/logs/
+**/backup/
 **/SharedObjects/
 **/.gm-backups/
+**/slot[0-9]*.json
+**/vip.json
 **/local_gifts.json
 **/local_gifts.transaction.json
-**/game-events.log*
 **/appearance.json
 **/navigation.json
 **/catalog-view.json
-
-# Private workspace / diagnostics
+**/设置.ini
+**/settings.ini
+*.sol
+*.lock
+/game/
+/runtime/
+/icons/
+/tools/
+/修改器/
 /work/
 /outputs/
 /flashlib/
@@ -48,37 +47,24 @@ venv/
 hs_err_pid*
 replay_pid*
 
-# Executables, binaries and archive outputs
+# Programs belong in Releases, never in Git source history
 *.exe
 *.dll
 *.pyd
+*.pdb
 *.swf
 *.swc
 *.zip
 *.7z
 *.rar
-*.delta
 *.marshal
 *.pyz
 *.lnk
+*.delta
 
-# Game-derived visual assets: replace/review before public inclusion
-/Assets/
-/gm.ico
-/gm-logo.png
+# Full posters and private integration fixtures remain external inputs
 **/art/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.ico
-
-# Extracted/derived data and fixtures need separate rights/privacy review
-/Rules/Inputs/
-/Rules/generated.json
 /Build/tests/fixtures/
-/GamePatch/**/*.as
-/AcquisitionGuide.json
 
-# This file does not remove already tracked files.
+# Assets/, Rules/Inputs, generated rules and patch sources are intentionally
+# included build inputs. Their original rights are described in THIRD_PARTY.md.

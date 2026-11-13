@@ -1,0 +1,11 @@
+{
+  "version": "2.31.1",
+  "inputSha256": "268b8d640c4463879672f91f80cb3b3dbb427af8dabcb98fc6d4e864a6cd1e9e",
+  "outputSha256": "ad3aa83ce4b224d3a9257f42ff6ec037c72ed87271ea049fc2196159349d29fd",
+  "changedClasses": [
+    "export/pack/ShowObj",
+    "export/pet/PetShowObj"
+  ],
+  "method": "showattribute",
+  "otherMethodsPreserved": true
+}

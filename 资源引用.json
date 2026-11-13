@@ -1,0 +1,799 @@
+{
+  "format": 1,
+  "version": "2.34.0",
+  "buildId": "0c8e09a7eb77a6a37d06c25ba2b98905e3280764fb63893802c7019381024bde",
+  "files": [
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/103.png",
+      "gamePath": "icons/activity-gifts/103.png",
+      "size": 414501,
+      "sha256": "19af7dc8293f5091e44a506b29a80c2fc9dd3d4234c2f46beb712126c2d3652f"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/107.png",
+      "gamePath": "icons/activity-gifts/107.png",
+      "size": 406874,
+      "sha256": "fc4d8028137744b6a96d5a88e13ec03bf7b9ba965d50be0cbbcec9a96a5360dc"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/111.png",
+      "gamePath": "icons/activity-gifts/111.png",
+      "size": 225184,
+      "sha256": "567945407ef9103abd73809d80014b01782660204b1c1523c5587150ed7779c9"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/115.png",
+      "gamePath": "icons/activity-gifts/115.png",
+      "size": 431934,
+      "sha256": "25e840fcd4ad0735aedac94e2ace651db684197ddc9504273d24f72ddb9f765b"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/119.png",
+      "gamePath": "icons/activity-gifts/119.png",
+      "size": 442001,
+      "sha256": "f0b2c74fa860db138fbe7d0e35cd5101f87f22bd655c5a8719e72ea081660b84"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/123.png",
+      "gamePath": "icons/activity-gifts/123.png",
+      "size": 430478,
+      "sha256": "3a189701cab33a946af2f40fc569a24822e706b78772f45786a7cf124d22cd1b"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/127.png",
+      "gamePath": "icons/activity-gifts/127.png",
+      "size": 390803,
+      "sha256": "191be2d1070f4be31a94f063f3a94f3fbda40b56243b4fdf1dde55075bb509f7"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/131.png",
+      "gamePath": "icons/activity-gifts/131.png",
+      "size": 419027,
+      "sha256": "d8c5ec5c6e133ca260e9b288b43290a2c92805617941f8c77a6a74da4bac4f8e"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/135.png",
+      "gamePath": "icons/activity-gifts/135.png",
+      "size": 355807,
+      "sha256": "80b3fc9e3bbebed52fb934b11e6229797f256d7d83d9cc4f2a468cb8f15c365c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/139.png",
+      "gamePath": "icons/activity-gifts/139.png",
+      "size": 365073,
+      "sha256": "649130d3e66ba7716b23d3feb923c756609c20fd0bda517538a10df4bf2b4910"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/143.png",
+      "gamePath": "icons/activity-gifts/143.png",
+      "size": 356478,
+      "sha256": "fd9bf96791d271852159f6bf7f183e842426e752cc2756b0be6a6a0e6e81442a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/147.png",
+      "gamePath": "icons/activity-gifts/147.png",
+      "size": 424165,
+      "sha256": "c5f47492488381488aaea30d84af9a3e9c232f698289d12b968b3673763bd882"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/167.png",
+      "gamePath": "icons/activity-gifts/167.png",
+      "size": 400872,
+      "sha256": "3d60e2e3bde68cf6d66ce380b663a488d700088fa4aa629ec40e0de119381b0a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/171.png",
+      "gamePath": "icons/activity-gifts/171.png",
+      "size": 340338,
+      "sha256": "1a70db4994b296e26bd1ba29bfeb954d6b1d3fcbcf0027519837ef7a843923ad"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/177.png",
+      "gamePath": "icons/activity-gifts/177.png",
+      "size": 445917,
+      "sha256": "ecc6ad28a1c506109cac864cd75b9e4702135fc26b8f60d4389aaf3a855304ac"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/181.png",
+      "gamePath": "icons/activity-gifts/181.png",
+      "size": 422715,
+      "sha256": "2277778300c884808d1c3813c3afc5579c5c8f33c3b83b7b2de9bb421feca0b2"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/185.png",
+      "gamePath": "icons/activity-gifts/185.png",
+      "size": 437678,
+      "sha256": "b6c7763374f8850d1e2807274da2b8ae5e2ac57b7c1e7565124cc40f9a85b88c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/189.png",
+      "gamePath": "icons/activity-gifts/189.png",
+      "size": 125106,
+      "sha256": "6966e6540f2f749e076a2c0b2d8dd24e536bbbfe2627b947c331bf7678d6c9cd"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/193.png",
+      "gamePath": "icons/activity-gifts/193.png",
+      "size": 403908,
+      "sha256": "1a5fd75fe8d05495cd2fb5399ebbc2341beb65a1bdfbe8a35f0b30d3731db8c3"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/197.png",
+      "gamePath": "icons/activity-gifts/197.png",
+      "size": 400628,
+      "sha256": "232f5a0723713651d0429b99ca2a928980f894047c82d7df2e98a43fe507020e"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/2.png",
+      "gamePath": "icons/activity-gifts/2.png",
+      "size": 320462,
+      "sha256": "376a1cff8f176d1c5d97feef567a3e6ba5206597e0af4d728ebf0bd4b28c1a4d"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/201.png",
+      "gamePath": "icons/activity-gifts/201.png",
+      "size": 459142,
+      "sha256": "abff4265c84ccab31a7cd56182d7f3e0fcf247c4d812893a90f84b17309757d2"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/205.png",
+      "gamePath": "icons/activity-gifts/205.png",
+      "size": 394568,
+      "sha256": "51d986a531b3dfe75e14e5838c8b6941a6fa77d07b62fa43bca616fb3328af55"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/209.png",
+      "gamePath": "icons/activity-gifts/209.png",
+      "size": 381333,
+      "sha256": "8905a792f3b9f71412905705f8fdfb2b3d4149e53fd323867d3b1bfca6b30aa9"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/213.png",
+      "gamePath": "icons/activity-gifts/213.png",
+      "size": 424909,
+      "sha256": "44ac768845120641d0d81ec9980f26b8df1d53de9a695b97a867e7e3f509c135"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/217.png",
+      "gamePath": "icons/activity-gifts/217.png",
+      "size": 378295,
+      "sha256": "82f52f2524da30210fcb65523225996ebef45e9b65b8822015940b6c1ba0f634"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/22.png",
+      "gamePath": "icons/activity-gifts/22.png",
+      "size": 421824,
+      "sha256": "a166dbe543860f823f172753fa7037dc82fb316f0d2fca2c493b6508b25cd453"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/221.png",
+      "gamePath": "icons/activity-gifts/221.png",
+      "size": 423255,
+      "sha256": "a9067c48acd94d6b524b2b12bb8a90c7a1ad1ccfc7dd34bd66841d0dc8e76a6d"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/225.png",
+      "gamePath": "icons/activity-gifts/225.png",
+      "size": 410694,
+      "sha256": "863420695578c47d87a2542c0231e718e575c37ef66b4f37e3cd1afeb9cd623a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/229.png",
+      "gamePath": "icons/activity-gifts/229.png",
+      "size": 520750,
+      "sha256": "02c756c86d54a8a5cc474a3615fd2161b61680ca3bd15538f48e562b2c561c79"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/244.png",
+      "gamePath": "icons/activity-gifts/244.png",
+      "size": 472975,
+      "sha256": "02b37c4cf45ff3fd3715b33201031ca94bf2636867b1eeb5e506c54789a5396a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/248.png",
+      "gamePath": "icons/activity-gifts/248.png",
+      "size": 413012,
+      "sha256": "c583d44fbdee0a14452d7f3a8f3459a76de2e8b0a2188e577dcac9964150e6ab"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/253.png",
+      "gamePath": "icons/activity-gifts/253.png",
+      "size": 405896,
+      "sha256": "7fc53188ea1f54ffd2592ed6e5e6652025f03584f6b5cc4d6aaed5541ceb75aa"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/257.png",
+      "gamePath": "icons/activity-gifts/257.png",
+      "size": 351953,
+      "sha256": "60e2a1e6443a3e9bfc920097df2a276e572ab21064fcb367afb0b01b4a1b3c65"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/261.png",
+      "gamePath": "icons/activity-gifts/261.png",
+      "size": 389733,
+      "sha256": "2f2df0e77c3e09ba7bc22dd70eeed82c805c02b6bb55e4b52e4af3a96a418031"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/265.png",
+      "gamePath": "icons/activity-gifts/265.png",
+      "size": 337098,
+      "sha256": "d349d4b0a98e410a2952137a5a5f978f15d2b59667c76a271adfd5053457b273"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/269.png",
+      "gamePath": "icons/activity-gifts/269.png",
+      "size": 439533,
+      "sha256": "fb59afe1960cce829ef6c690a75bc3599093ee799d8098186bbf99c32f2d0ad9"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/27.png",
+      "gamePath": "icons/activity-gifts/27.png",
+      "size": 406662,
+      "sha256": "c94ce78c96d062d98d42d2f0f45195b3aa95f8373281d6266c2f5c3f0e098b10"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/273.png",
+      "gamePath": "icons/activity-gifts/273.png",
+      "size": 398357,
+      "sha256": "bda946739c2e89d2ea25b89e7d2c86d2ed61a893a8aebb365a3251d273dd9e2c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/277.png",
+      "gamePath": "icons/activity-gifts/277.png",
+      "size": 389733,
+      "sha256": "2f2df0e77c3e09ba7bc22dd70eeed82c805c02b6bb55e4b52e4af3a96a418031"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/281.png",
+      "gamePath": "icons/activity-gifts/281.png",
+      "size": 372125,
+      "sha256": "83b7222ed3279a50eafd432dbc84a2f586891f288a2630cc08d785fef85382e7"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/285.png",
+      "gamePath": "icons/activity-gifts/285.png",
+      "size": 410912,
+      "sha256": "93f4c02dd7e1a1c010ba5b8f2814608ff89052ecd26a08b07890236100031d35"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/289.png",
+      "gamePath": "icons/activity-gifts/289.png",
+      "size": 292296,
+      "sha256": "d1f23160382d903307fce4dd17ee43c142b818c705d4e5eb7e8339a478843783"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/293.png",
+      "gamePath": "icons/activity-gifts/293.png",
+      "size": 356869,
+      "sha256": "e54b108a3f4079ba755353fcbc0635124ab5936f67afea27f38d17af804eede3"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/297.png",
+      "gamePath": "icons/activity-gifts/297.png",
+      "size": 371147,
+      "sha256": "6efb4790e7226a0bae6d40922f5bff4ffe10155eaded09fef0f6bc0527b21b62"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/301.png",
+      "gamePath": "icons/activity-gifts/301.png",
+      "size": 311747,
+      "sha256": "c93d49dee6d7d8a6edbdf3de52476099084d612759c5e621118b83b1fca8d482"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/305.png",
+      "gamePath": "icons/activity-gifts/305.png",
+      "size": 431304,
+      "sha256": "87d708a9fe00fe4bc905abeb4597935e4d426f52da9d10f0e7469dcedfeccdeb"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/309.png",
+      "gamePath": "icons/activity-gifts/309.png",
+      "size": 364928,
+      "sha256": "2356e189f18e70c325f056af6021b3c7310bb366e46aa156990985246bc04614"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/313.png",
+      "gamePath": "icons/activity-gifts/313.png",
+      "size": 384205,
+      "sha256": "5cd31395d8e10cecda04eebe47beca338eb3126f637c2860ed7ba0d2c4a46d1d"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/317.png",
+      "gamePath": "icons/activity-gifts/317.png",
+      "size": 367522,
+      "sha256": "9365e166a79c9aa60b39de1f3390e991d347df76069f4883f803406d3966c715"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/321.png",
+      "gamePath": "icons/activity-gifts/321.png",
+      "size": 350771,
+      "sha256": "3d9c65f7b966062ed2d95a7ec363e7494bfa9b82f87f5df74da7d18cd660960f"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/325.png",
+      "gamePath": "icons/activity-gifts/325.png",
+      "size": 358106,
+      "sha256": "de6545819d28ba3d50c4199a4c00a524074ecb0a94f13a85838f1069270bc8ca"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/329.png",
+      "gamePath": "icons/activity-gifts/329.png",
+      "size": 401500,
+      "sha256": "31f0111ad8e7b0d2e9ed48442a4f27b522159bed879c309b00e83dccc4fb3fa0"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/333.png",
+      "gamePath": "icons/activity-gifts/333.png",
+      "size": 361806,
+      "sha256": "679e4a3b1c58e4d6bc40b15382c46a514dbdd473a2c8a6f407e049f9614dff7b"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/337.png",
+      "gamePath": "icons/activity-gifts/337.png",
+      "size": 433530,
+      "sha256": "f193d6f23f232f979885ab9d829a0e6ba9ec2143bbaaa688701b900372d9486e"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/341.png",
+      "gamePath": "icons/activity-gifts/341.png",
+      "size": 331746,
+      "sha256": "acfec3b1182251d07b46a9039253a21070b1bc9f9611437609c0147e8837ed76"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/345.png",
+      "gamePath": "icons/activity-gifts/345.png",
+      "size": 367403,
+      "sha256": "b08cdb01d18323d28e90ed39aa51d3d87bdad1e4e77437315ab4a513b0652e40"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/349.png",
+      "gamePath": "icons/activity-gifts/349.png",
+      "size": 433536,
+      "sha256": "0892971f353bcc88dde94e43ff756a9ddc07a2319f5586cfb23d0f6c5c7655aa"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/353.png",
+      "gamePath": "icons/activity-gifts/353.png",
+      "size": 376705,
+      "sha256": "337730db111e49d1f157e46721a7ab5f9c819a1112c23627220753c586e7201c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/357.png",
+      "gamePath": "icons/activity-gifts/357.png",
+      "size": 301474,
+      "sha256": "f9da5989b1a336377fe9ce9f28f7369b8539ccbef1fd621b2752d2d016179010"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/361.png",
+      "gamePath": "icons/activity-gifts/361.png",
+      "size": 349020,
+      "sha256": "0e5f046202e28b42c32e573cca05152c96595a85e4a20c6cd344ed8931cbf61a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/365.png",
+      "gamePath": "icons/activity-gifts/365.png",
+      "size": 459731,
+      "sha256": "8776b7f8ac16b1e7b64cce5f6fc6b1fc85296dae597aa0b228e3d1059753ac80"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/369.png",
+      "gamePath": "icons/activity-gifts/369.png",
+      "size": 405730,
+      "sha256": "febd14d559614117769ec10ce9f3048db2d174c99cd8ee727e54ce9786d8489a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/373.png",
+      "gamePath": "icons/activity-gifts/373.png",
+      "size": 372692,
+      "sha256": "154a766e00c35aa5c20d0c81301439e6af73834102bb0f370897862a00e44811"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/377.png",
+      "gamePath": "icons/activity-gifts/377.png",
+      "size": 384364,
+      "sha256": "27449dc13fbfd1b5d58d167e7b147e310bc0a635342f175a09872d04a459aa49"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/381.png",
+      "gamePath": "icons/activity-gifts/381.png",
+      "size": 425863,
+      "sha256": "ac6eecfa125784e4afc02898635ef121aebdd1a2d1ffa2f72cc112c1e3a55f1a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/385.png",
+      "gamePath": "icons/activity-gifts/385.png",
+      "size": 327327,
+      "sha256": "00fc9f262622a08879ca3787c6ca0d9dfa95ec3a7f9139fcb8a0118697bd22eb"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/389.png",
+      "gamePath": "icons/activity-gifts/389.png",
+      "size": 305887,
+      "sha256": "d2315ab84034b7648d5a17f6fa46bb02d11f2c69a9def1b16349137d1c71eb19"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/393.png",
+      "gamePath": "icons/activity-gifts/393.png",
+      "size": 386546,
+      "sha256": "3cb6de0b1d2cda30d1049ed6e8a0db9fb085f6abb0e13fa8f3c7b8401b4e483d"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/397.png",
+      "gamePath": "icons/activity-gifts/397.png",
+      "size": 394043,
+      "sha256": "176b353f1a1ca3ecb52298b65381ca2c3cdb7115baa29732047adba3b43dbf76"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/401.png",
+      "gamePath": "icons/activity-gifts/401.png",
+      "size": 370967,
+      "sha256": "b34ceecc45d59d38aa70b4e202332d000e5d0c46d5629393efd2ea6c6d6df582"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/405.png",
+      "gamePath": "icons/activity-gifts/405.png",
+      "size": 426190,
+      "sha256": "0f2ff0f63300c1ec5c4326f9fb9c92e79c0a0c992c53e94658d3967d9cb468f5"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/409.png",
+      "gamePath": "icons/activity-gifts/409.png",
+      "size": 381996,
+      "sha256": "7efbc10abc652e4d62956433ce019cdcf81304856b3eb9016fb987bfb4e6e51d"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/41.png",
+      "gamePath": "icons/activity-gifts/41.png",
+      "size": 398391,
+      "sha256": "0143a6bf4f0c8c64d5c917783e203eee9c6be2ddb6063be350b4a503e47e7ef2"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/413.png",
+      "gamePath": "icons/activity-gifts/413.png",
+      "size": 351704,
+      "sha256": "4ec0b2be2ed895b2affdbf5a5fc0579c50d4bdba702d20603dc706979d638a88"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/417.png",
+      "gamePath": "icons/activity-gifts/417.png",
+      "size": 399299,
+      "sha256": "499b8eba4a9e8d580be587f631dc4e475c534d108298094ea972fd571a1c51a1"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/421.png",
+      "gamePath": "icons/activity-gifts/421.png",
+      "size": 363633,
+      "sha256": "4373070fd792ceeaa875c4b414c7ba8359263c36712b681f0aa26e4028f1d1dd"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/425.png",
+      "gamePath": "icons/activity-gifts/425.png",
+      "size": 475417,
+      "sha256": "7c1947350edd6d07269d8222ce79cc0ab7997515b94cb1cc4d528399c8ddd799"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/429.png",
+      "gamePath": "icons/activity-gifts/429.png",
+      "size": 435476,
+      "sha256": "e4b25f1393d0f1f14e3ceb690fbaaceccb3a03a83ce829dda3df1187ed25b0cf"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/441.png",
+      "gamePath": "icons/activity-gifts/441.png",
+      "size": 367021,
+      "sha256": "458c5afbf89eab46bdefbe0911f83a8592050176e6125688d4be0dff43da1229"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/445.png",
+      "gamePath": "icons/activity-gifts/445.png",
+      "size": 432093,
+      "sha256": "e718f1f04054ff20168a17280836018d2083c768bff81c9bf20e321eb24e8823"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/449.png",
+      "gamePath": "icons/activity-gifts/449.png",
+      "size": 354125,
+      "sha256": "782873db3611b1e05bfba18226396a9ed299fb3edefe943a1d1f28cf43d4419c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/45.png",
+      "gamePath": "icons/activity-gifts/45.png",
+      "size": 360089,
+      "sha256": "0b6557c073ad7524fd80489ab3f0a0dd278ea7d92b8eb0230e04b5921b7ef925"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/467.png",
+      "gamePath": "icons/activity-gifts/467.png",
+      "size": 327400,
+      "sha256": "cc3ea9536a468c785573b0250088eafb679558c95a005eef32918e5ef9db9832"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/471.png",
+      "gamePath": "icons/activity-gifts/471.png",
+      "size": 424343,
+      "sha256": "ac93aafb74fe2cea3c5c9d70a6837dc03e936371a7a8ce5e4ae325745fea808c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/475.png",
+      "gamePath": "icons/activity-gifts/475.png",
+      "size": 464271,
+      "sha256": "02c49bf14bc3b13d9d0f39c9983c94eb8014750f83dec4d21d5b4a0bfb6562e2"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/479.png",
+      "gamePath": "icons/activity-gifts/479.png",
+      "size": 412076,
+      "sha256": "11265e798c82ec7cf4533f771a4791d88159d33bfcc79677c234b3d43d01fb55"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/483.png",
+      "gamePath": "icons/activity-gifts/483.png",
+      "size": 336210,
+      "sha256": "34c8427db9e078183c8ac63f10a91752bcaa3be4fdea4ebb0d114d76df272687"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/487.png",
+      "gamePath": "icons/activity-gifts/487.png",
+      "size": 296617,
+      "sha256": "45cc07654369a8364fc8ddd5fa75070a8e767268ad44f1705cff6da07426ea47"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/49.png",
+      "gamePath": "icons/activity-gifts/49.png",
+      "size": 426246,
+      "sha256": "bf7c57e28cef6227ba4dbd1e6a893e97c05745f5673fd87c543e08458f253b92"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/492.png",
+      "gamePath": "icons/activity-gifts/492.png",
+      "size": 306148,
+      "sha256": "01bc66ccb7b8c8eb2549d12bd47191f2951f257d935715b0642da3df5b2e204a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/495.png",
+      "gamePath": "icons/activity-gifts/495.png",
+      "size": 420692,
+      "sha256": "27327a40b8a9065b8a59012f26b1c3c9cdd0f584429df228de641e659cb45590"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/499.png",
+      "gamePath": "icons/activity-gifts/499.png",
+      "size": 411792,
+      "sha256": "2efe7b10ab049a33febb1f1e9f7358fbb7b178dbaf5395b8e4f981539f08f45e"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/503.png",
+      "gamePath": "icons/activity-gifts/503.png",
+      "size": 369050,
+      "sha256": "341f08e783a2b2526fef9220b5a3d5cbbf6e73811e8083fecb4ed0b0533d9ee0"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/519.png",
+      "gamePath": "icons/activity-gifts/519.png",
+      "size": 137888,
+      "sha256": "4e688318a1c61d7b5b0d0bd6ded0e676e3222aa94753b8187d976e0149e220d8"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/524.png",
+      "gamePath": "icons/activity-gifts/524.png",
+      "size": 265215,
+      "sha256": "b27e549dfe6a330f8ce9d768124056ccbe79b2696f70ec0209770059dae99884"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/53.png",
+      "gamePath": "icons/activity-gifts/53.png",
+      "size": 309142,
+      "sha256": "6c8e09c847ee37acb60c931b4e07fdd2dda99045b984e77e3d4c2f45841724d4"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/547.png",
+      "gamePath": "icons/activity-gifts/547.png",
+      "size": 306397,
+      "sha256": "dad4d7a4dbdfcf1a20514908f99d038383ddb51ee5c77c7d3c27223a9c8a4d25"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/551.png",
+      "gamePath": "icons/activity-gifts/551.png",
+      "size": 390205,
+      "sha256": "998114a3b871b6b10b62aff6e91acb63e48d346f20fcaaf96a2f2b5ef075a5ae"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/555.png",
+      "gamePath": "icons/activity-gifts/555.png",
+      "size": 393013,
+      "sha256": "71685186c50e7bfeb569a3867c27517988007bd377821ad80488477bec71c3d7"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/559.png",
+      "gamePath": "icons/activity-gifts/559.png",
+      "size": 407783,
+      "sha256": "17b5570823ce170fb84ebb32bb0ac8a3e5d74f3cedf1f54083bd83f600a0e08b"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/563.png",
+      "gamePath": "icons/activity-gifts/563.png",
+      "size": 287500,
+      "sha256": "89677a8821ecafe9309563750bab36b6cc1c8f7a7e24e99fd53de55a99e03460"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/57.png",
+      "gamePath": "icons/activity-gifts/57.png",
+      "size": 330283,
+      "sha256": "2a3801502c52832fb87594e1b3b87fb055c08ff35897808f9c4438c85ea33419"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/592.png",
+      "gamePath": "icons/activity-gifts/592.png",
+      "size": 411290,
+      "sha256": "c8dffc27155707c8dc4046a6cee3ce64019cafd16c6eef0e73896d947a340199"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/596.png",
+      "gamePath": "icons/activity-gifts/596.png",
+      "size": 426624,
+      "sha256": "af6bec33dc24102210739911b2c15407ea3e7c00fb4eee3882a2e4584eb19d16"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/600.png",
+      "gamePath": "icons/activity-gifts/600.png",
+      "size": 400022,
+      "sha256": "6ce6c6f4bca1a5dbeb704ccd6fb006a5dda3faa7f028dd61c7dc0286e53fae4a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/604.png",
+      "gamePath": "icons/activity-gifts/604.png",
+      "size": 359084,
+      "sha256": "2f867ed40b3feb9e3b45a46cf17c077e9fb71d081be6d9de41076c71c1554bdc"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/608.png",
+      "gamePath": "icons/activity-gifts/608.png",
+      "size": 382042,
+      "sha256": "a257b46578547f7606a8feff923c522d82f2bc19f79994e8176bb39d07639402"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/61.png",
+      "gamePath": "icons/activity-gifts/61.png",
+      "size": 430460,
+      "sha256": "9906667c4907ca6b744f90898efe122a7bb5d853c7da8419cc68b45086e24404"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/615.png",
+      "gamePath": "icons/activity-gifts/615.png",
+      "size": 379044,
+      "sha256": "fa37de21a4a39faa55aaabb3ed35eef0005323496b66d01460ff3ffd7bf595e6"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/619.png",
+      "gamePath": "icons/activity-gifts/619.png",
+      "size": 444230,
+      "sha256": "06921c7a2ceff66a3a25b5f9d81c7ba76ef8f496a573e01b818b918b94274c70"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/623.png",
+      "gamePath": "icons/activity-gifts/623.png",
+      "size": 345520,
+      "sha256": "1d2c8f9a67b35b303c01a3f6cae073425255fa6370449023f7aea79217bfc8d3"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/627.png",
+      "gamePath": "icons/activity-gifts/627.png",
+      "size": 413219,
+      "sha256": "4f17a8dfb889f93be1b08060c04fdc15794bd72bcfc649c0df5a11812d4f3c66"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/631.png",
+      "gamePath": "icons/activity-gifts/631.png",
+      "size": 344837,
+      "sha256": "7ea8761c1a7fc7ed35bd662bef08e71d2162c754850a5fe00a5d65c5c389948c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/635.png",
+      "gamePath": "icons/activity-gifts/635.png",
+      "size": 423541,
+      "sha256": "08c2f22b29fadd4ddb24e3a8c72db60f526ba5e524e0d0d2976856cbf301cd46"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/639.png",
+      "gamePath": "icons/activity-gifts/639.png",
+      "size": 400526,
+      "sha256": "fc7e517501e45e4aa9291119ee4a90b5495cc85d9ebf99d8cb032d6f945d1628"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/643.png",
+      "gamePath": "icons/activity-gifts/643.png",
+      "size": 446903,
+      "sha256": "f9415c521f62489440f1aa592e51569acc7235bb300afe25e3f4d428057daad4"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/649.png",
+      "gamePath": "icons/activity-gifts/649.png",
+      "size": 345527,
+      "sha256": "9d5e05bdccc739c729ead91f6e7f1cc1171bf2d66f8ffa9a887d431ed4120a71"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/65.png",
+      "gamePath": "icons/activity-gifts/65.png",
+      "size": 379653,
+      "sha256": "d2907ce5bcc485a7c6b5eec0afb772fd343132276e2093f0053fed93c1582bb5"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/653.png",
+      "gamePath": "icons/activity-gifts/653.png",
+      "size": 431586,
+      "sha256": "7a668aa2b6e27a0fac124f672d01f9a252b496860fe05bc4798179a1612af556"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/657.png",
+      "gamePath": "icons/activity-gifts/657.png",
+      "size": 328842,
+      "sha256": "a1f1023932f0b5cba73e6b3c18d0e13c154c9dafff8f293837a9ad49b8fa1b60"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/69.png",
+      "gamePath": "icons/activity-gifts/69.png",
+      "size": 424169,
+      "sha256": "2492fcb707e5b2cc8c0dc1cdad57fb7f5151b18200bff056a2b31f3d136a3768"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/77.png",
+      "gamePath": "icons/activity-gifts/77.png",
+      "size": 265215,
+      "sha256": "b27e549dfe6a330f8ce9d768124056ccbe79b2696f70ec0209770059dae99884"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/83.png",
+      "gamePath": "icons/activity-gifts/83.png",
+      "size": 408540,
+      "sha256": "c5512a97c616693566f20efcafd73300644ddbad5be6e0b14d3d7546ab3d88e8"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/87.png",
+      "gamePath": "icons/activity-gifts/87.png",
+      "size": 417289,
+      "sha256": "9f38eb9c484337b9f58c817266a7d3ef3dd8f7ac00006956b50e8c007d3ca72c"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/91.png",
+      "gamePath": "icons/activity-gifts/91.png",
+      "size": 387135,
+      "sha256": "e46038d09ff587187b724f8e40cc6c5a3a0efc860476f9a91ed6780eab2a31ba"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/95.png",
+      "gamePath": "icons/activity-gifts/95.png",
+      "size": 409262,
+      "sha256": "89cbc15e0092b522c446ef00b2eb04fdd3d218702bedce633b2bb1d70d1bb6c9"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/99.png",
+      "gamePath": "icons/activity-gifts/99.png",
+      "size": 392426,
+      "sha256": "91b4f9b5bf0d5dfbb52cb88efb25f869292a3a7a2280cdbe38371b52c10ecb8a"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/hall.png",
+      "gamePath": "icons/activity-gifts/hall.png",
+      "size": 22811,
+      "sha256": "086d01d1ef71ee6dc8df77af281bada2a4eaca4040d47f4338ce1e21e3a486c2"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/nian1.png",
+      "gamePath": "icons/activity-gifts/nian1.png",
+      "size": 20486,
+      "sha256": "7b280708f0142bf0352b0f1966ce616165279b52d4510188627f9aacddc68dbb"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/nian2.png",
+      "gamePath": "icons/activity-gifts/nian2.png",
+      "size": 20486,
+      "sha256": "7b280708f0142bf0352b0f1966ce616165279b52d4510188627f9aacddc68dbb"
+    },
+    {
+      "sourcePath": "GamePatch/GiftGallery/art/nian3.png",
+      "gamePath": "icons/activity-gifts/nian3.png",
+      "size": 20486,
+      "sha256": "7b280708f0142bf0352b0f1966ce616165279b52d4510188627f9aacddc68dbb"
+    }
+  ]
+}

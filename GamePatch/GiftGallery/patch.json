@@ -1,0 +1,24 @@
+{
+  "version": "2.28.0",
+  "inputSha256": "a548b6728da485dbd83516aebe095a6e93463fd905124e89c1f4e21ad79f15fc",
+  "outputSha256": "e6c9a371d1b7e10f7c18359babfd6af4d57abd2b94e1050802f8fcce526127d9",
+  "nativeRewardBytecodeUnchanged": true,
+  "codes": 841,
+  "posterEntries": 128,
+  "uiRevision": 9,
+  "changedClasses": [
+    "export/SelectPLace"
+  ],
+  "aliasesInInput": true,
+  "identityHooks": true,
+  "identityInInput": true,
+  "identityMethods": {
+    "export/GameMenu": [
+      "newGameClick"
+    ],
+    "storage/MemoryClass": [
+      "setStorage",
+      "storageValue"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "version": "2.34.0",
+  "gameRoot": "D:\\Games\\ZM3",
+  "baseline": {
+    "game/zmxy3_game.swf": "e6c9a371d1b7e10f7c18359babfd6af4d57abd2b94e1050802f8fcce526127d9",
+    "启动游戏.exe": "dc238da2c76f4fd3b15dca97df1e2d93d293685d353b9bfae5d7f74fef0b356f",
+    "tools/zm3server.exe": "2a576d4213d7627d6eef69c782df0ada5d08e8860c23a9d2897cdf97a68d515f"
+  },
+  "runtimeDirectory": "Build/runtime",
+  "rulesSource": "Rules/definitions.json",
+  "protectedPatchSources": {
+    "GamePatch/patch.json": "a50c693025fa0c688b29b2f98a04b50b0920de28bc39aeeb3e0d644334b62217",
+    "GamePatch/GiftGallery/patch.json": "be094177cacde47611ebbedc581787affc47b1a3ec0edf7a1744ab1af0682ace",
+    "GamePatch/GiftGallery/SelectPLace.as": "673d8d94947b444be1bb0ff297f346417e9065407fe7fc4cd8a1ca7a210df05f",
+    "GamePatch/LocalGifts/patch.json": "c86748c9b882bf5a9df43d3b20573721cb178fb6908dc256f2f8a995102741d4",
+    "GamePatch/LocalGifts/SelectPLace.as": "f7c65e37bf663ce3056b5e57a2f40d343f0471e5fd3ed4a8b5039a521d3ec24b",
+    "GamePatch/OfflineActivities/MapMenu.as": "b190c8f03dd5e982515950f3e1424a58333ab5dc1957d9ed21ccc1a6a6965415",
+    "GamePatch/OfflineActivities/patch.json": "3f88a45d019aedbef540275cf6ed5fdb0e78cb4ca20abeea3872743e4af429e0",
+    "GamePatch/OfflineActivities/SelectPLace.as": "585ecd554e9286b5040d4b9bccfc3831cf0d00e39c848d38767df2ed07cfec21",
+    "GamePatch/StorageRuntime/patch.json": "94da5782dafa04c3c2af8039a3dac9ad224a0f3a9a26c83393334d8c68d534c9",
+    "GamePatch/TooltipHover/patch.json": "2ba469aa79cde039286e1baeac35be8788af69d5711ddef285ee9e0164c0906d",
+    "GamePatch/Viewport/patch.json": "bedb9b47d7379506e9efb9ce1f105ef3e8664ebc4faad2bbccf0ec7f794b38df",
+    "GamePatch/WindowAspect/patch.json": "1a8f0560f8ae36c28363adc7ac928aa36c1c392af55c215fa6f264051e605809",
+    "GamePatch/WindowAspect/window_aspect.c": "12e2282f8c111eb8464c6cfdb1e4a49d844cb0ed4054abdee139025f07b67b02",
+    "GamePatch/WindowAspect/window_helper.c": "71f1f2ebb7d18c696631d9d03ebfdea72942b79963749c7691f761f1e210d2ab"
+  }
+}

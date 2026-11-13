@@ -1,0 +1,1340 @@
+{
+  "format": 1,
+  "version": "2.34.0",
+  "sourceBaseline": "2.34.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 1086,
+      "sha256": "4f64125ad4074d444ece15a36dad11b7ef79e8ba52d5c20fc039d96003655400"
+    },
+    {
+      "path": "AcquisitionGuide.cs",
+      "size": 1700,
+      "sha256": "c54f30ad9c046721faecaf2492f565cb52ab36cbd8bd357c480854be641d6a21"
+    },
+    {
+      "path": "AcquisitionGuide.json",
+      "size": 12152,
+      "sha256": "a794cc217af9cab0444ea3cece5dec9b2f0ae33a85ea0e3d739ef26dd78bda4f"
+    },
+    {
+      "path": "AdvancedData.cs",
+      "size": 13101,
+      "sha256": "35fcd86b464ae4819795c94cee2a930ff032bfc655d7784b98cfd132d1c25714"
+    },
+    {
+      "path": "App.xaml",
+      "size": 365,
+      "sha256": "d5f45ac4a1230161796e672d1a9b61be0a90155ce25e1aab4496771c823ece64"
+    },
+    {
+      "path": "App.xaml.cs",
+      "size": 2415,
+      "sha256": "f3231c6e5e1a18e3aaf63528288290e8140a32629f73d97f98699cc15c3d6353"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 39769,
+      "sha256": "7dd0b0a15f5299286d2c1bb682530290928d75fdd7767cfbe49f2e87a6b797d8"
+    },
+    {
+      "path": "Assets/Pets/nian1.png",
+      "size": 20486,
+      "sha256": "7b280708f0142bf0352b0f1966ce616165279b52d4510188627f9aacddc68dbb"
+    },
+    {
+      "path": "Assets/Pets/nian4.png",
+      "size": 52601,
+      "sha256": "a96e07365ebf522ea6d64f83a3b165dedfa6c7ab42f69befcacd470624536f44"
+    },
+    {
+      "path": "Assets/Pets/nian5.png",
+      "size": 71682,
+      "sha256": "a6893707c90be936e582c07b2e65065cbe0f7b6b2e93dec716e9a29e00b52df1"
+    },
+    {
+      "path": "Assets/Utility/buff-0.jpg",
+      "size": 842,
+      "sha256": "cf2c005a7de0043c0eb6da3bbc45f9cb23a5130bac5a3a20facbdd8bd660448c"
+    },
+    {
+      "path": "Assets/Utility/buff-1.jpg",
+      "size": 750,
+      "sha256": "9c3ca5c7d27db236bc6433180e8a58994fe21d01b981de467cef2c7a788e7377"
+    },
+    {
+      "path": "Assets/Utility/buff-3.jpg",
+      "size": 916,
+      "sha256": "bfcb344c37633e0b31a08544db7b79dbc7c8bf3d8cd38895f2d98b3d1c7b9b71"
+    },
+    {
+      "path": "Assets/Utility/buff-4.jpg",
+      "size": 798,
+      "sha256": "7aa288aac5a42bd349e07bae80bd7b3c84b49e3a90f224c81c884bf030a18094"
+    },
+    {
+      "path": "Assets/Utility/buff-5.jpg",
+      "size": 949,
+      "sha256": "fe8c28188d29e22f4e9802224d0f70181248f4830be06612593420c854929efa"
+    },
+    {
+      "path": "Assets/Utility/buff-6.jpg",
+      "size": 937,
+      "sha256": "92ad211690a6a7399d92866bec720c7f9fb078aff798f48a30af6f9150a27364"
+    },
+    {
+      "path": "Assets/Utility/buff-8.jpg",
+      "size": 789,
+      "sha256": "dca098ef5df4bc6a9b87213af50a7a588099e09367bcb56a9881d751280fbacf"
+    },
+    {
+      "path": "Assets/Utility/garden-exp.png",
+      "size": 22707,
+      "sha256": "d0605cd5ab7bea0f7c6c9a478527baa0f4a19489c8deefe6568073d096429b6a"
+    },
+    {
+      "path": "Assets/Utility/garden-locked.png",
+      "size": 23698,
+      "sha256": "3568a4c5d3a9ddec9775db54d9d9567c8aea752cf34250db509a5ca2d93bb1dd"
+    },
+    {
+      "path": "Assets/Utility/garden-potential.png",
+      "size": 24843,
+      "sha256": "7b6072734707ac90169fa46a47a84211e3279b3e7c0b43f1eab30e44198d4921"
+    },
+    {
+      "path": "Assets/Utility/garden-soil.png",
+      "size": 17416,
+      "sha256": "78f948ecee9859188445ef288937b038417456e100913cff751694961e57aa79"
+    },
+    {
+      "path": "Assets/Utility/garden-used.png",
+      "size": 18244,
+      "sha256": "861d9695e6e1b9cd226573da4765ddf66f00d43301a953889a5bfed74fc92523"
+    },
+    {
+      "path": "Assets/Utility/garden-wish.png",
+      "size": 24860,
+      "sha256": "04ed2f57b88625f57c19aeac2763c0b3884d7f35ecc012062f668cd792c3ba1b"
+    },
+    {
+      "path": "Assets/Utility/sources.json",
+      "size": 190,
+      "sha256": "d4f9eec4f2797219c8d5df21f80398e5ace1c286bbc4578bfe5f506be80930de"
+    },
+    {
+      "path": "Assets/Utility/temple-1.png",
+      "size": 100353,
+      "sha256": "cb28a934de05198d0a7e85c0b965f51b2545dcc420616120eb751bd6f079ed14"
+    },
+    {
+      "path": "Assets/Utility/temple-2.png",
+      "size": 110042,
+      "sha256": "87f497623d306e74be1e07fff9075ab2cad534e88c575724721253719e5ace5b"
+    },
+    {
+      "path": "Assets/Utility/temple-3.png",
+      "size": 123303,
+      "sha256": "83a2544b5a771679f87e02b7dc4234a937e674b868e9f25f26c934008301c3bc"
+    },
+    {
+      "path": "Assets/Utility/temple-4.png",
+      "size": 134707,
+      "sha256": "76f50b6ef3d51576ee6d81c5cf0e3f2e32f98a74c240304d90a892badb3f9a8d"
+    },
+    {
+      "path": "Assets/Utility/temple-5.png",
+      "size": 234532,
+      "sha256": "1d3aafe0c155e9219520f3f4185d1c9ac78027345261ddc61e514556141a4cc6"
+    },
+    {
+      "path": "Build/archive_io.py",
+      "size": 780,
+      "sha256": "d4f8135d9a181a0d66cb6ceacf5f844bd72bc6a43d2b36e89e29648ab770e8d6"
+    },
+    {
+      "path": "Build/build_fixture.py",
+      "size": 997,
+      "sha256": "6ad9012dac7c2476e9e35acfe9e07fad7b2b987b7bdf26c74fed64318c2161e1"
+    },
+    {
+      "path": "Build/check_publication.py",
+      "size": 3335,
+      "sha256": "16129d805f1367d3b21197b7bc2ef1616d4a4b33fd0e59e884eb80590f049a83"
+    },
+    {
+      "path": "Build/clear_output.ps1",
+      "size": 1211,
+      "sha256": "82b4048e2816b6fd01280c15bdb42af5a30d81b0382ead365207bc3122b6bb93"
+    },
+    {
+      "path": "Build/compile38.ps1",
+      "size": 2061,
+      "sha256": "27e0c3fd79a755a8478e9e0ae0501863eb45dc4467e37bfa56c7200e3a06cad6"
+    },
+    {
+      "path": "Build/compile_test38.py",
+      "size": 527,
+      "sha256": "03ddd5de4cc5d4206d594626ceca57c1ba7e793878dbbec5d1317dd2088ab18f"
+    },
+    {
+      "path": "Build/generate_rules.py",
+      "size": 4215,
+      "sha256": "5814ce8ee687cedbdd5e158148024b8f1cadb3e503ea8ef462971dd0911f258f"
+    },
+    {
+      "path": "Build/install.ps1",
+      "size": 8649,
+      "sha256": "b14c040e17661c79d524a7ede419c68e280a0cdb98a20d237c7744711617f35f"
+    },
+    {
+      "path": "Build/package.py",
+      "size": 4408,
+      "sha256": "a3e216657f6865524e8873e47ea4051dfdda59778540512ec203720853d132b1"
+    },
+    {
+      "path": "Build/probe38.py",
+      "size": 1786,
+      "sha256": "9fc06f0f38fe5eaaa2ff118b366ea825811dc08f2ca8810906187d572bfd0883"
+    },
+    {
+      "path": "Build/README.md",
+      "size": 3323,
+      "sha256": "031450764e474e02a51697373364435fc6ae2553bd7c78b9cb72ebf5201739c9"
+    },
+    {
+      "path": "Build/release.json",
+      "size": 2058,
+      "sha256": "54f314bca8193163aed6bc7ff5c09811f202ab1c96d18bedf3bbc8a4cebedd61"
+    },
+    {
+      "path": "Build/release.py",
+      "size": 17738,
+      "sha256": "d5d21e6e8cd245293110b83f2f8c9bd8f133ca4191bee8baac52befbf2c9b2fc"
+    },
+    {
+      "path": "Build/runtime/game_log.html",
+      "size": 4033,
+      "sha256": "c270dfdbb6b2a49379235d72b8d32320e85d6bbadd4281ead0b2b61ecd6faba5"
+    },
+    {
+      "path": "Build/runtime/game_paths.py",
+      "size": 1605,
+      "sha256": "8f95da045d666d21244f4e92bd78b2a2042244124196a76b318975e65db60f32"
+    },
+    {
+      "path": "Build/runtime/game_rules.py",
+      "size": 1098,
+      "sha256": "cf2b8ffa6dd3d7a7881da2eab05751aee0ed2cafc8b1126a6e3d26356e21999b"
+    },
+    {
+      "path": "Build/runtime/local_gifts.py",
+      "size": 30892,
+      "sha256": "7141f0cfddf7982daacbab109bb8af5466e812920f4f6edc28d43f2fbf4fde0f"
+    },
+    {
+      "path": "Build/runtime/resource_versions.py",
+      "size": 7449,
+      "sha256": "470e89b01b4471196d712c63c927fbbdf8c4e31b804affd62332c280fdda9fe6"
+    },
+    {
+      "path": "Build/runtime/rules_stamp.py",
+      "size": 136,
+      "sha256": "e732b62fbfa6fdfc7a7f25b1df32c0d04804d839dbbdfd20c64f3b1bd4f4724e"
+    },
+    {
+      "path": "Build/runtime/runtime_integration.py",
+      "size": 7524,
+      "sha256": "e4f45e0eaced580ff7e92f641611001ab4ec1f61849ef55cbe4b008dcff45d74"
+    },
+    {
+      "path": "Build/runtime/runtime_state.py",
+      "size": 8562,
+      "sha256": "eb391ac8d1a7eccf98916c0caa359ac43aa1d36e2764afe2ad0a8dd613fce428"
+    },
+    {
+      "path": "Build/runtime/storage_tx.py",
+      "size": 7088,
+      "sha256": "00be4edb91649bb1e3b4e17a444ad5563124dc9f6f00ebd80b34dd8460dc5a16"
+    },
+    {
+      "path": "Build/tests/run_frozen_qa.py",
+      "size": 5377,
+      "sha256": "24917901d325b40f9ec2134c87728eec7cb0325638ebbc5c47d1f1990acb0a09"
+    },
+    {
+      "path": "Build/tests/run_game_qa.py",
+      "size": 5614,
+      "sha256": "703259b30f6e8c7bfe5ff456b8719a144f180b83da5a66176b0095902efab589"
+    },
+    {
+      "path": "Build/tests/run_modifier_qa.py",
+      "size": 1944,
+      "sha256": "599e2302d9507b3d1732da42aa1fae9494609edc5dbb8b2fe72e39e82c017813"
+    },
+    {
+      "path": "Build/tests/support.py",
+      "size": 347,
+      "sha256": "61675a6219250dfcadebe068940d9c5883bed3c57699f141011ef87dd52e06c8"
+    },
+    {
+      "path": "Build/tests/test_interop.py",
+      "size": 2292,
+      "sha256": "0a57e4bd28c8347606291b85372b2139171b2cd3b4d7f13886f971971a731b4a"
+    },
+    {
+      "path": "Build/tests/test_layout_resources.py",
+      "size": 7083,
+      "sha256": "be82a49dbee4751a3807e62d1c29872332d1bd171c46f657f4e5151ca33f3a8c"
+    },
+    {
+      "path": "Build/tests/test_local_gifts.py",
+      "size": 12331,
+      "sha256": "001539838922189b766c7b7e71d288c87f63da21d2d889bb75dbb75b27bb639f"
+    },
+    {
+      "path": "Build/tests/test_pipeline.py",
+      "size": 2443,
+      "sha256": "d35669c04bb8068364e08d87d02cacbf9b42f0d2519b0733164a61c08eb73f7d"
+    },
+    {
+      "path": "Build/tests/test_rules.py",
+      "size": 3441,
+      "sha256": "296f0ba7bf72ef5da0f291a39a42274e8fb0ab6d039a8ef05a0b8692e050f3d9"
+    },
+    {
+      "path": "Build/tests/test_storage.py",
+      "size": 10154,
+      "sha256": "d14c3a3ec84425142d032a2ec0602dc7705d409dbc1b8f65a4700937521fe07c"
+    },
+    {
+      "path": "Build/user-note.md",
+      "size": 2014,
+      "sha256": "c3fb44391499f48ba53bde41f64e78ecac1def48724b052e59fbfcd160ec2ff2"
+    },
+    {
+      "path": "build.ps1",
+      "size": 1551,
+      "sha256": "706ff23c7012e1ce5855b698b23a6a6c307c2619807e331d90627e72d0f10182"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 2481,
+      "sha256": "e4158e7fe03ed23829d1996b7379fcda955217311306bf2d84e6ebb1631535ae"
+    },
+    {
+      "path": "DiagnosticsLog.cs",
+      "size": 1496,
+      "sha256": "b1987b4d1750f077fe3d6717b94992b1b18dc64023f5bb865f584b73893d1a17"
+    },
+    {
+      "path": "EditorDialog.cs",
+      "size": 11439,
+      "sha256": "ee2ce67559462a1d92fa4573c60c050d4d80efaed8347fee5abc8af2751dbcf3"
+    },
+    {
+      "path": "FontPreferences.cs",
+      "size": 3884,
+      "sha256": "ff40275a1d42d47a18e3607b58c89ff5a7d00e6ad25914b6b47821211aef0181"
+    },
+    {
+      "path": "FontSettingsWindow.xaml",
+      "size": 3396,
+      "sha256": "a012b4513dea3bc55ad4f952981fbdfe11f69fdf70da1499200c6b6529139121"
+    },
+    {
+      "path": "FontSettingsWindow.xaml.cs",
+      "size": 1989,
+      "sha256": "f4a5e08f2d9aa9d809ee0a37a622d6632cfd70758cffcc734d1349a04a09f41f"
+    },
+    {
+      "path": "GameData.cs",
+      "size": 20771,
+      "sha256": "336d4f96a7cca455ddd8272d8d087ef022644ccee182a82300718ca253727661"
+    },
+    {
+      "path": "GameFolder.Runtime.cs",
+      "size": 3078,
+      "sha256": "21dd360d13ea915679a6662a14e188e3a3fd60944bbbaac0de990fc0d50c1a72"
+    },
+    {
+      "path": "GamePatch/avm2_listing.py",
+      "size": 4787,
+      "sha256": "3f64c16adf9fef73193e72f3428b3270b1298eca402a0c98d7c8afdfa2ce4d67"
+    },
+    {
+      "path": "GamePatch/disable_auto_pet_gifts.py",
+      "size": 3630,
+      "sha256": "8d3f89669490965ec1ee4e372d32b0adc2dc9a07f0de0d2083d0b4689e3c68bd"
+    },
+    {
+      "path": "GamePatch/GiftGallery/art-provenance.json",
+      "size": 664,
+      "sha256": "9b28dfb85493a5de46fb368559d1ee0ee89a46b6674a948f677cdf10c10158ad"
+    },
+    {
+      "path": "GamePatch/GiftGallery/bridge_patch.py",
+      "size": 3073,
+      "sha256": "7b60091e16f7c37aea8fac087715830364f3352cf184459015201bc36dec1dd7"
+    },
+    {
+      "path": "GamePatch/GiftGallery/build_patch.py",
+      "size": 2450,
+      "sha256": "74ce6258d99dfa10aa0b9f0651462d5f76ad65d9647dc68a1f25dd6a6cc3a2a6"
+    },
+    {
+      "path": "GamePatch/GiftGallery/catalog.json",
+      "size": 742380,
+      "sha256": "277aed2ef2c6ea3457ab8c34f60904dc9816bcb914d32e073421596bad240d87"
+    },
+    {
+      "path": "GamePatch/GiftGallery/catalog.py",
+      "size": 8728,
+      "sha256": "afee6a0355526c8df5fc8ba8ae6477258d81f93e20fa3cc09485a44678cb96a9"
+    },
+    {
+      "path": "GamePatch/GiftGallery/catalog_ui.as.txt",
+      "size": 13990,
+      "sha256": "66e76763c2e70da286388658d16ab9d30cf6318b478117803dfcb9b4c354a80e"
+    },
+    {
+      "path": "GamePatch/GiftGallery/gallery.as.txt",
+      "size": 19581,
+      "sha256": "b6a301cb476f36d7a68eda1d52caccd5c05fd595b5327c6feba513ff4fa73e1b"
+    },
+    {
+      "path": "GamePatch/GiftGallery/game_log.html",
+      "size": 4033,
+      "sha256": "c270dfdbb6b2a49379235d72b8d32320e85d6bbadd4281ead0b2b61ecd6faba5"
+    },
+    {
+      "path": "GamePatch/GiftGallery/game_paths.py",
+      "size": 1605,
+      "sha256": "8f95da045d666d21244f4e92bd78b2a2042244124196a76b318975e65db60f32"
+    },
+    {
+      "path": "GamePatch/GiftGallery/game_rules.py",
+      "size": 1098,
+      "sha256": "cf2b8ffa6dd3d7a7881da2eab05751aee0ed2cafc8b1126a6e3d26356e21999b"
+    },
+    {
+      "path": "GamePatch/GiftGallery/identity_patch.py",
+      "size": 4514,
+      "sha256": "54b96b9744d459ec78421312bec2ec12dcbb5dc7fdeb42097ec8611b39a6788a"
+    },
+    {
+      "path": "GamePatch/GiftGallery/local_gifts.py",
+      "size": 30892,
+      "sha256": "7141f0cfddf7982daacbab109bb8af5466e812920f4f6edc28d43f2fbf4fde0f"
+    },
+    {
+      "path": "GamePatch/GiftGallery/native-aliases.json",
+      "size": 4244,
+      "sha256": "59b163be5334b7ef7591c5bf09b07820873e8af4650bee0ff2fded6005c54f32"
+    },
+    {
+      "path": "GamePatch/GiftGallery/patch.json",
+      "size": 606,
+      "sha256": "be094177cacde47611ebbedc581787affc47b1a3ec0edf7a1744ab1af0682ace"
+    },
+    {
+      "path": "GamePatch/GiftGallery/resource_versions.py",
+      "size": 7449,
+      "sha256": "470e89b01b4471196d712c63c927fbbdf8c4e31b804affd62332c280fdda9fe6"
+    },
+    {
+      "path": "GamePatch/GiftGallery/reward_examples.py",
+      "size": 1202,
+      "sha256": "733b4b11fa77bc338f09803a710659f99d2df48558b37ae88f553c8bd57b62e8"
+    },
+    {
+      "path": "GamePatch/GiftGallery/rules_stamp.py",
+      "size": 136,
+      "sha256": "e732b62fbfa6fdfc7a7f25b1df32c0d04804d839dbbdfd20c64f3b1bd4f4724e"
+    },
+    {
+      "path": "GamePatch/GiftGallery/runtime_integration.py",
+      "size": 7524,
+      "sha256": "e4f45e0eaced580ff7e92f641611001ab4ec1f61849ef55cbe4b008dcff45d74"
+    },
+    {
+      "path": "GamePatch/GiftGallery/runtime_state.py",
+      "size": 8562,
+      "sha256": "eb391ac8d1a7eccf98916c0caa359ac43aa1d36e2764afe2ad0a8dd613fce428"
+    },
+    {
+      "path": "GamePatch/GiftGallery/SelectPLace.as",
+      "size": 91388,
+      "sha256": "673d8d94947b444be1bb0ff297f346417e9065407fe7fc4cd8a1ca7a210df05f"
+    },
+    {
+      "path": "GamePatch/GiftGallery/storage_tx.py",
+      "size": 7088,
+      "sha256": "00be4edb91649bb1e3b4e17a444ad5563124dc9f6f00ebd80b34dd8460dc5a16"
+    },
+    {
+      "path": "GamePatch/GiftGallery/test_local_gifts.py",
+      "size": 12270,
+      "sha256": "f1a010d6e4884e8f91fea51df8b6f0efc58af580716d41dd66c4fd44242e8835"
+    },
+    {
+      "path": "GamePatch/GiftGallery/使用说明.md",
+      "size": 6772,
+      "sha256": "3fc64629c12feb3c45c2ea1f08eddf3eaa8fcf9193e4fcddc4e835ec1e689fc2"
+    },
+    {
+      "path": "GamePatch/inspect_swf.py",
+      "size": 8893,
+      "sha256": "79514380a20d150f769f6822cdfbcb9c48ce14b8803edcb88518f025910bebfd"
+    },
+    {
+      "path": "GamePatch/LocalGifts/build_patch.py",
+      "size": 1492,
+      "sha256": "c7d342fd98f6e9e3892c720dd2ea005253f3492d0c038201d9f73ac7881ef49e"
+    },
+    {
+      "path": "GamePatch/LocalGifts/local_gifts.py",
+      "size": 17182,
+      "sha256": "639b7127309432d94c67d56b5fb0a6ee245fe8bd8a47f7ed51ef4a84df6e65c3"
+    },
+    {
+      "path": "GamePatch/LocalGifts/patch.json",
+      "size": 255,
+      "sha256": "c86748c9b882bf5a9df43d3b20573721cb178fb6908dc256f2f8a995102741d4"
+    },
+    {
+      "path": "GamePatch/LocalGifts/SelectPLace.as",
+      "size": 59819,
+      "sha256": "f7c65e37bf663ce3056b5e57a2f40d343f0471e5fd3ed4a8b5039a521d3ec24b"
+    },
+    {
+      "path": "GamePatch/LocalGifts/test_local_gifts.py",
+      "size": 6572,
+      "sha256": "0248b7b221640a65ec3a8412fa45b56e0591dfcebd8334d9d70dac27b941d717"
+    },
+    {
+      "path": "GamePatch/LocalGifts/使用说明.md",
+      "size": 3476,
+      "sha256": "afaa682b57c756f86853cbcc29ae15fb07b147f99a01872b1b1934cc34a7888d"
+    },
+    {
+      "path": "GamePatch/OfflineActivities/build_patch.py",
+      "size": 1940,
+      "sha256": "68282bd7891c8a3ff6550f900c3bb7735809d3c54d2c2caefb0a3b7d82e7dd40"
+    },
+    {
+      "path": "GamePatch/OfflineActivities/MapMenu.as",
+      "size": 30356,
+      "sha256": "b190c8f03dd5e982515950f3e1424a58333ab5dc1957d9ed21ccc1a6a6965415"
+    },
+    {
+      "path": "GamePatch/OfflineActivities/patch.json",
+      "size": 254,
+      "sha256": "3f88a45d019aedbef540275cf6ed5fdb0e78cb4ca20abeea3872743e4af429e0"
+    },
+    {
+      "path": "GamePatch/OfflineActivities/SelectPLace.as",
+      "size": 46079,
+      "sha256": "585ecd554e9286b5040d4b9bccfc3831cf0d00e39c848d38767df2ed07cfec21"
+    },
+    {
+      "path": "GamePatch/OfflineActivities/调查报告.md",
+      "size": 7415,
+      "sha256": "15a444327c30fa3661a853c15e307400f4d5fafa936502187abf315d192bd321"
+    },
+    {
+      "path": "GamePatch/patch.json",
+      "size": 1301,
+      "sha256": "a50c693025fa0c688b29b2f98a04b50b0920de28bc39aeeb3e0d644334b62217"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/archive_io.py",
+      "size": 780,
+      "sha256": "d4f8135d9a181a0d66cb6ceacf5f844bd72bc6a43d2b36e89e29648ab770e8d6"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/compile_launcher38.py",
+      "size": 4847,
+      "sha256": "f761fd95b46bb91a42abcdb9e969239c6706e97eb7e2a28bc543507da0d7aa83"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/game_log.html",
+      "size": 4033,
+      "sha256": "c270dfdbb6b2a49379235d72b8d32320e85d6bbadd4281ead0b2b61ecd6faba5"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/game_paths.py",
+      "size": 1605,
+      "sha256": "8f95da045d666d21244f4e92bd78b2a2042244124196a76b318975e65db60f32"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/game_rules.py",
+      "size": 1098,
+      "sha256": "cf2b8ffa6dd3d7a7881da2eab05751aee0ed2cafc8b1126a6e3d26356e21999b"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/local_gifts.py",
+      "size": 30892,
+      "sha256": "7141f0cfddf7982daacbab109bb8af5466e812920f4f6edc28d43f2fbf4fde0f"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/resource_versions.py",
+      "size": 7449,
+      "sha256": "470e89b01b4471196d712c63c927fbbdf8c4e31b804affd62332c280fdda9fe6"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/rules_stamp.py",
+      "size": 136,
+      "sha256": "e732b62fbfa6fdfc7a7f25b1df32c0d04804d839dbbdfd20c64f3b1bd4f4724e"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/runtime_integration.py",
+      "size": 7524,
+      "sha256": "e4f45e0eaced580ff7e92f641611001ab4ec1f61849ef55cbe4b008dcff45d74"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/runtime_state.py",
+      "size": 8562,
+      "sha256": "eb391ac8d1a7eccf98916c0caa359ac43aa1d36e2764afe2ad0a8dd613fce428"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/storage_tx.py",
+      "size": 7088,
+      "sha256": "00be4edb91649bb1e3b4e17a444ad5563124dc9f6f00ebd80b34dd8460dc5a16"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/test_layout_resources.py",
+      "size": 6961,
+      "sha256": "a1b33380ff5131ed3d4c69a5eacb1c6b3d579943e5acb84dbe894ed96d0da194"
+    },
+    {
+      "path": "GamePatch/ResourceLayout/使用说明.md",
+      "size": 3121,
+      "sha256": "445dd31c5f0f97d45c0d11447b65ed9af01df4a6a6690a32405d8ac8217e16b1"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/archive_io.py",
+      "size": 780,
+      "sha256": "d4f8135d9a181a0d66cb6ceacf5f844bd72bc6a43d2b36e89e29648ab770e8d6"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/build_backend.py",
+      "size": 2654,
+      "sha256": "0bbff7f2b136c37d80d51d14d4948bd14f625c2c6aca1530c714ec20783082d3"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/game_log.html",
+      "size": 4033,
+      "sha256": "c270dfdbb6b2a49379235d72b8d32320e85d6bbadd4281ead0b2b61ecd6faba5"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/game_paths.py",
+      "size": 1605,
+      "sha256": "8f95da045d666d21244f4e92bd78b2a2042244124196a76b318975e65db60f32"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/game_rules.py",
+      "size": 1098,
+      "sha256": "cf2b8ffa6dd3d7a7881da2eab05751aee0ed2cafc8b1126a6e3d26356e21999b"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/local_gifts.py",
+      "size": 30892,
+      "sha256": "7141f0cfddf7982daacbab109bb8af5466e812920f4f6edc28d43f2fbf4fde0f"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/patch.json",
+      "size": 443,
+      "sha256": "94da5782dafa04c3c2af8039a3dac9ad224a0f3a9a26c83393334d8c68d534c9"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/resource_versions.py",
+      "size": 7449,
+      "sha256": "470e89b01b4471196d712c63c927fbbdf8c4e31b804affd62332c280fdda9fe6"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/rules_stamp.py",
+      "size": 136,
+      "sha256": "e732b62fbfa6fdfc7a7f25b1df32c0d04804d839dbbdfd20c64f3b1bd4f4724e"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/runtime_integration.py",
+      "size": 7524,
+      "sha256": "e4f45e0eaced580ff7e92f641611001ab4ec1f61849ef55cbe4b008dcff45d74"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/runtime_state.py",
+      "size": 8562,
+      "sha256": "eb391ac8d1a7eccf98916c0caa359ac43aa1d36e2764afe2ad0a8dd613fce428"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/storage_tx.py",
+      "size": 7088,
+      "sha256": "00be4edb91649bb1e3b4e17a444ad5563124dc9f6f00ebd80b34dd8460dc5a16"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/test_local_gifts.py",
+      "size": 12270,
+      "sha256": "f1a010d6e4884e8f91fea51df8b6f0efc58af580716d41dd66c4fd44242e8835"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/test_storage.py",
+      "size": 9956,
+      "sha256": "47d763e6ec39e5860f3d45f43a52af5699e498e22c4e9d0dc82ec18b29b6c07d"
+    },
+    {
+      "path": "GamePatch/StorageRuntime/使用说明.md",
+      "size": 3068,
+      "sha256": "e50e5e8e2c24c87f3c197a2ec250ea417c952e58516579a1bfecea9dd56d282e"
+    },
+    {
+      "path": "GamePatch/TooltipHover/avm2_listing.py",
+      "size": 4787,
+      "sha256": "3f64c16adf9fef73193e72f3428b3270b1298eca402a0c98d7c8afdfa2ce4d67"
+    },
+    {
+      "path": "GamePatch/TooltipHover/inspect_swf.py",
+      "size": 8686,
+      "sha256": "d5d9058a221d40901c639385a14cdba2c000cdafba9ee383d836a54a6c57736d"
+    },
+    {
+      "path": "GamePatch/TooltipHover/patch.json",
+      "size": 327,
+      "sha256": "2ba469aa79cde039286e1baeac35be8788af69d5711ddef285ee9e0164c0906d"
+    },
+    {
+      "path": "GamePatch/TooltipHover/patch_hover.py",
+      "size": 3162,
+      "sha256": "acc1f70cc37043f56baaea1cf3bdee87df7452ad95655ee109775c22264db917"
+    },
+    {
+      "path": "GamePatch/TooltipHover/使用说明.md",
+      "size": 1081,
+      "sha256": "de19c1f6444fcda581d5a811ef5c9dfe7ffc955f4b591581694b7b9d31773e6a"
+    },
+    {
+      "path": "GamePatch/Viewport/avm2_listing.py",
+      "size": 4787,
+      "sha256": "3f64c16adf9fef73193e72f3428b3270b1298eca402a0c98d7c8afdfa2ce4d67"
+    },
+    {
+      "path": "GamePatch/Viewport/build_launcher38.py",
+      "size": 3042,
+      "sha256": "351a01540b6a71ebd83d5708814ac3d1b6d757bf18604dae4a3392b9d64bcf2f"
+    },
+    {
+      "path": "GamePatch/Viewport/inspect_swf.py",
+      "size": 8686,
+      "sha256": "d5d9058a221d40901c639385a14cdba2c000cdafba9ee383d836a54a6c57736d"
+    },
+    {
+      "path": "GamePatch/Viewport/patch.json",
+      "size": 350,
+      "sha256": "bedb9b47d7379506e9efb9ce1f105ef3e8664ebc4faad2bbccf0ec7f794b38df"
+    },
+    {
+      "path": "GamePatch/Viewport/patch_tooltips.py",
+      "size": 4778,
+      "sha256": "c156d5565bd0aae8fb76e995df7bfbfdb49fae5bf0b8bf1f58944f608f1a1585"
+    },
+    {
+      "path": "GamePatch/Viewport/使用说明.md",
+      "size": 1140,
+      "sha256": "0c1fbd719f0285448da7b053e92247c89e261c8ec3d066100c8fd3d15bbdc84f"
+    },
+    {
+      "path": "GamePatch/WindowAspect/avm2_listing.py",
+      "size": 4787,
+      "sha256": "3f64c16adf9fef73193e72f3428b3270b1298eca402a0c98d7c8afdfa2ce4d67"
+    },
+    {
+      "path": "GamePatch/WindowAspect/build_launcher.py",
+      "size": 2241,
+      "sha256": "8ede88bc247d53f1b7e94ebc55c8593d760172b6154feb03e59b1146c65e53e5"
+    },
+    {
+      "path": "GamePatch/WindowAspect/build_launcher38.py",
+      "size": 4652,
+      "sha256": "a9448ce3dcbcc28d90f4273f20eb2eafcdcbaf3a00b36b0f32584b986a6bed3b"
+    },
+    {
+      "path": "GamePatch/WindowAspect/build_native.ps1",
+      "size": 623,
+      "sha256": "01dd79bcc9a7c0154019abcb75b3c6c5cd711f45353c17e7c3ab0d3d7c5780fe"
+    },
+    {
+      "path": "GamePatch/WindowAspect/geometry.h",
+      "size": 1216,
+      "sha256": "19c33e68cbd8d02b48be8fa7ed5f0e8efa7ef497f18c5fded5d25bdf42ec26bf"
+    },
+    {
+      "path": "GamePatch/WindowAspect/inspect_swf.py",
+      "size": 8686,
+      "sha256": "d5d9058a221d40901c639385a14cdba2c000cdafba9ee383d836a54a6c57736d"
+    },
+    {
+      "path": "GamePatch/WindowAspect/patch.json",
+      "size": 592,
+      "sha256": "1a8f0560f8ae36c28363adc7ac928aa36c1c392af55c215fa6f264051e605809"
+    },
+    {
+      "path": "GamePatch/WindowAspect/remove_auth.py",
+      "size": 4055,
+      "sha256": "e5f2f4e31738b3a64a320f5273097b362bd58f2ca2d267b5b7b67e3574f113f5"
+    },
+    {
+      "path": "GamePatch/WindowAspect/window_aspect.c",
+      "size": 3724,
+      "sha256": "12e2282f8c111eb8464c6cfdb1e4a49d844cb0ed4054abdee139025f07b67b02"
+    },
+    {
+      "path": "GamePatch/WindowAspect/window_helper.c",
+      "size": 3310,
+      "sha256": "71f1f2ebb7d18c696631d9d03ebfdea72942b79963749c7691f761f1e210d2ab"
+    },
+    {
+      "path": "GamePatch/WindowAspect/使用说明.md",
+      "size": 1526,
+      "sha256": "f2c3682afef7de7be475dff3d7dafb9652ac79580d35f0b5f27e7e5736bff3e6"
+    },
+    {
+      "path": "GamePaths.cs",
+      "size": 1843,
+      "sha256": "d8180cc282524e0fda2ab4457900f5ad8a79a0a7ef312852d83662a6e727e00c"
+    },
+    {
+      "path": "GameRules.cs",
+      "size": 2578,
+      "sha256": "9b7c82793b41920aec629fa1f783f974d1ce27c8612befeb87af703f971ee70e"
+    },
+    {
+      "path": "GameRules.Generated.cs",
+      "size": 221,
+      "sha256": "38424dcc7a1694482b98a8b5f16e17da8acd1c60a2699b35ad787131d5195fde"
+    },
+    {
+      "path": "GardenData.cs",
+      "size": 5982,
+      "sha256": "e1857938b191ccb2cbc69b085760e276c3da6f332ecf0f3610c8b8567c0e6dde"
+    },
+    {
+      "path": "GardenPlotWindow.xaml",
+      "size": 4366,
+      "sha256": "312fd4dfad7ba502a4a1eb554b522fcb73f9f3643186aed5df1deaed1472cf2e"
+    },
+    {
+      "path": "GardenPlotWindow.xaml.cs",
+      "size": 3661,
+      "sha256": "6a79adcfca7ce25bd36c49ffa0b4dd7613da14f8812d3d58810a535b7073286e"
+    },
+    {
+      "path": "gm-logo.png",
+      "size": 14282,
+      "sha256": "8357522f1fedf6eef9c220952dbbac6c09cf24459db18417046db3a077f84f9c"
+    },
+    {
+      "path": "gm.ico",
+      "size": 33357,
+      "sha256": "875e8332d0d067919bb7b301605108642e75ac212afc1b0c6561b2d6b4916397"
+    },
+    {
+      "path": "GmStudio.csproj",
+      "size": 1075,
+      "sha256": "de7bc647a8be17d306e76247aa90aa504cb5473f66ecd8918cd3ee76ad387f00"
+    },
+    {
+      "path": "HelpWindow.xaml",
+      "size": 14413,
+      "sha256": "ac3749af1b9f71dc047c5ed20d74988070e02888be285a27b516dabd2a55bc70"
+    },
+    {
+      "path": "HelpWindow.xaml.cs",
+      "size": 4611,
+      "sha256": "cad8979eaae66a08a3166baaaccada7ac3dab848fe7c79921c910102dc835ecb"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 1463,
+      "sha256": "f93409ed992b73bbebd185a6519cf048a5200e0d3056e7b06d1abf69a9449dab"
+    },
+    {
+      "path": "LocalGiftData.cs",
+      "size": 8393,
+      "sha256": "07bd4e494d92d6387b58083f47c180f7e45279eaefdd65c336eed4da6e331224"
+    },
+    {
+      "path": "LocalGiftItemWindow.xaml",
+      "size": 1811,
+      "sha256": "ec9757fce380cbe64882d3e4991ae2a6dc69b91aa0a06818a5004ea2bd90bf6d"
+    },
+    {
+      "path": "LocalGiftItemWindow.xaml.cs",
+      "size": 1310,
+      "sha256": "a3154e31c5afe5a41cc21450661efa09a609204966550c5bdf8c7c6474749aec"
+    },
+    {
+      "path": "LocalGiftWindow.xaml",
+      "size": 9278,
+      "sha256": "ba105115bbf831ebd31c2bca97c008dc3fb8444bb324793c2fb52b1ab70e814f"
+    },
+    {
+      "path": "LocalGiftWindow.xaml.cs",
+      "size": 8856,
+      "sha256": "e95c4f36f016d41969aa5584022e6f4f98280b5273e50b4ac1811bb3be4b73c1"
+    },
+    {
+      "path": "MainWindow.Advanced.cs",
+      "size": 5020,
+      "sha256": "f13f2c7ef2ea4d756c9aef3eddfb97d766f2ba9aaba91d01448f01285ae78350"
+    },
+    {
+      "path": "MainWindow.Buffs.cs",
+      "size": 6628,
+      "sha256": "3073719106cd441603ad5fc432e7988ebb43d3aa2219be4da6ecc6d9f722c11f"
+    },
+    {
+      "path": "MainWindow.CatalogPager.cs",
+      "size": 9231,
+      "sha256": "bfab9aef46978ebe6096b441ff4efd54a06cc60e9c6be6598d6c50249f900fe8"
+    },
+    {
+      "path": "MainWindow.Extras.cs",
+      "size": 6536,
+      "sha256": "5481fe4573e2a479414e47480cd1dd6bebf8abb15d33fc83b69733458f1aabda"
+    },
+    {
+      "path": "MainWindow.Garden.cs",
+      "size": 7189,
+      "sha256": "a5a7919c43fb314677091eeb9609f4e80edd465547a1b4bfab6de3a4f8451770"
+    },
+    {
+      "path": "MainWindow.Guide.cs",
+      "size": 4102,
+      "sha256": "68d0774b1e69f1b47886f928cd660ea6ef26de81f0136e23d70cbfa8f82a71d1"
+    },
+    {
+      "path": "MainWindow.Pets.cs",
+      "size": 10234,
+      "sha256": "3bb8dce081b5b84e51dc21f445646e0092073d4988574c939f98f33d8c37fb35"
+    },
+    {
+      "path": "MainWindow.RoleLayout.cs",
+      "size": 1013,
+      "sha256": "8b60113a6efe54e3e2505a8684f565444205369124b54c8c8f1ca2dedd66aa9f"
+    },
+    {
+      "path": "MainWindow.RoleProfile.cs",
+      "size": 1990,
+      "sha256": "9064200d6a250792f04f4b89f8039f10e6b45e9c7956ff9de9c95f9d527285c0"
+    },
+    {
+      "path": "MainWindow.Runtime.cs",
+      "size": 1847,
+      "sha256": "78c2147c33db45e6f6b15c1a4c835c257a2dffbabb94091330ac9071db8ccc1d"
+    },
+    {
+      "path": "MainWindow.Save.cs",
+      "size": 3836,
+      "sha256": "d0f42ab51b06bef748aacb5fb7c67c7eba83023a6739bfde26fdf88be13ad9a9"
+    },
+    {
+      "path": "MainWindow.Settings.cs",
+      "size": 3743,
+      "sha256": "e7e71ed9c9dac0b3873f1d4558761ec092f48b6faa950129905ddbac787d08b7"
+    },
+    {
+      "path": "MainWindow.Sidebar.cs",
+      "size": 2058,
+      "sha256": "f3971c20f11d35beb661c1e3e884c020934a64ef087dbba9d6882df30e7cd694"
+    },
+    {
+      "path": "MainWindow.Skills.cs",
+      "size": 10863,
+      "sha256": "0e53a775c8c91d6df0ecf0a48a357c57daff98cfe7c64507c3022cbec068c726"
+    },
+    {
+      "path": "MainWindow.Vip.cs",
+      "size": 5326,
+      "sha256": "28ffbbb7cd891b6fce90d44718bb233992a4fafefb92ef8e7a7f5c018296fe78"
+    },
+    {
+      "path": "MainWindow.xaml",
+      "size": 97913,
+      "sha256": "ba3154e185bc17cbc363e882682f8469ff814962ab6a4a3ad62c9935039feb1f"
+    },
+    {
+      "path": "MainWindow.xaml.cs",
+      "size": 23082,
+      "sha256": "2ec649a4331fa2b686df92f5c213532ec11284267154a7dd2dd59f1922c30142"
+    },
+    {
+      "path": "MarkdownGuide.cs",
+      "size": 4841,
+      "sha256": "d7a63867d6ced64c6827a880f73924225f86950673d57df08db7395dadb005d2"
+    },
+    {
+      "path": "NONCOMMERCIAL.md",
+      "size": 3051,
+      "sha256": "2409eb83556704f73d73039108db0bb3a804504f7bd98c8b4983eff4354a1c46"
+    },
+    {
+      "path": "NuGet.Config",
+      "size": 78,
+      "sha256": "48d22838c3bc194978be3e5b433a6f146fe81d426155d553ffc5863192b7106f"
+    },
+    {
+      "path": "PetArtwork.cs",
+      "size": 1145,
+      "sha256": "55c89da07fe51bb8ef03a3d9e96d7ce9fb65ba810fc8735efde709b8bcb73d66"
+    },
+    {
+      "path": "PetCreateWindow.xaml",
+      "size": 9754,
+      "sha256": "81c3be3476bc178d5ce2a3b125ad21015d343c66367d86f0b0866dcd9235a04c"
+    },
+    {
+      "path": "PetCreateWindow.xaml.cs",
+      "size": 3865,
+      "sha256": "ff64b62ec3844cffb613c4550b49c190eaeaf5d9848228f45781762a86017a61"
+    },
+    {
+      "path": "PetData.cs",
+      "size": 16608,
+      "sha256": "f72f310d12d42726016c8431ed5b9b4cf636602e3c5c3d2a2fdfd658ebb7cf61"
+    },
+    {
+      "path": "PetEditorWindow.Growth.cs",
+      "size": 8562,
+      "sha256": "7f384ffed4e8ac12abe8126b6a8add218c0011127606bec936e5f2c72d9bdb20"
+    },
+    {
+      "path": "PetEditorWindow.xaml",
+      "size": 9481,
+      "sha256": "9da611a0ef230ee60c76fad591a670503257cfe28c00416dd369717baca020e2"
+    },
+    {
+      "path": "PetEditorWindow.xaml.cs",
+      "size": 14552,
+      "sha256": "88b0e8bc56a733c6db78bb87d010227f4096633121e5125e7e7b59fa23c86676"
+    },
+    {
+      "path": "PetGuideWindow.xaml",
+      "size": 10337,
+      "sha256": "d027066e12f2814f6e7ec85b276ae2a4038bf39848f9195ca723bf37f1d31f14"
+    },
+    {
+      "path": "PetGuideWindow.xaml.cs",
+      "size": 6026,
+      "sha256": "bcaf8fbd5d910ff27f018f54fc88f65c1f14e981596fa9db44c1f15656956277"
+    },
+    {
+      "path": "PetProfile.cs",
+      "size": 8558,
+      "sha256": "f1ec37fb584cc38233ad0ca39ba219479da5860ce1efc8e445225cd70a98f2cf"
+    },
+    {
+      "path": "PetRules.cs",
+      "size": 8065,
+      "sha256": "6ee1eff68bf8d356421ee1dc61f187c43c6115e159abaad6baf859b229c81f08"
+    },
+    {
+      "path": "PromptDialog.xaml",
+      "size": 3835,
+      "sha256": "14dfba017f185c3997b5531370699e82f3fd437e15e233d2ca08af7c9abfd52a"
+    },
+    {
+      "path": "PromptDialog.xaml.cs",
+      "size": 2036,
+      "sha256": "733f241f9c9083d18e063d39d04a96cd3f3231ef00d3629ce72dc48cf09458f4"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "size": 2867,
+      "sha256": "e6f84b0f54e59d65779c314a8634f306f0e87fdcd0ae16b79e2ef312957dd335"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "size": 5212,
+      "sha256": "a96ab505a310c61e97eec85e6fda3a7b0753c42fcf9972168903c625875a9e91"
+    },
+    {
+      "path": "QualityProbe.CatalogRoles.cs",
+      "size": 2676,
+      "sha256": "2a90391b9d0a29f543c02468696f3b562af2a084fd0099985ec8c69564419298"
+    },
+    {
+      "path": "QualityProbe.cs",
+      "size": 68411,
+      "sha256": "e6adbb0af1c000c87b98c8414017d5fcea9e79355cd84b96b295726ee4d2f293"
+    },
+    {
+      "path": "QualityProbe.GardenBuff.cs",
+      "size": 10639,
+      "sha256": "17c565613a2cbe140d84ed008f3bf1e84c416c8a4a042c58424c5d53e4ea1be0"
+    },
+    {
+      "path": "QualityProbe.LocalGifts.cs",
+      "size": 3584,
+      "sha256": "fe0da657d27bf867d82d05faa80dd6d50559e826bad0f6a7d76b936c385e6dc8"
+    },
+    {
+      "path": "QualityProbe.PetCreation.cs",
+      "size": 12141,
+      "sha256": "4b6d15aa6b6626e0f40f0612aacff27c67498cbff807fd6f809e73321b2c30e4"
+    },
+    {
+      "path": "QualityProbe.PetGearDelete.cs",
+      "size": 4001,
+      "sha256": "2a5a1c9c7f3be92133160aef30b503239f4ec6fc6bb41ea7035c60650cd95c9a"
+    },
+    {
+      "path": "QualityProbe.PetRelease.cs",
+      "size": 6978,
+      "sha256": "1804f72bff89915a52d9d77571320c355859c61731f24729db69e69f7271e321"
+    },
+    {
+      "path": "QualityProbe.Pets.cs",
+      "size": 10309,
+      "sha256": "b7261c731fc54d67bbd3246c131e1058a8f34a9e7fd7a9d300ab17ae1f7d1fe8"
+    },
+    {
+      "path": "QualityProbe.PetScopes.cs",
+      "size": 21148,
+      "sha256": "c24057f4e4bf18b44c61e7f1ebdf10fecd32ee023cd131d38cee91283125b661"
+    },
+    {
+      "path": "QualityProbe.Rules.cs",
+      "size": 1559,
+      "sha256": "fa3f6e4959751522e36eee0922cd4b53ae927f8a1c9f2a52893c55519f440b93"
+    },
+    {
+      "path": "QualityProbe.Save.cs",
+      "size": 8933,
+      "sha256": "d9f311aa537b0cd9c23963c80225563ee4ed48c81eb9702cf39fc097c5ef90f2"
+    },
+    {
+      "path": "QualityProbe.Settings.cs",
+      "size": 8023,
+      "sha256": "ffa868676c5035b51e79c86e4abd8683e41f5af002f890b6e20b96584bbb454a"
+    },
+    {
+      "path": "QualityProbe.SkillHints.cs",
+      "size": 4726,
+      "sha256": "e9ba82404adb8693756e88b71684ab5d4271d52f5d9c8258eda5979b6e777fd3"
+    },
+    {
+      "path": "QualityProbe.Storage.cs",
+      "size": 4096,
+      "sha256": "3ff4ba81b868523038ca9438dd99ad4e081bcdb4c0a323600aa12f1ba9572da9"
+    },
+    {
+      "path": "QualityProbe.Vip.cs",
+      "size": 10751,
+      "sha256": "4ec74787b4efef2537df0bb5d8b85dc83e57522fa1862c241bd11b89ef617286"
+    },
+    {
+      "path": "README.md",
+      "size": 4754,
+      "sha256": "e688147ac653d03a083245b6a45bb8c74bd53382be09bdf1e1a613e408948587"
+    },
+    {
+      "path": "release.ps1",
+      "size": 508,
+      "sha256": "2d5f33582be76d036dd025998dc9bfd8a1cd037e0bc4ee180c90ad6a7e56b0b9"
+    },
+    {
+      "path": "ResourceVersionWindow.xaml",
+      "size": 1867,
+      "sha256": "263455be6400ba35f5a141b668c545ff4797d14178fe14497aa60a7d472e13f0"
+    },
+    {
+      "path": "ResourceVersionWindow.xaml.cs",
+      "size": 4447,
+      "sha256": "aa46e09d318bd0e5364953ddc164fe8152560a27d62beb078610263bdde78c74"
+    },
+    {
+      "path": "RoleArtwork.cs",
+      "size": 6478,
+      "sha256": "1ff750ab4e197b966275486a317a1e389c5bce895ff99690226fc18f808e3bef"
+    },
+    {
+      "path": "RoleProfile.cs",
+      "size": 7249,
+      "sha256": "996a86fd4671e9b1cfb2297611444d0df854248cd3b599edf3f8b202504d0f5f"
+    },
+    {
+      "path": "Rules/definitions.json",
+      "size": 20523,
+      "sha256": "89979dfed379fab7f39154d953e78682458dc65735857b501b97af3a1c693daf"
+    },
+    {
+      "path": "Rules/generated.json",
+      "size": 270199,
+      "sha256": "bf9c7126bea0fd34cec4bdc0ad48d940700ef35f262044e7d245f5b214ada455"
+    },
+    {
+      "path": "Rules/Inputs/editor_field_names.json",
+      "size": 24405,
+      "sha256": "8667b47a64ad0f0e3007346621c77187c7ae4887bdf092ca7f726dfc839a8fe4"
+    },
+    {
+      "path": "Rules/Inputs/editor_server_zmxy3.json",
+      "size": 618049,
+      "sha256": "960ee117e161fa1f554b1d4a34191741128e8336a36dc7aa065a764c7a5969d3"
+    },
+    {
+      "path": "Rules/Inputs/equip_strength.json",
+      "size": 4302,
+      "sha256": "f595377815cd2d5695e6f971bb2ca3cab02f829b37d3878408efe9b89ffa74ac"
+    },
+    {
+      "path": "Rules/Inputs/library_final.json",
+      "size": 143098,
+      "sha256": "463076d3a5248f79f3a9895e8c9287425ab077b89dd480020bdb236fe275432d"
+    },
+    {
+      "path": "Rules/Inputs/official_zmxy3.json",
+      "size": 84142,
+      "sha256": "3439c0d9850ecf250c22e0ca3fa497fd386eeea5d0b6f2dbfa82f21649c8d070"
+    },
+    {
+      "path": "Rules/Inputs/peteq_strength.json",
+      "size": 827,
+      "sha256": "6b7d017c4483a0e1aa089f62d71fc9a00ec9a16b30e29cbcb28f311aacb1a0f1"
+    },
+    {
+      "path": "Rules/Inputs/ref_all.json",
+      "size": 36540,
+      "sha256": "e77b63eb0fbf149d896b3b2fc980416dabb8bcf8f9a4a70f4cab9f1d27443505"
+    },
+    {
+      "path": "Rules/Inputs/special_pets.json",
+      "size": 2049,
+      "sha256": "6097d108ae4fbba41da9defd644a0e1c98d3d41d7f71b8612e3947714b0355db"
+    },
+    {
+      "path": "Rules/Inputs/zmxy3_icons.json",
+      "size": 65062,
+      "sha256": "f2da6647ea57d33ae65524285f2edea825aa688eea82ccb09d785975e446c22b"
+    },
+    {
+      "path": "Rules/README.md",
+      "size": 1683,
+      "sha256": "7dc2c074c3dd5b063485b5779f0b605862604a35bff534a032db74de87d1362b"
+    },
+    {
+      "path": "SettingsWindow.xaml",
+      "size": 6337,
+      "sha256": "270eaf30044f025ee6dbc46f03fef4b90f2ec681959f0edf3aea3cbf7af6f686"
+    },
+    {
+      "path": "SettingsWindow.xaml.cs",
+      "size": 3506,
+      "sha256": "d4eff41ddfe3b8e07aad7dfb6405b7c97adf7bcc32df2439f8ac50395793322e"
+    },
+    {
+      "path": "SidebarPreferences.cs",
+      "size": 2093,
+      "sha256": "edb22a32678b7a2b1295c304b0079dc33091bec789234393b40e81965d9d7613"
+    },
+    {
+      "path": "SidebarSettingsWindow.xaml",
+      "size": 9950,
+      "sha256": "eae6b15e83335a42dbdaf43dce28133c2298ce0e436ee429f5fbd7a4fb9bc358"
+    },
+    {
+      "path": "SidebarSettingsWindow.xaml.cs",
+      "size": 4553,
+      "sha256": "9a207546711b47c371c84790b4dacc4dc006e9639ac44491469a356d7ccbd30f"
+    },
+    {
+      "path": "SkillArtwork.cs",
+      "size": 3559,
+      "sha256": "aa6d029d911248e23bdb63336a74e4fbd68c01b1a6192d74c8894ad7e485db49"
+    },
+    {
+      "path": "SkillHelp.cs",
+      "size": 1501,
+      "sha256": "d453732388026b6d124197852b10aaa8faa24348706d70fab9bb353a233b4b47"
+    },
+    {
+      "path": "SkillHelpSources.json",
+      "size": 687,
+      "sha256": "9a37ce0a2ec28fdd0c7f553f59f065e7b5815ad615294d3456d22bd16d3fec78"
+    },
+    {
+      "path": "SOURCE_INVENTORY.json",
+      "size": 209009,
+      "sha256": "3fbd1a6b41eb6a6dd025bc95bca9c2a845cdc49d46e35f57b6072fb01e0dab1d"
+    },
+    {
+      "path": "StorageTransaction.cs",
+      "size": 8995,
+      "sha256": "416b8a50db8be32837fd8ce747753644765d4fe1dc1bbdca740796e36e640565"
+    },
+    {
+      "path": "SwfTags.cs",
+      "size": 1793,
+      "sha256": "47de065f2129dc9c19c4c6c470ed386acdf64b59fa13d64b3afad08ab812e165"
+    },
+    {
+      "path": "Theme.xaml",
+      "size": 31185,
+      "sha256": "b0de0b0476afb4499009ed09eabad59cafa3207e32e6948e14bac82d4d8ebf82"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "size": 4679,
+      "sha256": "6e46b9f276cea130ec02dcb707107fffeab562705d487fbfe0307907e9a6ba03"
+    },
+    {
+      "path": "UserPreferencesFile.cs",
+      "size": 819,
+      "sha256": "c40803024e335fa028eb3a4df445e5a80ea3b930cdc68651761f25c504439119"
+    },
+    {
+      "path": "UtilityArtwork.cs",
+      "size": 738,
+      "sha256": "0755e076b062663104be90f97f8e81372876b3fdef7be92de497bb781f20a746"
+    },
+    {
+      "path": "VipData.cs",
+      "size": 8597,
+      "sha256": "9b9acf6b4cb5d395d626654c0f6e94604d36af5bd2ef43993296d45c4f0fbe80"
+    },
+    {
+      "path": "VipRechargeWindow.xaml",
+      "size": 3723,
+      "sha256": "0ff2f6d8bfef47128fca3311042d873936b9e78d0ce5487a27eb946cf7dd45c3"
+    },
+    {
+      "path": "VipRechargeWindow.xaml.cs",
+      "size": 2478,
+      "sha256": "058e9dcbddc3598dac141b40b1a57285d378d267e4789fa96ee4ec165b8e313c"
+    },
+    {
+      "path": "使用说明.md",
+      "size": 24108,
+      "sha256": "97746296e2b64d861c5737f716c9afa051269bd32e397b7993fca45bf7dc1451"
+    },
+    {
+      "path": "恢复资源.py",
+      "size": 1887,
+      "sha256": "7252c0bcefde1b63a7333ff884683303841ef3b5c2294d101e6786cba06d7645"
+    },
+    {
+      "path": "资源引用.json",
+      "size": 29812,
+      "sha256": "9b2edac3d1bd0e1dc8eb1e53afcbc92a5f65e1d6d87832655efe85af1dcbded0"
+    }
+  ],
+  "excluded": {
+    "posterImages": 132,
+    "integrationFixtures": [
+      "Build/tests/fixtures/slot0.json",
+      "Build/tests/fixtures/gift-identity.delta"
+    ]
+  },
+  "originalLicenseScope": "LICENSE.md; original game and third-party rights retained"
+}

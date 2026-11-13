@@ -1,0 +1,8153 @@
+{
+"items": [
+{
+"fill": "p_cymz",
+"name": "赤烟头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cztk",
+"name": "叱咤头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcymz",
+"name": "赤烟头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcztk",
+"name": "叱咤头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscymz",
+"name": "赤烟头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscztk",
+"name": "叱咤头盔",
+"type": "zbmz",
+"typeCn": "宠物帽子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyst",
+"name": "赤烟手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_czst",
+"name": "叱咤手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyst",
+"name": "赤烟手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlczst",
+"name": "叱咤手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyst",
+"name": "赤烟手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_ssczst",
+"name": "叱咤手套",
+"type": "zbst",
+"typeCn": "宠物手套",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyyf",
+"name": "赤烟铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_czkj",
+"name": "叱咤铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyyf",
+"name": "赤烟铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlczkj",
+"name": "叱咤铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyyf",
+"name": "赤烟铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_ssczkj",
+"name": "叱咤铠甲",
+"type": "zbyf",
+"typeCn": "宠物衣服",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyxz",
+"name": "赤烟战靴",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_czzx",
+"name": "叱咤战鞋",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyxz",
+"name": "赤烟战靴",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlczzx",
+"name": "叱咤战鞋",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyxz",
+"name": "赤烟战靴",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_ssczzx",
+"name": "叱咤战鞋",
+"type": "zbxz",
+"typeCn": "宠物鞋子",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "bag",
+"src": [
+"editor"
+]
+},
+{
+"fill": "cwjnxld",
+"name": "宠物技能洗练丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后可以重新获得宠物技能",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cwzzxld",
+"name": "宠物属性洗练丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后重置宠物的悟性、根骨、灵力,不会改变宠物资质",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "nianjhd",
+"name": "年兽进化丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "小年兽32级可以服用，使其进化",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "nianjhdd",
+"name": "年兽进化大丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以使年兽进化成第3形态，且丹药服用需要50级以上",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "nianqld",
+"name": "年兽潜力丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "增加年兽100点潜力点",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wphtd",
+"name": "宠物还童丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，宠物还童到1级宝宝，技能保持不变，资质会随机提升",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsmd1",
+"name": "一品生命丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后生命上限增加150",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsmd2",
+"name": "二品生命丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后生命上限增加200",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsmd3",
+"name": "三品生命丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后生命上限增加250",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsmd4",
+"name": "四品生命丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后生命上限增加300",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsmd5",
+"name": "五品生命丹",
+"type": "zbwp",
+"typeCn": "丹药",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后生命上限增加350",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "css12",
+"name": "12层传送石",
+"type": "zbwp",
+"typeCn": "传送石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 102,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以将您传送到玲珑宝塔第12层",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "css18",
+"name": "18层传送石",
+"type": "zbwp",
+"typeCn": "传送石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 102,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以将您传送到玲珑宝塔第18层",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "css6",
+"name": "6层传送石",
+"type": "zbwp",
+"typeCn": "传送石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 102,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以将您传送到玲珑宝塔第6层",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "css_2",
+"name": "地下2层传送石",
+"type": "zbwp",
+"typeCn": "传送石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 102,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以将您传送到兜率宫地下2层",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "css_3",
+"name": "地下3层传送石",
+"type": "zbwp",
+"typeCn": "传送石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以将您传送到兜率宫地下3层",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bspzzs",
+"name": "壁水袍制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "可以打造出一件唐僧的优秀防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bxhyzzs",
+"name": "不朽花翼制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以通过炼丹炉打造出不朽花翼饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_dz_zzs",
+"name": "斗战制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出悟空传说防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_js_zzs",
+"name": "金身制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出沙僧传说防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_jt_zzs",
+"name": "净坛制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出八戒传说防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_zt_zzs",
+"name": "旃檀制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出唐僧传说防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_ll_zzs",
+"name": "琉璃制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出沙僧传说武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_qs_zzs",
+"name": "祁水制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出悟空传说武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_rc_zzs",
+"name": "若禅制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出唐僧传说武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_yt_zzs",
+"name": "夷图制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "可以通过炼丹炉打造出八戒传说武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "dtkzzs",
+"name": "氐土铠制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "可以打造出一件八戒的优秀防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hljhzzs",
+"name": "红莲教皇制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "可以打造出一件唐僧的史诗防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrcszzs",
+"name": "长蛇制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrhdzzs",
+"name": "蝴蝶制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrmjzzs",
+"name": "梦江制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrzrzzs",
+"name": "知汝制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jmczzs",
+"name": "角木铲制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "可以打造出一把沙僧的优秀武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jmyzzs",
+"name": "井木衣制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可以打造出一件沙僧的精良防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "llyzzs",
+"name": "玲珑玉制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mgzhzzs",
+"name": "马官指环制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可以打造出一件精良的饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "phhlzzs",
+"name": "破幻花链制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以通过炼丹炉打造出破幻花链饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrcszzs",
+"name": "长蛇制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrhdzzs",
+"name": "蝴蝶制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrmjzzs",
+"name": "梦江制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrzrzzs",
+"name": "知汝制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tdlzjzzs",
+"name": "提多罗吒戒制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "可以打造出一件史诗的饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tfljzzs",
+"name": "通风灵戒制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "可以打造出一件优秀的饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "whgzzs",
+"name": "尾火棍制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "可以打造出一把悟空的优秀武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wsjgzzs",
+"name": "顽石金刚制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "可以打造出一件八戒的史诗防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wtpzzs",
+"name": "胃土耙制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可以打造出一把八戒的精良武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlczzzs",
+"name": "残昼制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把唐僧的邪灵防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xleyzzs",
+"name": "厄夜制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把悟空的邪灵防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlryzzs",
+"name": "如狱制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把八戒的邪灵防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xltczzs",
+"name": "天残制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把唐僧的邪灵武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlthzzs",
+"name": "天荒制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把悟空的邪灵武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xltszzs",
+"name": "天殇制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把沙僧的邪灵武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xltzzzs",
+"name": "天罪制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把八戒的邪灵武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlyjzzs",
+"name": "犹绝制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以打造出一把沙僧的邪灵防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ydjgzzs",
+"name": "银弹金弓制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "可以打造出一把沙僧的史诗武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yhjzzs",
+"name": "翼火甲制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可以打造出一件悟空的精良防具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zhhzzzs",
+"name": "镇魂花坠制作书",
+"type": "zbwp",
+"typeCn": "制作书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "可以通过炼丹炉打造出镇魂花坠饰品",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "flzsp",
+"name": "风灵珠碎片",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于合成风灵珠的神秘碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "fys1",
+"name": "1级防御石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备时可以加入此宝石，增加1~3的防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "fys2",
+"name": "2级防御石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级防御石合成，在炼丹炉内打造装备时可以加入此宝石，增加2~6的防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "fys3",
+"name": "3级防御石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级防御石合成，在炼丹炉内打造装备时可以加入此宝石，增加5~12的防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "gjs1",
+"name": "1级攻击石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备时可以加入此宝石，增加1~10的攻击力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "gjs2",
+"name": "2级攻击石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级攻击石合成，在炼丹炉内打造装备时可以加入此宝石，增加7~20的攻击力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "gjs3",
+"name": "3级攻击石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级攻击石合成，在炼丹炉内打造装备时可以加入此宝石，增加15~40的攻击力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hlzsp",
+"name": "火灵珠碎片",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于合成火灵珠的神秘碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kly1",
+"name": "1级昆仑玉",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于升级1级传说法宝太极八卦，可合成2级昆仑玉",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kly2",
+"name": "2级昆仑玉",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "用于升级2级传说法宝太极八卦，可合成3级昆仑玉",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kly3",
+"name": "3级昆仑玉",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "用于升级3级传说法宝太极八卦，可合成4级昆仑玉",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kly4",
+"name": "4级昆仑玉",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "用于升级4级传说法宝太极八卦，可合成5级昆仑玉",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "llzsp",
+"name": "雷灵珠碎片",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于合成雷灵珠的神秘碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mfs1",
+"name": "1级魔法石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备时可以加入此宝石，增加1~20的魔法值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mfs2",
+"name": "2级魔法石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级魔法石合成，在炼丹炉内打造装备时可以加入此宝石，增加40~110的魔法值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mfs3",
+"name": "3级魔法石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级魔法石合成，在炼丹炉内打造装备时可以加入此宝石，增加85~200的魔法值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "rls",
+"name": "熔炼石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "两颗熔炼石可以与邪灵装备合成高级材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scfys2",
+"name": "2级防御石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级防御石合成，在炼丹炉内打造装备时可以加入此宝石，增加2~6的防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scfys3",
+"name": "3级防御石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级防御石合成，在炼丹炉内打造装备时可以加入此宝石，增加5~12的防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scgjs2",
+"name": "2级攻击石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级攻击石合成，在炼丹炉内打造装备时可以加入此宝石，增加7~20的攻击力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scgjs3",
+"name": "3级攻击石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级攻击石合成，在炼丹炉内打造装备时可以加入此宝石，增加15~40的攻击力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scmfs2",
+"name": "2级魔法石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级魔法石合成，在炼丹炉内打造装备时可以加入此宝石，增加40~110的魔法值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scmfs3",
+"name": "3级魔法石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级魔法石合成，在炼丹炉内打造装备时可以加入此宝石，增加85~200的魔法值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scsms2",
+"name": "2级生命石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级生命石合成，在炼丹炉内打造装备时可以加入此宝石，增加40~110的生命值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scsms3",
+"name": "3级生命石（商城）",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级生命石合成，在炼丹炉内打造装备时可以加入此宝石，增加85~200的生命值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "slzsp",
+"name": "水灵珠碎片",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于合成水灵珠的神秘碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sms1",
+"name": "1级生命石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备时可以加入此宝石，增加1~20的生命值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sms2",
+"name": "2级生命石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级生命石合成，在炼丹炉内打造装备时可以加入此宝石，增加40~110的生命值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sms3",
+"name": "3级生命石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级生命石合成，在炼丹炉内打造装备时可以加入此宝石，增加85~200的生命值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tlzsp",
+"name": "土灵珠碎片",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于合成土灵珠的神秘碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tss",
+"name": "天枢石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "打造所需的高级材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpflz",
+"name": "风灵珠",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "由3个风灵珠碎片合成，在炼丹炉内打造装备时可以加入此宝石，增加1%~2%的闪避",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wphlz",
+"name": "火灵珠",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "由3个火灵珠碎片合成，在炼丹炉内打造装备时可以加入此宝石，增加1~3点的回血",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpllz",
+"name": "雷灵珠",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "由3个雷灵珠碎片合成，在炼丹炉内打造装备时可以加入此宝石，增加1%~2%的暴击",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpslz",
+"name": "水灵珠",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "由3个水灵珠碎片合成，在炼丹炉内打造装备时可以加入此宝石，增加1~2点的回魔",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wptlz",
+"name": "土灵珠",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "由3个土灵珠碎片合成，在炼丹炉内打造装备时可以加入此宝石，增加1%~2%的魔抗",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xns1",
+"name": "1级仙女石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用于升级5级传说法宝太极八卦，可合成2级仙女石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xns2",
+"name": "2级仙女石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "用于升级6级传说法宝太极八卦，可合成3级仙女石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xns3",
+"name": "3级仙女石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "用于升级7级传说法宝太极八卦，可合成4级仙女石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xns4",
+"name": "4级仙女石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "用于升级8级传说法宝太极八卦，可合成5级仙女石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yhs",
+"name": "玉衡石",
+"type": "zbwp",
+"typeCn": "宝石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "打造所需的高级材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpxyf",
+"name": "幸运符",
+"type": "zbwp",
+"typeCn": "幸运符",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以较高的提升装备强化的概率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scwpqhs2",
+"name": "2级强化石（商城）",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比1级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scwpqhs3",
+"name": "3级强化石（商城）",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比2级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scwpqhs4",
+"name": "4级强化石（商城）",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "由3个3级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比3级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "scwpqhs5",
+"name": "5级强化石（商城）",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpqhs1",
+"name": "1级强化石",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以在炼丹炉内用来强化装备，提升装备的属性",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpqhs2",
+"name": "2级强化石",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "由3个1级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比1级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpqhs3",
+"name": "3级强化石",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "由3个2级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比2级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpqhs4",
+"name": "4级强化石",
+"type": "wpqhs",
+"typeCn": "强化石",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 101,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "由3个3级强化石合成，可以在炼丹炉里用来强化装备，提升装备的属性。比3级强化石拥有更好的成功率",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hmzjns2",
+"name": "火魔斩2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升火魔斩空连时的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hmzjns3",
+"name": "火魔斩3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升火魔斩空连时的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hyjjjns2",
+"name": "火眼金睛2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升火眼金睛的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hyjjjns3",
+"name": "火眼金睛3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升火眼金睛的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jhsjjns2",
+"name": "九环佛经2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升九环佛经威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jhsjjns3",
+"name": "九环佛经3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升九环佛经威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lyfbjns2",
+"name": "烈焰风暴2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升烈焰风暴的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mdsjns2",
+"name": "猛毒素2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升猛毒素威力，并且毒素叠加增加到7层，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mdsjns3",
+"name": "猛毒素3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升猛毒素威力，并且毒素叠加增加到7层，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mmwjns2",
+"name": "木魔舞2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升木魔舞的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mmwjns3",
+"name": "木魔舞3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升木魔舞的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "smbjns2",
+"name": "水魔爆2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升水魔爆的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "smbjns3",
+"name": "水魔爆3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升水魔爆的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sxjns2",
+"name": "嗜血2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升嗜血的威力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "syzqjns2",
+"name": "圣域之墙2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升圣域之墙的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "syzqjns3",
+"name": "圣域之墙3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升圣域之墙的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tjgljns2",
+"name": "天降甘露2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升天降甘露的回血，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tkjjns2",
+"name": "腾空击2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升腾空击的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tmcjns2",
+"name": "土魔刺2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升土魔刺威力，生命值越高伤害越大，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tmcjns3",
+"name": "土魔刺3级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升土魔刺威力，生命值越高伤害越大，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xgqjns2",
+"name": "旋滚球2级技能书",
+"type": "zbwp",
+"typeCn": "技能书",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "提升旋滚球的威力，同时魔耗增加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hsj",
+"name": "混色剂",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以和红黄蓝任意两个气球合成出更高品质的彩色气球",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_1",
+"name": "流石碎片1",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_2",
+"name": "流石碎片2",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_3",
+"name": "流石碎片3",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_4",
+"name": "流石碎片4",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_5",
+"name": "流石碎片5",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_6",
+"name": "流石碎片6",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_7",
+"name": "流石碎片7",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_8",
+"name": "流石碎片8",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lssp_9",
+"name": "流石碎片9",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "法宝流邪的碎片，被流沙河众邪神收藏，染其邪气，魔力惊人。集齐3块特定碎片后可合成相应的流邪符石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lxfs_1",
+"name": "流邪符石1",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "集齐流邪符石1、2、3后，可在炼丹炉内合成法宝流邪",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lxfs_2",
+"name": "流邪符石2",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "集齐流邪符石1、2、3后，可在炼丹炉内合成法宝流邪",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lxfs_3",
+"name": "流邪符石3",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "集齐流邪符石1、2、3后，可在炼丹炉内合成法宝流邪",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wplh",
+"name": "硫磺",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料，硫磺+仙茅+鲮鲤=一品生命丹，四品生命丹+硫磺+孟婆药剂=五品生命丹",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpll",
+"name": "鲮鲤",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wprs",
+"name": "人参",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料，三品生命丹+硫磺+人参=四品生命丹",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsc",
+"name": "丝绸",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsg",
+"name": "守宫",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料，二品生命丹+鲮鲤+守宫=三品生命丹",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsh_1",
+"name": "一重神火·骨凝",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsh_2",
+"name": "二重神火·玄黯",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸一重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsh_3",
+"name": "三重神火·洪荒",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸二重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsh_4",
+"name": "四重神火·生明",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸三重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpsh_5",
+"name": "五重神火·噬灵",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸四重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpst_1",
+"name": "一重神铁·轻羽",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpst_2",
+"name": "二重神铁·甲麟",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸一重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpst_3",
+"name": "三重神铁·点金",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸二重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpst_4",
+"name": "四重神铁·通明",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸三重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpst_5",
+"name": "五重神铁·玄光",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "在炼丹炉内重铸四重传说装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wptm",
+"name": "檀木",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpxh",
+"name": "宣花",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "用宣花葫芦捕捉宠物时需要消耗此材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpxm",
+"name": "仙茅",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料，一品生命丹+毒丹+仙茅=二品生命丹",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpxt",
+"name": "玄铁",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内打造装备所需的材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpygs",
+"name": "摇光石",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "打造所需的高级材料",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xssp",
+"name": "凶兽碎片",
+"type": "zbwp",
+"typeCn": "材料",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "将“乱世英雄”称号升级到“救世英雄”所需的碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpbdf",
+"name": "神恩符",
+"type": "zbwp",
+"typeCn": "神恩符",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "使装备在强化失败后不会承受降级惩罚",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bmd",
+"name": "白牡丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "吕洞宾喜好品，在八仙过海副本中使用，召唤魔吕洞宾",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bnnxz",
+"name": "笨nana活动勋章",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "雀巢笨nana活动专属勋章，活动结束后点击勋章可获得其他道具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cdjyys",
+"name": "超大经验药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升50万点经验值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "djyys",
+"name": "大经验药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升10万点经验值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "dlhys",
+"name": "大灵魂药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升75000点灵魂",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ghyb",
+"name": "桂花月饼",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "食用后提升300点攻击力，持续一小时。",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "gz",
+"name": "拐杖",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "铁拐李喜好品，在八仙过海副本中使用，召唤魔铁拐李",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hjxz",
+"name": "黄金勋章",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "伢牙乐黄金勋章，使用后获得三个1级强化石",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jbc",
+"name": "金白菜",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "曹国舅喜好品，在八仙过海副本中使用，召唤魔曹国舅",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jyd3",
+"name": "三倍经验丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后打怪获得三倍经验，持续一小时，效果不能和双倍经验叠加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jyys",
+"name": "经验药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升1万点经验值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lhys",
+"name": "灵魂药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升3800点灵魂",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lxzhs",
+"name": "流邪转换石",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "将流邪转换成沙邪，入魔后大幅提升防御力",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ml",
+"name": "毛驴",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "张果老喜好品，在八仙过海副本中使用，召唤魔张果老",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mpyj",
+"name": "孟婆药剂",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "传说中一种喝了可以忘记所有烦恼、所有爱恨情仇的茶汤,使用后心法不变,所学技能清零",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sbjyd",
+"name": "双倍经验丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后打怪获得双倍经验，持续一小时，效果不能和vip领取的双倍经验叠加",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sxzhs",
+"name": "沙邪转换石",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "将沙邪转换成渊邪，入魔后大幅提升攻击和暴击",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sz",
+"name": "骰子",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "汉钟离喜好品，在八仙过海副本中使用，召唤魔汉钟离",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "szj",
+"name": "梳妆镜",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "何仙姑喜好品，在八仙过海副本中使用，召唤魔何仙姑",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttlp",
+"name": "通天令牌",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "拥有通天教主的通天令牌，方可进入截教天境",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttlpsp1",
+"name": "通天令牌碎片一",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天令牌的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttlpsp2",
+"name": "通天令牌碎片二",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天令牌的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttlpsp3",
+"name": "通天令牌碎片三",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天令牌的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttsl",
+"name": "通天赦令",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "拥有通天教主的通天赦令，方可进入碧游宫",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttslsp1",
+"name": "通天赦令碎片一",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天赦令的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttslsp2",
+"name": "通天赦令碎片二",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天赦令的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ttslsp3",
+"name": "通天赦令碎片三",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成通天赦令的材料碎片",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpbsz",
+"name": "避水珠",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "进入神兽森林水下迷宫副本的必备之物",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpcsd",
+"name": "长生丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后可以延长宠物寿命20点",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpdd",
+"name": "毒丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在炼丹炉内合成丹药所需的材料，似乎有毒",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wphhd",
+"name": "还魂丹",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后可以复活当前出战的宠物",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wplvdyl",
+"name": "龙女的眼泪",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "在水下迷宫使用，直接传送到小龙女处；也是后期升级法宝所需的道具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wplwl",
+"name": "龙王令",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "进入水下迷宫隐藏副本玄武墓场的必备道具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpmgh",
+"name": "玫瑰花",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "情人节活动的玫瑰，用于兑换情人节武器",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpzz",
+"name": "珍珠",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 100,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "可以在珍珠店铺购买道具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xjyys",
+"name": "小经验药水",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "服用后，提升2500点经验值",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xnhdl",
+"name": "新年红灯笼",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "新年副本战胜年兽后，携带新年红灯笼进入传送门，可以传送到隐藏副本",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yjpyansp",
+"name": "玉净瓶阳碎片",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成玉净瓶所需的材料之一，愈合两块碎片还需要龙女的眼泪",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yjpyinsp",
+"name": "玉净瓶阴碎片",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "合成玉净瓶所需的材料之一，愈合两块碎片还需要龙女的眼泪",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yp",
+"name": "乐谱",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "韩湘子喜好品，在八仙过海副本中使用，召唤魔韩湘子",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yysn",
+"name": "伢牙神弩",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "道具唯一，下次活动期开放可再生成道具",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zsxz",
+"name": "钻石勋章",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "伢牙乐钻石勋章，使用后获得一件牛魔王时装",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zz",
+"name": "竹枕",
+"type": "zbwp",
+"typeCn": "道具",
+"group": "物品",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "蓝采和喜好品，在八仙过海副本中使用，召唤魔蓝采和",
+"bag": "dj",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "p_cybxjl",
+"name": "冰雪精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cycnjl",
+"name": "丑牛精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cygsjl",
+"name": "钢石精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyhh",
+"name": "辉煌",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cykljl",
+"name": "狂雷精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cykx",
+"name": "抗性",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cylhjl",
+"name": "烈火精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cynsjl",
+"name": "年兽精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cysx",
+"name": "嗜血",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyyhjl",
+"name": "寅虎精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyymjl",
+"name": "炎马精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_cyzsjl",
+"name": "子鼠精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "优秀",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcybxjl",
+"name": "冰雪精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcycnjl",
+"name": "丑牛精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcygsjl",
+"name": "钢石精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyhh",
+"name": "辉煌",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcykljl",
+"name": "狂雷精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcykx",
+"name": "抗性",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcylhjl",
+"name": "烈火精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcynsjl",
+"name": "年兽精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcysx",
+"name": "嗜血",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyyhjl",
+"name": "寅虎精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyymjl",
+"name": "炎马精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_jlcyzsjl",
+"name": "子鼠精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "精良",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscybxjl",
+"name": "冰雪精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscycnjl",
+"name": "丑牛精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscygsjl",
+"name": "钢石精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyhh",
+"name": "辉煌",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscykljl",
+"name": "狂雷精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscykx",
+"name": "抗性",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscylhjl",
+"name": "烈火精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscynsjl",
+"name": "年兽精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscysx",
+"name": "嗜血",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyyhjl",
+"name": "寅虎精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyymjl",
+"name": "炎马精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "p_sscyzsjl",
+"name": "子鼠精灵",
+"type": "zbjn",
+"typeCn": "宠物精灵",
+"group": "宠物装备",
+"class": "PetEquipObj",
+"showid": 31,
+"quality": "史诗",
+"color": "",
+"user": "",
+"inst": "",
+"bag": "jns",
+"src": [
+"editor"
+]
+},
+{
+"fill": "jlnmwsz",
+"name": "牛魔王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有献祭无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlsmsrsz",
+"name": "神秘商人装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间7天,拥有回天无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlttzssz",
+"name": "天庭战神装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 10,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有破甲无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlzlwsz",
+"name": "转轮王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有锁轮无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlzqsz",
+"name": "中秋时装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 12,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有较强的群体回复能力",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptnmwsz",
+"name": "牛魔王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptsmsrsz",
+"name": "神秘商人装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间7天",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptttzssz",
+"name": "天庭战神装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 10,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptzlwsz",
+"name": "转轮王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptzqsz",
+"name": "中秋时装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 12,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssnmwsz",
+"name": "牛魔王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有献祭无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sssmsrsz",
+"name": "神秘商人装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间7天,拥有回天无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssttzssz",
+"name": "天庭战神装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 10,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "拥有破甲无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sszlwsz",
+"name": "转轮王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有锁轮无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sszqsz",
+"name": "中秋时装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 12,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "拥有极强的群体回复能力",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxnmwsz",
+"name": "牛魔王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有献祭无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxsmsrsz",
+"name": "神秘商人装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间7天,拥有回天无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxttzssz",
+"name": "天庭战神装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 10,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有破甲无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxzlwsz",
+"name": "转轮王装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有锁轮无双",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxzqsz",
+"name": "中秋时装",
+"type": "zbsz",
+"typeCn": "时装",
+"group": "时装",
+"class": "MyEquipObj",
+"showid": 12,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "3个相同的时装可以合成更高品质的时装，有效时间30天，拥有一般的群体回复能力",
+"bag": "sz",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_4399jlsjwj",
+"name": "4399手机玩家",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "手机玩家专属，绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_4399ptsjwj",
+"name": "4399手机玩家",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "手机玩家专属，绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_4399sssjwj",
+"name": "4399手机玩家",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "手机玩家专属，绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_4399yxsjwj",
+"name": "4399手机玩家",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "手机玩家专属，绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_4399zswj",
+"name": "4399忠实玩家",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "4399八周年欢乐庆，绝版头衔，提升掉宝率",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jljsxstx",
+"name": "救世星宿",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游3中击败乱世星宿副本的邪恶boss掉落的信物头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jlwsjkh",
+"name": "万圣节",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "2014年万圣节绝版头衔，提升20点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jsyxjl",
+"name": "救世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "乱世英雄称号升级版，提升7%暴击和7%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jsyxpt",
+"name": "救世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "乱世英雄称号升级版，提升3%暴击和3%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jsyxss",
+"name": "救世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "乱世英雄称号升级版，提升9%暴击和9%闪避。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_jsyxyx",
+"name": "救世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "乱世英雄称号升级版，提升5%暴击和5%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_lsyxjl",
+"name": "乱世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游2013年国庆绝版称号。提升6%暴击和6%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_lsyxpt",
+"name": "乱世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "造梦西游2013年国庆绝版称号。提升2%暴击和2%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_lsyxss",
+"name": "乱世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "造梦西游2013年国庆绝版称号。提升8%暴击和8%闪避。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_lsyxyx",
+"name": "乱世英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "造梦西游2013年国庆绝版称号。提升4%暴击和4%闪避，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_ptjsxstx",
+"name": "救世星宿",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "造梦西游3中击败乱世星宿副本的邪恶boss掉落的信物头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_sryxjl",
+"name": "射日英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游2013年暑假绝版称号。提升9点回血和6%暴击，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_sryxpt",
+"name": "射日英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "造梦西游2013年暑假绝版称号。提升3点回血和2%暴击，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_sryxss",
+"name": "射日英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "造梦西游2013年暑假绝版称号。提升12点回血和8%暴击。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_sryxyx",
+"name": "射日英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "造梦西游2013年暑假绝版称号。提升6点回血和4%暴击，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_ssggjtg",
+"name": "光棍节脱光",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "11·11，光棍节绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_ssggjtg2015",
+"name": "2015光棍节脱光",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "11·11，光棍节绝版头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_ssjsxstx",
+"name": "救世星宿",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "造梦西游3中击败乱世星宿副本的邪恶boss掉落的信物头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_sswsjkh",
+"name": "万圣节",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "2014年万圣节绝版头衔，提升30点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_yxjsxstx",
+"name": "救世星宿",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "造梦西游3中击败乱世星宿副本的邪恶boss掉落的信物头衔",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_yxwsjkh",
+"name": "万圣节",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "2014年万圣节绝版头衔，提升10点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmszntx",
+"name": "造梦三周年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游3三周年纪念，绝版头衔，提升30点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyanniversary",
+"name": "造梦英雄",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游3一周年纪念，绝版头衔，提升10点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyjlxnkl",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "祝造梦西游玩家2013年新年快乐。提升10点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyjlxnkl2014",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "祝造梦西游玩家2014年新年快乐。提升10点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyjlxnkl2017",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "祝造梦西游玩家2017年新年快乐。提升10点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyjlxnkl2018",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "祝造梦西游玩家2018年新年快乐。提升10点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyptxnkl",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "祝造梦西游玩家2013年新年快乐。提升2点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyptxnkl2014",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "祝造梦西游玩家2014年新年快乐。提升2点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyptxnkl2017",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "祝造梦西游玩家2017年新年快乐。提升2点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyptxnkl2018",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "祝造梦西游玩家2018年新年快乐。提升2点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyssxnkl",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "祝造梦西游玩家2013年新年快乐。提升15点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyssxnkl2014",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "祝造梦西游玩家2014年新年快乐。提升15点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyssxnkl2017",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "祝造梦西游玩家2017年新年快乐。提升15点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyssxnkl2018",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "祝造梦西游玩家2018年新年快乐。提升15点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyyxxnkl",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "祝造梦西游玩家2013年新年快乐。提升5点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyyxxnkl2014",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "祝造梦西游玩家2014年新年快乐。提升5点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyyxxnkl2017",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "祝造梦西游玩家2017年新年快乐。提升5点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "_zmxyyxxnkl2018",
+"name": "新年",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "祝造梦西游玩家2018年新年快乐。提升5点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bgqmtx",
+"name": "白骨清明",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "清明时节雨纷纷，路上行人欲断魂",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlsrdg",
+"name": "生日蛋糕",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "造梦西游3九周年纪念，绝版头衔，提升12点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptsrdg",
+"name": "生日蛋糕",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "",
+"inst": "造梦西游3九周年纪念，绝版头衔，提升6点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sssrdg",
+"name": "生日蛋糕",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "造梦西游3九周年纪念，绝版头衔，提升15点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sssrdg2",
+"name": "造梦十周年头衔",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "造梦十周年纪念，绝版头衔，提升18点幸运",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxsrdg",
+"name": "生日蛋糕",
+"type": "zbtx",
+"typeCn": "头衔",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "造梦西游3九周年纪念，绝版头衔，提升9点幸运，可合成。",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_ll",
+"name": "琉璃",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 10,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "沙僧",
+"inst": "琉璃光可照三界之暗",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_qs",
+"name": "祁水",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "悟空",
+"inst": "无支祁现于淮水，骇风奇袭，惊浪翻涌。大禹治水时，锁其四肢，压其龟山脚",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_rc",
+"name": "若禅",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "唐僧",
+"inst": "达摩驾一叶扁舟，东来传佛法。受嫉妒，七遭毒，手携只履，翩翩独逝",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_wq_yt",
+"name": "夷图",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "八戒",
+"inst": "河伯循琴音而去，见宓妃厌九隆，发大水抢妻，百年守护，只为美人笑，终而生情",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hylc",
+"name": "混元雷叉",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "沙僧",
+"inst": "倾盆雨，惊天雷，众里寻他而去",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hylz",
+"name": "混元灵杖",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "唐僧",
+"inst": "损愁眉，哭断肠，待到佳期如梦",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlc",
+"name": "蛟龙铲",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 11,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlg",
+"name": "蛟龙弓",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrcs",
+"name": "长蛇",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrhd",
+"name": "蝴蝶",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrmj",
+"name": "梦江",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlqrzr",
+"name": "知汝",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jmc",
+"name": "角木铲",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "沙僧",
+"inst": "若人造重罪，作已深自责；忏悔更不造，能拔根本业",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kyg",
+"name": "枯叶弓",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "沙僧",
+"inst": "一落红，一枯叶，落红离弦去，从此两难聚",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kyz",
+"name": "枯叶杖",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "唐僧",
+"inst": "求不得，放不下，梧桐化成杖，孤走枯苍道",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "plz",
+"name": "蟠龙杖",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdcz",
+"name": "普通的禅杖",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptddp",
+"name": "普通的钉耙",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdxzg",
+"name": "普通的行者棍",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdyyc",
+"name": "普通的月牙铲",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qlg",
+"name": "虬龙棍",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qybd",
+"name": "青云冰刀",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "悟空",
+"inst": "凝霜夜，幽香梦，枕边人赴烽火，吹起一帘牵挂",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "smz",
+"name": "嗜魔杖",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "唐僧",
+"inst": "魔非魔，念人间，怎知情愁滋味",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrcs",
+"name": "长蛇",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "史诗",
+"color": "0x660099",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrhd",
+"name": "蝴蝶",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "史诗",
+"color": "0x660099",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrmj",
+"name": "梦江",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "史诗",
+"color": "0x660099",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ssqrzr",
+"name": "知汝",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 7,
+"quality": "史诗",
+"color": "0x660099",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "whg",
+"name": "尾火棍",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "悟空",
+"inst": "诸法因缘生，我说是因缘；因缘尽故灭，我作如是说",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wtp",
+"name": "胃土耙",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "八戒",
+"inst": "当舍于懈怠，远离诸愦闹；寂静常知足，是人当解脱",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xhc",
+"name": "宣花锤",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "八戒",
+"inst": "街喧闹，人过往，且记曾相识，不为少年留",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xltc",
+"name": "天残",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlth",
+"name": "天荒",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlts",
+"name": "天殇",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 6,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xltz",
+"name": "天罪",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ydjg",
+"name": "银弹金弓",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "沙僧",
+"inst": "挽金弓，如满月，望人间，凝伫久",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ylh",
+"name": "应龙斧",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 8,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zjbtg",
+"name": "紫金镔铁棍",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "悟空",
+"inst": "人间道，路远茫，相逢终有期",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zjksf",
+"name": "紫金开山斧",
+"type": "zbwq",
+"typeCn": "武器",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "八戒",
+"inst": "人间如梦，红尘万丈，劈不断相思情",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bjs",
+"name": "玄风棕扇",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bxzq",
+"name": "足球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "csqq",
+"name": "橙色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "紫绿橙气球可以在炼丹炉合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "dkhl",
+"name": "地魁花篮",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "fsqq",
+"name": "粉色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "纪念六一儿童节的粉色气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "gcxdyy",
+"name": "龟丞相的遗言",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "召唤龟丞相，寻觅小龙女",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "h_sqq",
+"name": "黄色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可与红或蓝的气球在炼丹炉使用混色剂合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hehua",
+"name": "慈心妙莲",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hsqq",
+"name": "红色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可与黄或蓝的气球在炼丹炉使用混色剂合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hyzzs",
+"name": "混元珍珠伞",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "抵挡一定伤害",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kyl",
+"name": "枯叶灵",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "缓慢回复少许生命",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "l_sqq",
+"name": "绿色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "紫绿橙气球可以在炼丹炉合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lsqq",
+"name": "蓝色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "可与红或黄的气球在炼丹炉使用混色剂合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lxfb",
+"name": "流邪",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "入魔后攻击大幅提升，但会持续扣血",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "nmwdnh",
+"name": "牛魔王的怒吼",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "召唤牛魔王",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qljfb",
+"name": "青龙剑",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "",
+"inst": "御剑飞行",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qyj",
+"name": "青云剑",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "御剑飞行",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sxfb",
+"name": "沙邪",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "入魔后防御大幅提升，但会持续扣蓝",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "sxyg",
+"name": "神行渔鼓",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tjbg",
+"name": "太极八卦",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xhhhl",
+"name": "宣花红葫芦",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "百分百捕捉宠物和Boss",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xhhl",
+"name": "宣花葫芦",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "有一定概率捕捉宠物",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yjp",
+"name": "玉净瓶",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "吸收BOSS灵魂，有一定概率激活BOSS技能",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ywhl",
+"name": "药王葫芦",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yxfb",
+"name": "渊邪",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "入魔后将扣除一半生命值，攻击和暴击大幅提升",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yyb",
+"name": "云阳板",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yyzlj",
+"name": "阴阳斩龙剑",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zhyx",
+"name": "镇魂玉箫",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zjld",
+"name": "紫金铃铛",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "增加幸运，开启宠物无双",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zlwdah",
+"name": "转轮王的哀嚎",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "召唤转轮王",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zsqq",
+"name": "紫色气球",
+"type": "zbfb",
+"typeCn": "法宝",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "紫绿橙气球可以在炼丹炉合成更高品质的气球",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpfbtc",
+"name": "太初",
+"type": "zbfb",
+"typeCn": "法宝碎片",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "用于合成传说法宝太极八卦",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpfbyyan",
+"name": "爻阳",
+"type": "zbfb",
+"typeCn": "法宝碎片",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "用于合成传说法宝太极八卦",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wpfbyyin",
+"name": "爻阴",
+"type": "zbfb",
+"typeCn": "法宝碎片",
+"group": "其他",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "用于合成传说法宝太极八卦",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bsp",
+"name": "壁水袍",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "唐僧",
+"inst": "一切有为法。如梦幻泡影，如露亦如电。应作如是观",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_dz",
+"name": "斗战",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 11,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "悟空",
+"inst": "战无不胜",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_js",
+"name": "金身",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 11,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "沙僧",
+"inst": "金身不灭",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_jt",
+"name": "净坛",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 11,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "八戒",
+"inst": "凡尘不净",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_fj_zt",
+"name": "旃檀",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 11,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "唐僧",
+"inst": "檀香不绝",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "dtk",
+"name": "氐土铠",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "八戒",
+"inst": "我本因地，以念佛心，入无生忍，今于此界，摄念佛人，归于净土",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hljh",
+"name": "红莲教皇",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "唐僧",
+"inst": "一种相思，两处闲愁，火焰化红莲，此情自消衍",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "hylk",
+"name": "混元龙铠",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "八戒",
+"inst": "龙吟恨，且回首，却在灯火阑珊",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jlj",
+"name": "蛟龙甲",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jllm",
+"name": "卷帘绿魔",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "沙僧",
+"inst": "风卷云残，俱消往昔，既然无缘，何立誓言",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "jmy",
+"name": "井木衣",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "沙僧",
+"inst": "菩提本无树，明镜亦非台。本来无疑物，何处染尘埃",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "kys",
+"name": "枯叶衫",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "悟空",
+"inst": "落黄昏，三更雨，临行密密缝，离愁丝丝苦",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "plp",
+"name": "蟠龙袍",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdcp",
+"name": "普通的长袍",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdcs",
+"name": "普通的长衫",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdjs",
+"name": "普通的袈裟",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ptdxzf",
+"name": "普通的行者服",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "普通",
+"color": "0xFFFFFF",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qlj",
+"name": "虬龙甲",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qyfp",
+"name": "青云法袍",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "唐僧",
+"inst": "碧天阔，白云散，百万里无硝烟，大雁向南飞去",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "wsjg",
+"name": "顽石金刚",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "八戒",
+"inst": "心若顽石，不生多情，多情空于恨，此恨无绝期",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xhp",
+"name": "宣花袍",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "沙僧",
+"inst": "人离合，月圆缺，花开又花谢，不愿再相逢",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlcz",
+"name": "残昼",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "唐僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xley",
+"name": "厄夜",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "悟空",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlry",
+"name": "如狱",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xlyj",
+"name": "犹绝",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 5,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "沙僧",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "yhj",
+"name": "翼火甲",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 3,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "悟空",
+"inst": "汝修三昧，本出尘劳。淫心不除，尘不可出",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "ylk",
+"name": "应龙铠",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "八戒",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zjqj",
+"name": "紫金轻甲",
+"type": "zbfj",
+"typeCn": "防具",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "悟空",
+"inst": "恨悠悠，几时休。爱轻轻，随风行",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "bxhy",
+"name": "不朽花翼",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "不受攻击时，将拥有强大的回血能力。可以合成最终的传说饰品",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "clj",
+"name": "苍龙戒",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "",
+"inst": "蕴藏神秘力量，力量释放完苍龙戒便会破碎。不能赠送，不能放入至尊仓库，且只能携带一个",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "cs_sp_hy",
+"name": "花宴",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "传说",
+"color": "0xFF9933",
+"user": "",
+"inst": "三仙降临，花遍人间，蕴藏无穷神力",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "lly",
+"name": "玲珑玉",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mgzh",
+"name": "马官指环",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "马行处，雪无痕，相见难，别亦难",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "mysz",
+"name": "秘银手镯",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "初始装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "phhl",
+"name": "破幻花链",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "被眩晕、催眠后，立刻解除此状态。可以合成最终的传说饰品",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "psdclj",
+"name": "破碎的苍龙戒",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 9,
+"quality": "魂器",
+"color": "0x66ffff",
+"user": "",
+"inst": "受混沌之光洗礼，方可复原",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "qysz",
+"name": "青云手镯",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "精良",
+"color": "0x0000FF",
+"user": "",
+"inst": "珠有泪，玉生烟，稀白头不胜簪，只是当时惘然",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "shsjt",
+"name": "山河社稷图",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "英雄泪，只为江山。万里山河，千里孤城，破国恨，永难忘",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tdlzj",
+"name": "提多罗吒戒",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "史诗",
+"color": "0x660099",
+"user": "",
+"inst": "殿可毁，人可亡，恨犹在，何时还",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "tflj",
+"name": "通风灵戒",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 4,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "风过处，百花残，心有意，爱无伤",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "xhz",
+"name": "宣花坠",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 2,
+"quality": "优秀",
+"color": "0x00FF00",
+"user": "",
+"inst": "花映红，春风笑，佳人佩美坠，不知与谁同",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+},
+{
+"fill": "zhhz",
+"name": "镇魂花坠",
+"type": "zbsp",
+"typeCn": "饰品",
+"group": "装备",
+"class": "MyEquipObj",
+"showid": 1,
+"quality": "邪灵",
+"color": "0x666666",
+"user": "",
+"inst": "催眠飞行怪物，即便死亡也不会苏醒。可以合成最终的传说饰品",
+"bag": "worn",
+"src": [
+"editor",
+"alleq"
+]
+}
+],
+"pets": [
+{
+"pre": "dragon",
+"name": "龙系",
+"swf": "dragonv680"
+},
+{
+"pre": "horse",
+"name": "马系",
+"swf": "horsev680"
+},
+{
+"pre": "monkey",
+"name": "猴系",
+"swf": "monkeyv690"
+},
+{
+"pre": "mouse",
+"name": "鼠系",
+"swf": "mousev790"
+},
+{
+"pre": "neat",
+"name": "丑牛系",
+"swf": "neat"
+},
+{
+"pre": "nian",
+"name": "年兽系",
+"swf": "nianv1040"
+},
+{
+"pre": "phoenix",
+"name": "朱雀系",
+"swf": "phoenixv680"
+},
+{
+"pre": "rabbit",
+"name": "玉兔系",
+"swf": "rabbitv680"
+},
+{
+"pre": "roomhorse",
+"name": "赤焰马系",
+"swf": "roomhorse"
+},
+{
+"pre": "terribletiger",
+"name": "白虎系",
+"swf": "yintiger"
+},
+{
+"pre": "tigress",
+"name": "白虎系",
+"swf": "tigressv680"
+},
+{
+"pre": "turtle",
+"name": "玄武系",
+"swf": "turtlev680"
+},
+{
+"pre": "ufo",
+"name": "飞碟系",
+"swf": "ufov680"
+}
+],
+"yuanShen": [
+[
+"currentSpirtitLevelGold",
+"金元神等级"
+],
+[
+"currentSpirtitStageGold",
+"金元神阶段"
+],
+[
+"currentSpirtitLevelWood",
+"木元神等级"
+],
+[
+"currentSpirtitStageWood",
+"木元神阶段"
+],
+[
+"currentSpirtitLevelWater",
+"水元神等级"
+],
+[
+"currentSpirtitStageWater",
+"水元神阶段"
+],
+[
+"currentSpirtitLevelFire",
+"火元神等级"
+],
+[
+"currentSpirtitStageFire",
+"火元神阶段"
+],
+[
+"currentSpirtitLevelSoil",
+"土元神等级"
+],
+[
+"currentSpirtitStageSoil",
+"土元神阶段"
+]
+]
+}

@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "game/launcher.swf",
+      "before": "fe83129401be9e5c2f1bbf5f0156930dcddadc79d49b2a6418f37e8e9e67adc0",
+      "after": "e238fb4a9efa12222e13b0350ba0650be1730ec2a562bef3a58a27ac99e575b9"
+    },
+    {
+      "path": "manifest.sha256",
+      "before": "3ab1f2db8bd9ea7d99238147d8924fd3c4f4bc80358bbf9c56112517863a9ee5",
+      "after": "6bf63efd6f53910790b42063dee5086a52461c417c4c0d855a811597393ca1d9"
+    },
+    {
+      "path": "manifest.sha512",
+      "before": "56b119e7c5e1b8e15b8800bf46a543233d7338ec34e71fdd1c2966628de0cdc4",
+      "after": "a417a135b5ef0a6d0d77e9a638f34a088a5a47cdf812562b99737c3fa9762228"
+    }
+  ],
+  "methods": {
+    "181": [
+      52,
+      56
+    ],
+    "250": [
+      251,
+      255
+    ]
+  },
+  "effect": "Disable automatic four-beast gifts on load and save; preserve all existing pets and manual GM grants.",
+  "artwork": {
+    "source": "game/nianv1040.swf",
+    "sourceSha256": "69825a0d737d635420d73acd0d4175a223e1ef04fbfcd36c1846c58c5a7c6623",
+    "shapes": {
+      "nian1, nian2, nian3": 114,
+      "nian4": 81,
+      "nian5": 1
+    },
+    "export": "FFDec 26.4.0 native shape PNG export at zoom 2; no AI artwork",
+    "reference": "https://news.4399.com/gonglue/zmxy3/miji/238190.html"
+  }
+}

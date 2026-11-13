@@ -1,0 +1,112 @@
+﻿<Window x:Class="GmStudio.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="使用说明书 · 修改器" Width="840" Height="670" MinWidth="560" MinHeight="440"
+        ShowInTaskbar="False" WindowStartupLocation="CenterOwner" Background="{StaticResource Canvas}"
+        Foreground="{StaticResource Ink}" FontFamily="{DynamicResource InterfaceFont}" FontSize="13" UseLayoutRounding="True">
+    <Window.Resources>
+        <Style x:Key="Section" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="{StaticResource GoldInk}"/>
+            <Setter Property="Margin" Value="0,0,0,9"/>
+        </Style>
+        <Style x:Key="Paragraph" TargetType="TextBlock">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="LineHeight" Value="23"/>
+            <Setter Property="Margin" Value="0,0,0,8"/>
+        </Style>
+        <Style TargetType="TabItem">
+            <Setter Property="Padding" Value="15,7"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="{StaticResource Canvas}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="22,18,22,16">
+            <TextBlock Text="使用说明书" FontSize="25" FontWeight="Bold"/>
+            <TextBlock Text="查看操作指南，离线阅读游戏、存档和故障处理资料。" Foreground="{StaticResource Muted}" Margin="0,5,0,0"/>
+        </StackPanel>
+        <TabControl x:Name="HelpTabs" Grid.Row="1" Margin="22,0" Style="{StaticResource SegmentTabs}">
+            <TabItem Header="修改器指南">
+                <Border Style="{StaticResource Card}">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Focusable="True" HorizontalScrollBarVisibility="Disabled">
+                    <StackPanel Margin="20,16">
+                        <TextBlock Text="开始使用" Style="{StaticResource Section}"/>
+                        <TextBlock Style="{StaticResource Paragraph}">
+                            <Bold>1. 选择游戏目录。</Bold><Run Text=" 如果没有自动连接，点左下角「设置」中的「选择目录」，选择包含 game、saves 和 schema 的文件夹。"/>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource Paragraph}">
+                            <Bold>2. 选择存档和角色。</Bold><Run Text=" 在顶部选存档槽和要编辑的角色。空白安装可先在游戏里创建存档，再点「刷新」。"/>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource Paragraph}">
+                            <Bold>3. 修改存档。</Bold><Run Text=" 图鉴按分类、品质、适用角色和搜索组合筛选，搜索框保持固定宽度。「清空」固定在最右侧。选角色包含专用及通用物品，不改变顶部当前角色。选中物品并填写数量后，点「加入当前存档」。在「角色」页的背包区核对结果。"/>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource Paragraph}">
+                            <Bold>4. 让修改生效。</Bold><Run Text=" 点击顶部「保存」或按 Ctrl+S，先写入本地存档并备份旧文件；同一目录的本地游戏服务在线时，自动推送本次修改。服务未连接时只保存在本地。目录不匹配或推送中断时，仍保留已保存的数据，并在底部提示原因；可稍后再次点击「保存」重试。角色、背包和宠物等修改仍需回游戏重新读档；VIP 和点券等待游戏轮询刷新。"/>
+                        </TextBlock>
+                        <TextBlock Text="各页面能做什么" Style="{StaticResource Section}" Margin="0,12,0,9"/>
+                        <TextBlock Style="{StaticResource Paragraph}">
+                            <Bold>角色</Bold><Run Text=" · 左侧查看形象、等级、经验、属性与当前穿戴；右侧管理背包及装备详情，支持穿戴、放回、调参和设为极品。穿戴后角色档案同步刷新，小窗口中详情改为上下排列。角色页不显示宠物装备，请到「宠物 → 装备」管理。"/><LineBreak/>
+                            <Bold>宠物</Bold><Run Text=" · 左侧查看形象、等级、静态属性和经验，右侧切换属性、培养和装备，编辑入口就在对应位置。"/><LineBreak/>
+                            <Bold>技能与心法</Bold><Run Text=" · 主动技能图标随角色和心法切换。右侧可设置五项被动的等级，选好后点「应用被动等级」。"/><LineBreak/>
+                            <Bold>药园</Bold><Run Text=" · 在九宫格中选择地块，按名称种植、设置一至五品、批量种植和翻新。"/><LineBreak/>
+                            <Bold>增益</Bold><Run Text=" · 点击原版图标卡片，设置强度和分钟／小时时长。"/><LineBreak/>
+                            <Bold>会员与点券</Bold><Run Text=" · VIP 等级只可升级，充值点券并一键领取已解锁礼包。"/><LineBreak/>
+                            <Bold>高级工具 → 原始 JSON</Bold><Run Text=" · 左下角进入，查看并编辑当前存档槽的完整数据；返回常用页面会保留合法的待保存修改。"/>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="图鉴图片和属性来自当前游戏目录。点击「4399」攻略入口可在默认浏览器查看外部资料。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="物品列表底部可设置每页条数，默认自动适应窗口。用上一页、下一页翻页，或输入页码后按 Enter 跳转。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="新增宠物固定两种方式：「1级满成长」生成第一形态的1级宠物，不学习任何技能，不附装备；「极品」生成最终形态的90级满成长宠物，依次学习专属技能与奥义，并附史诗套装与精灵。形态选择仅浏览图片、技能与介绍，实际添加对象以「将新增」卡片为准。新增后默认休息，取消不改变存档。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="悬停技能图标或所在条目可查看技能效果、名称与学习条件，覆盖宠物已学和可选技能、属性页、离线图鉴、形态预览，以及角色主动和被动技能。宠物页已移除「更多」菜单，日常操作直接使用页面按钮。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="培养页的「宠物一键极品」将宠物进化至最终形态，设为90级并填满资质、成长和潜力极限。先清空原技能，再依形态顺序学会专属技能，有奥义的最后学会奥义；配齐满属性、满强化的史诗叱咤套装，优先穿戴本品种的专属精灵，无专属精灵时使用通用精灵。替换的旧装备放回宠物背包，同款装备直接提升，不重复发放。背包空间不足时整次取消。保留出战状态。点击「编辑具体数值」可编辑等级、潜力、资质与成长，也可双击左侧列表中的宠物。属性页独立编辑技能。操作后在主窗口保存。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="左侧属性下方的「放生宠物」只处理当前选中的一只，确认前会显示名称、等级和穿戴装备数量。装备全部放回宠物背包；空间不足时取消放生。取消不改变存档，确认后显示等待保存，点击主窗口「保存」后生效。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="宠物装备页顶部的「删除装备」删除当前选中的一件穿戴装备或背包装备。确认窗口会说明装备所在位置；取消不改变存档。删除直接移除装备，不放回背包，其他装备和宠物保留，点击主窗口「保存」后生效。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="培养页的「培养 +1」消耗 1 点潜力，对应进度 +1、潜力极限 +1%（最高 100%）。进度满后能力 +1。静态属性包含常驻技能、装备强化与匹配套装，关卡临时增益以游戏为准。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="培养编辑按等级潜力、四项资质和成长能力分组；资质经验与培养进度在「进阶参数」展开查看。输入框会拦截超出范围的键入和粘贴，四项资质经验合计最多 250。技能候选按品种和进化形态筛选，悟性决定可学数量。未解锁的奥义会显示所需的潜力极限或精灵装备。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="图鉴与技能悬浮说明会明确标注奥义来源：「进化后领悟」须进化至第四阶完全体，超进化后潜力极限再次达到100%，无需精灵；「穿戴精灵直接获得」适用于子鼠、丑牛、寅虎，穿戴对应精灵直接获得，第一形态也适用，无需超进化或培养潜力极限。两类均需空余技能格；图鉴和形态预览不表示已经学习。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="左下角「设置」→「调整字体」可以分别调整中文和数字／英文字母的字体。选好后点击「保存并应用」。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="「设置」→「调整栏目」可以改栏目和分组标题的名称，用「上移」「下移」重新排列。布局保存后下次启动继续使用，也可恢复默认。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="会员页的 VIP 0–5 只可向上升级，低等级不可选，VIP 5 锁定等级选择；升级不改点券余额；「点券充值」可填写金额，并选择是否计入累计充值。确认前查看到账余额与等级，取消不会修改账号。一键领取只发放已解锁且未领取的每日奖励和五档等级礼包，物品发给当前槽已创建的角色。背包满时整批取消，已有更强或更长的经验增益会保留。权益次数与重置领取记录在「更多设置」中。操作后仍需保存，领取物品后在游戏里重新读档。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="药园植物在当前包中即种即收，plantingLevel 表示一至五品。点击地块后种植，或使用批量种植；未开垦地块会在应用时补足药园经验。翻新只处理已用土地，五品操作只处理现有植物。日期与地块 JSON 默认折叠。增益支持七种常用效果，直接选择 15 分钟、30 分钟或 1 小时，也可自定义精确帧数。原有其他记录不会随单项更新或一键推荐被丢弃。操作后保存，再回游戏读档。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="药园和土地庙分开升级。药园最高 9 级，土地庙最高 5 级。顶部两张卡片分别显示等级、经验和图标；药园 9 级与土地庙 1 级可以同时存在。点击「土地庙经验」可选择等级或填经验，应用时只修改土地庙经验，不改变药园和地块。请确认顶部存档槽与游戏内读取的槽位一致。"/>
+                        <TextBlock Text="备份与快捷键" Style="{StaticResource Section}" Margin="0,12,0,9"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="覆盖已有文件前，修改器会把旧文件备份到游戏目录的 saves/.gm-backups。如果提示存档已被游戏更新，请先刷新并核对最新进度，再重新编辑。"/>
+                        <TextBlock Style="{StaticResource Paragraph}" Text="Ctrl+F 搜索物品　　Ctrl+S 保存（在线自动推送）　　F1 打开说明书"/>
+                    </StackPanel>
+                </ScrollViewer>
+                </Border>
+            </TabItem>
+            <TabItem Header="离线使用资料">
+                <Border Style="{StaticResource Card}" Padding="14,12">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Margin="0,0,0,12">
+                        <ComboBox x:Name="ManualSourceBox" SelectionChanged="ManualSourceChanged"
+                                  DisplayMemberPath="Title" MinHeight="36" HorizontalContentAlignment="Center"
+                                  AutomationProperties.Name="选择离线使用资料"/>
+                        <TextBlock x:Name="ManualLocation" Margin="2,7,2,0" TextWrapping="Wrap"
+                                   Foreground="{StaticResource Muted}" FontSize="12"/>
+                    </StackPanel>
+                    <RichTextBox x:Name="OriginalManual" Grid.Row="1" IsReadOnly="True" IsDocumentEnabled="True"
+                                 VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"
+                                 Background="{StaticResource Surface}" BorderBrush="{StaticResource Line}"
+                                 Padding="2" AutomationProperties.Name="离线使用资料正文"/>
+                </Grid>
+                </Border>
+            </TabItem>
+        </TabControl>
+        <DockPanel Grid.Row="2" Margin="22,12,22,18">
+            <Button DockPanel.Dock="Right" Content="关闭" MinWidth="75" Padding="12,6" IsCancel="True"/>
+            <TextBlock x:Name="ReleaseLabel" VerticalAlignment="Center" Foreground="{StaticResource Muted}" FontSize="12"/>
+        </DockPanel>
+    </Grid>
+</Window>
