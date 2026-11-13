@@ -1,0 +1,84 @@
+# Conservative template for the proposed public source root.
+# Review rights and build requirements before selectively allowing resources.
+
+# Build / IDE / local tooling
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.user
+*.suo
+*.tmp
+*.installing
+.env
+.env.*
+!.env.example
+
+# Installed game, original runtime and personal data
+/game/
+/runtime/
+/icons/
+/saves/
+/rundata/
+/logs/
+/backup/
+/tools/
+/修改器/
+/设置.ini
+**/SharedObjects/
+**/.gm-backups/
+**/local_gifts.json
+**/local_gifts.transaction.json
+**/game-events.log*
+**/appearance.json
+**/navigation.json
+**/catalog-view.json
+
+# Private workspace / diagnostics
+/work/
+/outputs/
+/flashlib/
+*.log
+*.dmp
+*.mdmp
+hs_err_pid*
+replay_pid*
+
+# Executables, binaries and archive outputs
+*.exe
+*.dll
+*.pyd
+*.swf
+*.swc
+*.zip
+*.7z
+*.rar
+*.delta
+*.marshal
+*.pyz
+*.lnk
+
+# Game-derived visual assets: replace/review before public inclusion
+/Assets/
+/gm.ico
+/gm-logo.png
+**/art/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+
+# Extracted/derived data and fixtures need separate rights/privacy review
+/Rules/Inputs/
+/Rules/generated.json
+/Build/tests/fixtures/
+/GamePatch/**/*.as
+/AcquisitionGuide.json
+
+# This file does not remove already tracked files.
